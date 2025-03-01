@@ -12,7 +12,6 @@
   <img src="https://img.shields.io/badge/Data%20Driven-%F0%9F%93%88-green" />
 </p>
 
----
 
 ## 👨‍💻 **About Me**
 🔹 **Senior Full Stack Developer & Product Manager** with over **19 years of experience** leading software development, agile transformations, and **data-driven strategies**.  
@@ -42,95 +41,50 @@
 ---
 
 ## 🚀 **Tech Stack & Tools**
-### 🎨 **Frontend**
-<p align="left">
-  <img src="https://img.shields.io/badge/HTML5-orange?style=flat&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-blue?style=flat&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-yellow?style=flat&logo=javascript&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-blue?style=flat&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=white" />
-  <img src="https://img.shields.io/badge/Next.js-black?style=flat&logo=next.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white" />
-</p>
-
-### 🔧 **Backend**
-<p align="left">
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white" />
-  <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat&logo=spring&logoColor=white" />
-  <img src="https://img.shields.io/badge/Java-orange?style=flat&logo=java&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
-</p>
-
-### 🛢️ **Databases**
-<p align="left">
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white" />
-</p>
-
-### ☁️ **Cloud & DevOps**
-<p align="left">
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white" />
-  <img src="https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoft-azure&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" />
-</p>
-
-### 📊 **Product Management & Agile**
-<p align="left">
-  <img src="https://img.shields.io/badge/JIRA-0052CC?style=flat&logo=jira&logoColor=white" />
-  <img src="https://img.shields.io/badge/Trello-0079BF?style=flat&logo=trello&logoColor=white" />
-  <img src="https://img.shields.io/badge/Notion-000000?style=flat&logo=notion&logoColor=white" />
-  <img src="https://img.shields.io/badge/Miro-FFCC00?style=flat&logo=miro&logoColor=black" />
-</p>
----
-
-## 🎯 **What I Do**
-💻 Full Stack Development & 📊 Product Management
-
+🎨 Frontend
+<p align="left"> <img src="https://img.shields.io/badge/HTML5-orange?style=flat&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/CSS3-blue?style=flat&logo=css3&logoColor=white" /> <img src="https://img.shields.io/badge/Sass-CC6699?style=flat&logo=sass&logoColor=white" /> <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white" /> <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-yellow?style=flat&logo=javascript&logoColor=black" /> <img src="https://img.shields.io/badge/TypeScript-blue?style=flat&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/Angular-DD0031?style=flat&logo=angular&logoColor=white" /> <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=white" /> <img src="https://img.shields.io/badge/Next.js-black?style=flat&logo=next.js&logoColor=white" /> <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white" /> <img src="https://img.shields.io/badge/Webpack-8DD6F9?style=flat&logo=webpack&logoColor=black" /> <img src="https://img.shields.io/badge/jQuery-0769AD?style=flat&logo=jquery&logoColor=white" /> </p>
+🔧 Backend
+<p align="left"> <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" /> <img src="https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white" /> <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat&logo=spring&logoColor=white" /> <img src="https://img.shields.io/badge/Hibernate-59666C?style=flat&logo=hibernate&logoColor=white" /> <img src="https://img.shields.io/badge/Java-orange?style=flat&logo=java&logoColor=white" /> <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white" /> <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat&logo=graphql&logoColor=white" /> <img src="https://img.shields.io/badge/Kafka-231F20?style=flat&logo=apache-kafka&logoColor=white" /> <img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white" />
+<img src="https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white" /> </p>
+🛢️ Databases
+<p align="left"> <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white" /> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white" /> <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white" /> <img src="https://img.shields.io/badge/MariaDB-003545?style=flat&logo=mariadb&logoColor=white" /> <img src="https://img.shields.io/badge/Oracle-F80000?style=flat&logo=oracle&logoColor=white" /> <img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=flat&logo=microsoft-sql-server&logoColor=white" /> <img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white" /> </p>
+☁️ Cloud & DevOps
+<p align="left"> <img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white" /> <img src="https://img.shields.io/badge/GCP-4285F4?style=flat&logo=google-cloud&logoColor=white" /> <img src="https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoft-azure&logoColor=white" /> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" /> <img src="https://img.shields.io/badge/Terraform-623CE4?style=flat&logo=terraform&logoColor=white" /> <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black" /> </p>
+📊 Product Management & Agile
+<p align="left"> <img src="https://img.shields.io/badge/JIRA-0052CC?style=flat&logo=jira&logoColor=white" /> <img src="https://img.shields.io/badge/Trello-0079BF?style=flat&logo=trello&logoColor=white" /> <img src="https://img.shields.io/badge/Notion-000000?style=flat&logo=notion&logoColor=white" /> <img src="https://img.shields.io/badge/Miro-FFCC00?style=flat&logo=miro&logoColor=black" /> </p>
 ---
 
 ## 📫 **Let's Connect**
-<p align="center" style="margin: 0; padding: 0; display: flex; justify-content: center; gap: 10px;">
-  <a href="https://www.linkedin.com/in/contato.danilolc" target="_blank" style="text-decoration: none; margin: 0; padding: 0;">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+🎯 **What I Do** : 💻 Full Stack Development & 📊 Product Management
+<p>
+  <a href="https://www.linkedin.com/in/contato.danilolc" target="_blank" >
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
-  <a href="https://twitter.com/seu-twitter" target="_blank" style="text-decoration: none; margin: 0; padding: 0;">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
+</br>
+  <a href="https://discord.gg/seu-discord" target="_blank">
+    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord">
   </a>
-  <a href="https://discord.gg/seu-discord" target="_blank" style="text-decoration: none; margin: 0; padding: 0;">
-    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
-  </a>
-  <a href="mailto:dancarvofc@gmail.com" style="text-decoration: none; margin: 0; padding: 0;">
-    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  </br>
+  <a href="mailto:dancarvofc@gmail.com" >
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail">
   </a>
 </p>
 
----
+
+## ❤️ **Support My Work**
+If you like what I do, consider supporting me! ☕🚀
+
+<p align="left">
+  <a href="https://ko-fi.com/seu_usuario" target="_blank">
+    <img src="https://cdn.ko-fi.com/cdn/kofi5.png?v=3" alt="Ko-fi" width="180" height="45" ">
+  </a>
+</p>
+
+
 ## 📈 **GitHub Analytics**
+---
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=dancarvofc&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" width="32%" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=dancarvofc&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="32%" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dancarvofc&layout=compact&theme=tokyonight&hide_border=true" alt="Most Used Languages" width="32%" />
 </p>
----
-
-## ❤️ **Support My Work**
-
-If you like what I do, consider supporting me! ☕🚀
-
-<table align="center">
-  <tr>
-    <td align="center" style="border: none;">
-      <a href="https://www.buymeacoffee.com/dancarvofc">
-        <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="120" />
-      </a>
-    </td>
-    <td align="center" style="border: none;">
-      <a href="https://www.ko-fi.com/dancarvofc">
-        <img src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" width="120" />
-      </a>
-    </td>
-  </tr>
-</table>
