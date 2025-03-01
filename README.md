@@ -97,13 +97,19 @@
 
 ---
 ## ❤️ **Support My Work**
-If you like what I do, consider supporting me!  
-<a href="https://www.buymeacoffee.com/dancarvofc">
-  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="160" />
-</a>
-<a href="https://www.ko-fi.com/dancarvofc">
-  <img src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" width="160" />
-</a>
+<p align="center">
+  <span>If you like what I do, consider supporting me! ☕🚀</span>
+</p>
+
+<p align="center">
+  <a href="https://www.buymeacoffee.com/dancarvofc">
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="150" />
+  </a>
+  <a href="https://www.ko-fi.com/dancarvofc">
+    <img src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" width="150" />
+  </a>
+</p>
+
 ---
 ## 📈 **GitHub Analytics**
 <p align="center">
