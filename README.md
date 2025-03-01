@@ -66,11 +66,9 @@
 ## ❤️ **Support My Work**
 If you like what I do, consider supporting me! ☕🚀
 
-<p align="left">
-  <a href="https://ko-fi.com/seu_usuario" target="_blank">
-    <img src="https://cdn.ko-fi.com/cdn/kofi5.png?v=3" alt="Ko-fi" width="180" height="45" ">
-  </a>
-</p>
+<a href="https://ko-fi.com/seu_usuario" target="_blank">
+    <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Ko--fi-F16061?style=for-the-badge&logo=kofi&logoColor=white" alt="Ko-fi" />
+</a>
 
 
 ## 📈 **GitHub Analytics**
