@@ -106,7 +106,7 @@
   <a href="https://discord.gg/seu-discord" target="_blank"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord" alt="Discord"/></a>
   <a href="https://www.youtube.com/seu-canal" target="_blank"><img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube" alt="YouTube"/></a>
   <a href="https://www.youtube.com/seu-canal" target="_blank"><img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube" alt="YouTube"/></a>
-  <a href="https://www.gmail.com" target="_blank"><img src="[https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube](https://img.shields.io/badge/Email-dancarvofc@gmail.com-red?style=for-the-badge&logo=gmail)" alt="YouTube"/></a>
+  <a href="https://www.gmail.com" target="_blank"><img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube" alt="Email"/></a>
   [![Email]()](mailto:dancarvofc@gmail.com)
 
 </p>
