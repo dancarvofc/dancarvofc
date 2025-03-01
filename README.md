@@ -11,6 +11,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Senior%20Developer-%F0%9F%92%BB-darkgreen" />
   <img src="https://img.shields.io/badge/Java%20Guru-%E2%98%95-orange" />
+  <img src="https://img.shields.io/badge/Software%20Architect-%F0%9F%92%BB-red" />
   <img src="https://img.shields.io/badge/AI%20Enthusiast-%F0%9F%A7%96-lightblue" />
   <img src="https://img.shields.io/badge/Product%20Management-%F0%9F%92%A1-blue" />
   <img src="https://img.shields.io/badge/Agile%20Leader-%F0%9F%9A%80-yellow" />
