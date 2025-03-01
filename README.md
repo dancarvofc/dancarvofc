@@ -61,9 +61,11 @@
 
 ### 📊 **Product Management & Agile**
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=jira,trello,notion,miro,slack,figma" height="30" />
+  <img src="https://skillicons.dev/icons?i=jira,trello,notion" height="30" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/miro/miro-original.svg" height="30" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg" height="30" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="30" />
 </p>
-
 ---
 
 ## 📈 **GitHub Analytics**
