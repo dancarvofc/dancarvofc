@@ -1,3 +1,10 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+</style>
+
 <h1 align="center">Hey, I'm Danilo Carvalho! 👋</h1>
 <h3 align="center">🚀 Senior Full Stack Developer | Product Manager | Tech Leader</h3>
 
@@ -21,9 +28,8 @@
 ---
 
 ## 🏆 **Certifications & Achievements**
-
 ### 📌 **Cloud, DevOps & Software Development**
-- **Java Certified Programmer - Oracle
+- **Java Certified Programmer - Oracle**
 - **ITIL V3 & ISO 20000 Certification** - EXIN
 - **COBIT Foundation** - ISACA
 
@@ -32,7 +38,7 @@
 - **Professional Scrum Master (PSM I)** - Scrum.org
 - **PMP - Project Management Professional** - PMI
 - **Product Roadmapping, Product Strategy, Product-Led Growth** - Product School
-- **Discovery e Estratégia em Gestão de Produto** - Pm3
+- **Discovery e Estratégia em Gestão de Produto** - PM3
 
 ✅ **More than 40 certifications in Product, Tech & Leadership!**  
 
@@ -41,85 +47,64 @@
 ## 🚀 **Tech Stack & Tools**
 ### 🎨 **Frontend**
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=html,css,sass,tailwind,js,ts,react,next,vue,angular,bootstrap" height="30" />
+  <img src="https://img.shields.io/badge/HTML5-orange?style=flat&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-blue?style=flat&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-yellow?style=flat&logo=javascript&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-blue?style=flat&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=white" />
+  <img src="https://img.shields.io/badge/Next.js-black?style=flat&logo=next.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white" />
 </p>
 
 ### 🔧 **Backend**
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=nodejs,express,spring,java,python,django,flask" height="30" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat&logo=spring&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-orange?style=flat&logo=java&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
 </p>
 
 ### 🛢️ **Databases**
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,redis,oracle" height="30" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white" />
 </p>
 
 ### ☁️ **Cloud & DevOps**
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=aws,azure,gcp,docker,kubernetes,terraform,jenkins" height="30" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white" />
+  <img src="https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoft-azure&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" />
 </p>
 
 ### 📊 **Product Management & Agile**
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=jira,trello,notion" height="30" />
-  <a href="https://www.miro.com/" target="_blank"><img src="https://img.shields.io/badge/Miro-0052CC?style=for-the-badge&logo=miro&logoColor=white" height="30" /></a>
-  <a href="https://slack.com/" target="_blank"><img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white" height="30" /></a>
-  <a href="https://www.figma.com/" target="_blank"><img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" height="30" /></a>
+  <img src="https://img.shields.io/badge/JIRA-0052CC?style=flat&logo=jira&logoColor=white" />
+  <img src="https://img.shields.io/badge/Trello-0079BF?style=flat&logo=trello&logoColor=white" />
+  <img src="https://img.shields.io/badge/Notion-000000?style=flat&logo=notion&logoColor=white" />
+  <img src="https://img.shields.io/badge/Miro-FFCC00?style=flat&logo=miro&logoColor=black" />
+  <img src="https://img.shields.io/badge/Slack-4A154B?style=flat&logo=slack&logoColor=white" />
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white" />
 </p>
-
----
-
-## 📈 **GitHub Analytics**
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dancarvofc&show_icons=true&theme=radical" alt="GitHub stats" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dancarvofc&theme=radical" alt="GitHub Streak" width="48%"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=dancarvofc&show_icons=true&locale=en&layout=compact" alt="Top Languages" width="48%" />
-</p>
-
----
-
-## 🎯 **What I Do**
-
-### 🏗️ **Software Development & Architecture**
-✔️ Full Stack Development (Node.js, React, Vue, Angular, Java, Python)  
-✔️ Cloud & DevOps (AWS, Kubernetes, CI/CD)  
-✔️ Database Design & API Development (REST, GraphQL)  
-
-### 📈 **Web & Digital Marketing**
-✔️ SEO, Growth Hacking & Performance Marketing  
-✔️ Paid Ads (Google Ads, Facebook Ads, Instagram Ads)  
-
-### 💡 **Product & Business Consulting**
-✔️ Digital Product Management & Agile Leadership  
-✔️ Growth Strategies, Discovery & Delivery  
-✔️ Market Research, Business Strategy & Validation  
-
----
-
-## 📌 **Projects & Portfolio**
-🔗 **[Oak Genius](https://oakgenius.com/)** – Custom tech solutions for startups & businesses.  
-💼 **Recent Work:** AI-powered financial trading bots, enterprise security systems, DevOps automation.  
 
 ---
 
 ## 📫 **Let's Connect**
 <p align="left">
-  <a href="https://www.linkedin.com/in/contato.danilolc" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn"/></a>
-  <a href="https://twitter.com/seu-twitter" target="_blank"><img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter" alt="Twitter"/></a>
-  <a href="https://discord.gg/seu-discord" target="_blank"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord" alt="Discord"/></a>
-  <a href="https://www.youtube.com/seu-canal" target="_blank"><img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube" alt="YouTube"/></a>
-  <a href="mailto:dancarvofc@gmail.com"><img src="https://img.shields.io/badge/Email-dancarvofc@gmail.com-red?style=for-the-badge&logo=gmail" alt="Email"/></a>
- </p>
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" />
+  <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white" />
+  <img src="https://img.shields.io/badge/Discord-5865F2?style=flat&logo=discord&logoColor=white" />
+  <img src="https://img.shields.io/badge/Gmail-red?style=flat&logo=gmail&logoColor=white" />
+</p>
 
 ---
 
-## ❤️ **Support My Work**
-If you like what I do, consider supporting me!  
-<a href="https://www.buymeacoffee.com/dancarvofc">
-  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="160" />
-</a>
-<a href="https://www.ko-fi.com/dancarvofc">
-  <img src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" width="160" />
-</a>
+## 🎯 **What I Do**
+💻 Full Stack Development | 🚀 Cloud & DevOps | 📊 Product Growth | 🎯 AI & Data Analytics  
 
 ---
+
+Agora está **compacto, estilizado e profissional!** 🚀🔥 Se precisar de ajustes, só avisar! 😃
