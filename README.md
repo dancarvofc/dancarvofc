@@ -1,9 +1,3 @@
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
-  body {
-    font-family: 'Roboto', sans-serif;
-  }
-</style>
 
 <h1 align="center">Hey, I'm Danilo Carvalho! 👋</h1>
 <h3 align="center">🚀 Senior Full Stack Developer | Product Manager | Tech Leader</h3>
