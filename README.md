@@ -1,76 +1,101 @@
 <h1 align="center">Hey, I'm Danilo Carvalho! 👋</h1>
-<h3 align="center">🚀 Full Stack Developer | Product Manager | Tech Enthusiast</h3>
+<h3 align="center">🚀 Senior Full Stack Developer | Product Manager | Tech Leader</h3>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dancarvofc&show_icons=true&theme=radical" alt="Danilo's GitHub stats" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dancarvofc&theme=radical" alt="GitHub Streak" width="48%"/>
+  <img src="https://img.shields.io/badge/Product%20Management-%F0%9F%92%A1-blue" />
+  <img src="https://img.shields.io/badge/Agile%20Leader-%F0%9F%9A%80-yellow" />
+  <img src="https://img.shields.io/badge/Software%20Architect-%F0%9F%92%BB-red" />
+  <img src="https://img.shields.io/badge/Data%20Driven-%F0%9F%93%88-green" />
 </p>
 
 ---
 
 ## 👨‍💻 **About Me**
-🚀 Passionate about technology, product management, and full-stack development. I've been coding since forever and leading products with agile methodologies.  
-🔹 Founder of **[Oak Genius](https://oakgenius.com/)**, where we provide **freelance tech services** for startups and businesses.  
-📌 Expertise in **software development, agile frameworks, and digital product management**.  
-📈 Constantly learning and innovating in **AI, automation, and business growth strategies**.  
+🔹 **Senior Full Stack Developer & Product Manager** with over **19 years of experience** leading software development, agile transformations, and **data-driven strategies**.  
+💡 **Specialized in:** Digital Product Strategy, Agile Frameworks (Scrum, Kanban, Lean Inception), Full Stack Development, Cloud & DevOps.  
+🚀 **Founder of [Oak Genius](https://oakgenius.com/)** – delivering **freelance tech consulting** for startups and enterprises.  
+📊 **Data-Driven & AI Enthusiast** – Leveraging AI & analytics for smarter business decisions.  
+📍 **Currently at Suzano** (Product) | Ex-**Hospital Albert Einstein, RB Capital, Brink's, Oi, RNP, BNDES, Nokia**.  
+⚠️ **Disclaimer:** This is my new GitHub profile, my previous one was deactivated!  
+
+---
+
+## 🏆 **Certifications & Achievements**
+
+### 📌 **Cloud, DevOps & Software Development**
+- **Java Certified Programmer - Oracle
+- **ITIL V3 & ISO 20000 Certification** - EXIN
+- **COBIT Foundation** - ISACA
+
+### 📌 **Product Management & Agile**
+- **Professional Scrum Product Owner (PSPO I)** - Scrum.org
+- **Professional Scrum Master (PSM I)** - Scrum.org
+- **PMP - Project Management Professional** - PMI
+- **Product Roadmapping, Product Strategy, Product-Led Growth** - Product School
+- **Discovery e Estratégia em Gestão de Produto** - Pm3
+
+✅ **More than 40 certifications in Product, Tech & Leadership!**  
 
 ---
 
 ## 🚀 **Tech Stack & Tools**
-### 🖥️ Frontend
+### 🎨 **Frontend**
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=html,css,sass,tailwind,js,ts,react,next,vue,angular,bootstrap" height="40" />
+  <img src="https://skillicons.dev/icons?i=html,css,sass,tailwind,js,ts,react,next,vue,angular,bootstrap" height="30" />
 </p>
 
-### 🖥️ Backend
+### 🔧 **Backend**
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=nodejs,express,spring,java,python,django,flask" height="40" />
+  <img src="https://skillicons.dev/icons?i=nodejs,express,spring,java,python,django,flask" height="30" />
 </p>
 
-### 🛢️ Databases
+### 🛢️ **Databases**
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,redis,oracle" height="40" />
+  <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,redis,oracle" height="30" />
 </p>
 
-### ☁️ DevOps & Cloud
+### ☁️ **Cloud & DevOps**
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=aws,gcp,docker,kubernetes,jenkins,terraform" height="40" />
+  <img src="https://skillicons.dev/icons?i=aws,azure,gcp,docker,kubernetes,terraform,jenkins" height="30" />
 </p>
 
-### 🔧 Tools & Productivity
+### 📊 **Product Management & Agile**
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=git,github,gitlab,postman,figma,photoshop,vscode" height="40" />
+  <img src="https://skillicons.dev/icons?i=jira,trello,notion,miro,slack,figma" height="30" />
 </p>
 
-### 📊 Product Management
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=jira,trello,notion,miro,slack" height="40" />
+---
+
+## 📈 **GitHub Analytics**
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=dancarvofc&show_icons=true&theme=radical" alt="GitHub stats" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dancarvofc&theme=radical" alt="GitHub Streak" width="48%"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=dancarvofc&show_icons=true&locale=en&layout=compact" alt="Top Languages" width="48%" />
 </p>
 
 ---
 
 ## 🎯 **What I Do**
-### 💡 **Product & Business Consulting**
-✔️ Product Discovery, Delivery, and Growth  
-✔️ Agile Methodologies (Scrum, Kanban, Lean Inception, Design Thinking)  
-✔️ Market Research, Benchmarks & Strategic Planning  
-✔️ Startup & Business Mentoring  
 
 ### 🏗️ **Software Development & Architecture**
 ✔️ Full Stack Development (Node.js, React, Vue, Angular, Java, Python)  
 ✔️ Cloud & DevOps (AWS, Kubernetes, CI/CD)  
-✔️ Database Modeling & API Integrations (REST, GraphQL)  
+✔️ Database Design & API Development (REST, GraphQL)  
 
-### 📈 **Web Development & Digital Marketing**
-✔️ Website Development & Landing Pages  
-✔️ SEO & Growth Hacking  
+### 📈 **Web & Digital Marketing**
+✔️ SEO, Growth Hacking & Performance Marketing  
 ✔️ Paid Ads (Google Ads, Facebook Ads, Instagram Ads)  
+
+### 💡 **Product & Business Consulting**
+✔️ Digital Product Management & Agile Leadership  
+✔️ Growth Strategies, Discovery & Delivery  
+✔️ Market Research, Business Strategy & Validation  
 
 ---
 
 ## 📌 **Projects & Portfolio**
-🔗 Check out my work at **[Oak Genius](https://oakgenius.com/)**  
-🛠️ Helping startups and businesses build high-performance products!  
+🔗 **[Oak Genius](https://oakgenius.com/)** – Custom tech solutions for startups & businesses.  
+💼 **Recent Work:** AI-powered financial trading bots, enterprise security systems, DevOps automation.  
 
 ---
 
