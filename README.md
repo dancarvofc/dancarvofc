@@ -110,10 +110,6 @@
     <img src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" width="150" />
   </a>
 </p>
-
-
-
-
 ---
 ## 📈 **GitHub Analytics**
 <p align="center">
@@ -121,9 +117,6 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=dancarvofc&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="32%" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dancarvofc&layout=compact&theme=tokyonight&hide_border=true" alt="Most Used Languages" width="32%" />
 </p>
-
-
-
 
 ---
 
