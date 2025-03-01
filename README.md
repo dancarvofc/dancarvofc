@@ -101,14 +101,15 @@
   <span>If you like what I do, consider supporting me! ☕🚀</span>
 </p>
 
-<p align="center">
-  <a href="https://www.buymeacoffee.com/dancarvofc" style="margin-right: 20px;">
-    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="150" />
+<p align="center" style="display: flex; align-items: center; justify-content: center; gap: 20px;">
+  <a href="https://www.buymeacoffee.com/dancarvofc">
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="150" style="vertical-align: middle; border: none;" />
   </a>
   <a href="https://www.ko-fi.com/dancarvofc">
-    <img src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" width="150" />
+    <img src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" width="150" style="vertical-align: middle; border: none;" />
   </a>
 </p>
+
 
 
 ---
