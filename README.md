@@ -105,11 +105,11 @@
   <a href="https://www.buymeacoffee.com/dancarvofc">
     <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="150" />
   </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://www.ko-fi.com/dancarvofc">
+  <a href="https://www.ko-fi.com/dancarvofc" style="display: inline-block; margin-left: 15px;">
     <img src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" width="150" />
   </a>
 </p>
+
 ---
 ## 📈 **GitHub Analytics**
 <p align="center">
