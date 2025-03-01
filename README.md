@@ -85,8 +85,12 @@
   <img src="https://img.shields.io/badge/Miro-FFCC00?style=flat&logo=miro&logoColor=black" />
 </p>
 ---
+
 ## 🎯 **What I Do**
 💻 Full Stack Development & 📊 Product Management
+
+---
+
 ## 📫 **Let's Connect**
 
 <p align="center">
