@@ -102,13 +102,14 @@
 </p>
 
 <p align="center">
-  <a href="https://www.buymeacoffee.com/dancarvofc">
+  <a href="https://www.buymeacoffee.com/dancarvofc" style="margin-right: 20px;">
     <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="150" />
   </a>
   <a href="https://www.ko-fi.com/dancarvofc">
     <img src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" width="150" />
   </a>
 </p>
+
 
 ---
 ## 📈 **GitHub Analytics**
