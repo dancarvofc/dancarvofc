@@ -1,3 +1,137 @@
+<h1 align="center" style="font-family: 'Roboto', sans-serif;">Hey, I'm Danilo Carvalho! 👋</h1>
+<h3 align="center">🚀 Senior Full Stack Developer | Product Manager | Tech Leader</h3>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Product%20Management-%F0%9F%92%A1-blue" />
+  <img src="https://img.shields.io/badge/Agile%20Leader-%F0%9F%9A%80-yellow" />
+  <img src="https://img.shields.io/badge/Software%20Architect-%F0%9F%92%BB-red" />
+  <img src="https://img.shields.io/badge/Data%20Driven-%F0%9F%93%88-green" />
+</p>
+
+---
+
+## 👨‍💻 **Sobre Mim**
+🔹 **Senior Full Stack Developer & Product Manager** com **19 anos de experiência** liderando desenvolvimento de software, transformação ágil e estratégias **data-driven**.  
+💡 **Especialidades:** Gestão de Produtos Digitais, Agile (Scrum, Kanban, Lean), Desenvolvimento Full Stack, Cloud & DevOps.  
+🚀 **Founder da [Oak Genius](https://oakgenius.com/)** – Tech consulting para startups e grandes empresas.  
+📊 **Entusiasta de AI & Analytics** – Aplicando **Inteligência Artificial** para decisões estratégicas.  
+📍 **Atualmente na Suzano** (Product) | Ex-**Albert Einstein, RB Capital, Brink's, Oi, RNP, BNDES, Nokia**.  
+⚠️ **Este é meu novo GitHub!** Meu perfil anterior foi desativado.  
+
+---
+
+## 🏆 **Certificações & Conquistas**
+
+### 📌 **Cloud, DevOps & Software Development**
+- **Java Certified Programmer** - Oracle
+- **ITIL V3 & ISO 20000** - EXIN
+- **COBIT Foundation** - ISACA
+
+### 📌 **Product Management & Agile**
+- **Professional Scrum Product Owner (PSPO I)** - Scrum.org
+- **Professional Scrum Master (PSM I)** - Scrum.org
+- **PMP - Project Management Professional** - PMI
+- **Product Strategy, Roadmapping, Growth** - Product School
+- **Discovery e Estratégia em Produto** - PM3
+
+✅ **Mais de 40 certificações em Produto, Tecnologia e Liderança!**  
+
+---
+
+## 🚀 **Tech Stack & Ferramentas**
+
+### 🎨 **Frontend**
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=html,css,sass,tailwind,js,ts,react,next,vue,angular,bootstrap" height="30" />
+</p>
+
+### 🔧 **Backend**
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=nodejs,express,spring,java,python,django,flask" height="30" />
+</p>
+
+### 🛢️ **Databases**
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,redis,oracle" height="30" />
+</p>
+
+### ☁️ **Cloud & DevOps**
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=aws,azure,gcp,docker,kubernetes,terraform,jenkins" height="30" />
+</p>
+
+### 📊 **Product Management & Agile**
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=jira,trello,notion,figma" height="30" />
+</p>
+
+---
+
+## 📈 **GitHub Analytics**
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=dancarvofc&show_icons=true&theme=radical" alt="GitHub stats" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dancarvofc&theme=radical" alt="GitHub Streak" width="48%"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=dancarvofc&show_icons=true&locale=en&layout=compact" alt="Top Languages" width="48%" />
+</p>
+
+---
+
+## 🎯 **O Que Faço**
+
+### 🏗️ **Desenvolvimento & Arquitetura de Software**
+✔️ Full Stack Development (Node.js, React, Vue, Angular, Java, Python)  
+✔️ Cloud & DevOps (AWS, Kubernetes, CI/CD)  
+✔️ Database Design & API Development (REST, GraphQL)  
+
+### 📈 **Web & Digital Marketing**
+✔️ SEO, Growth Hacking & Performance Marketing  
+✔️ Paid Ads (Google Ads, Facebook Ads, Instagram Ads)  
+
+### 💡 **Consultoria de Produto & Negócios**
+✔️ Gestão de Produtos Digitais & Liderança Ágil  
+✔️ Estratégias de Growth, Discovery & Delivery  
+✔️ Pesquisa de Mercado, Validação de Ideias & Modelagem de Negócio  
+
+---
+
+## 📌 **Projetos & Portfólio**
+🔗 **[Oak Genius](https://oakgenius.com/)** – Soluções tecnológicas personalizadas para startups & empresas.  
+💼 **Últimos projetos:** Bots financeiros com AI, sistemas de segurança empresarial, automação DevOps.  
+
+---
+
+## 📫 **Entre em Contato**
+<p align="left">
+  <a href="https://www.linkedin.com/in/contato.danilolc" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn"/>
+  </a>
+  <a href="mailto:dancarvofc@gmail.com">
+    <img src="https://img.shields.io/badge/Email-dancarvofc@gmail.com-red?style=for-the-badge&logo=gmail" alt="Email"/>
+  </a>
+  <a href="https://twitter.com/seu-twitter" target="_blank">
+    <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter" alt="Twitter"/>
+  </a>
+  <a href="https://discord.gg/seu-discord" target="_blank">
+    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord" alt="Discord"/>
+  </a>
+  <a href="https://www.youtube.com/seu-canal" target="_blank">
+    <img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube" alt="YouTube"/>
+  </a>
+</p>
+
+---
+
+## ❤️ **Apoie Meu Trabalho**
+Se curte meu conteúdo, considere apoiar!  
+<a href="https://www.buymeacoffee.com/dancarvofc">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="160" />
+</a>
+<a href="https://www.ko-fi.com/dancarvofc">
+  <img src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" width="160" />
+</a>
+
+
+
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
   body {
