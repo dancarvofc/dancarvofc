@@ -106,10 +106,11 @@ If you like what I do, consider supporting me!
 </a>
 ---
 ## 📈 **GitHub Analytics**
-<p align="center">
+<p align="left">
   <img src="https://github-readme-stats.vercel.app/api?username=dancarvofc&show_icons=true&theme=radical" alt="GitHub stats" width="48%" />
+</p>
+  <p align="right">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=dancarvofc&theme=radical" alt="GitHub Streak" width="48%"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=dancarvofc&show_icons=true&locale=en&layout=compact" alt="Top Languages" width="48%" />
 </p>
 
 ---
