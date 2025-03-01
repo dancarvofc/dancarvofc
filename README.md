@@ -85,7 +85,8 @@
   <img src="https://img.shields.io/badge/Miro-FFCC00?style=flat&logo=miro&logoColor=black" />
 </p>
 ---
-
+## 🎯 **What I Do**
+💻 Full Stack Development & 📊 Product Management 
 ## 📫 **Let's Connect**
 <p align="left">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" />
@@ -95,32 +96,20 @@
 </p>
 
 ---
+## ❤️ **Support My Work**
+If you like what I do, consider supporting me!  
+<a href="https://www.buymeacoffee.com/dancarvofc">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="160" />
+</a>
+<a href="https://www.ko-fi.com/dancarvofc">
+  <img src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" width="160" />
+</a>
+---
 ## 📈 **GitHub Analytics**
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=dancarvofc&show_icons=true&theme=radical" alt="GitHub stats" width="48%" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=dancarvofc&theme=radical" alt="GitHub Streak" width="48%"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=dancarvofc&show_icons=true&locale=en&layout=compact" alt="Top Languages" width="48%" />
-</p>
-
-## 🎯 **What I Do**
-💻 Full Stack Development | 📊 Product Management | 
-## 📫 **Entre em Contato**
-<p align="left">
-  <a href="https://www.linkedin.com/in/contato.danilolc" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn"/>
-  </a>
-  <a href="mailto:dancarvofc@gmail.com">
-    <img src="https://img.shields.io/badge/Email-dancarvofc@gmail.com-red?style=for-the-badge&logo=gmail" alt="Email"/>
-  </a>
-  <a href="https://twitter.com/seu-twitter" target="_blank">
-    <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter" alt="Twitter"/>
-  </a>
-  <a href="https://discord.gg/seu-discord" target="_blank">
-    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord" alt="Discord"/>
-  </a>
-  <a href="https://www.youtube.com/seu-canal" target="_blank">
-    <img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube" alt="YouTube"/>
-  </a>
 </p>
 
 ---
