@@ -77,5 +77,9 @@ If you like what I do, consider supporting me! ☕🚀
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=dancarvofc&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="32%" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dancarvofc&layout=compact&theme=tokyonight&hide_border=true" alt="Most Used Languages" width="32%" />
 </p>
+
+<img src="https://github-readme-stats-ruby.vercel.app/api?username=dancarvofc&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="32%" />
+<img src="https://streak-stats.demolab.com?user=dancarvofc&theme=tokyonight&hide_border=true" width="32%" />
+
 ---
 
