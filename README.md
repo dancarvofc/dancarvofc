@@ -70,12 +70,13 @@ If you like what I do, consider supporting me! ☕🚀
     <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Ko--fi-F16061?style=for-the-badge&logo=kofi&logoColor=white" alt="Ko-fi" />
 </a>
 
-
 ## 📈 **GitHub Analytics**
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dancarvofc&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" width="32%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dancarvofc&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="32%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dancarvofc&layout=compact&theme=tokyonight&hide_border=true" alt="Most Used Languages" width="32%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=dancarvofc&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&token=SEU_NOVO_TOKEN_AQUI" alt="GitHub Stats" width="32%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dancarvofc&theme=tokyonight&hide_border=true&token=SEU_NOVO_TOKEN_AQUI" alt="GitHub Streak" width="32%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dancarvofc&layout=compact&theme=tokyonight&hide_border=true&token=SEU_NOVO_TOKEN_AQUI" alt="Most Used Languages" width="32%" />
 </p>
+
+
 ---
 
