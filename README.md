@@ -76,6 +76,13 @@ If you like what I do, consider supporting me! ☕🚀
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dancarvofc&layout=compact&theme=tokyonight&hide_border=true&token=SEU_NOVO_TOKEN_AQUI" alt="Most Used Languages" width="32%" />
 </p>
 
+## 🏆 **LeetCode Statistics**
+<p align="center">
+  <img src="https://leetcard.jacoblin.cool/8NN4U9Ol7m?theme=dark&font=Baloo%20Bhaina%202" alt="LeetCode Stats" width="32%" />
+  <img src="https://leetcard.jacoblin.cool/8NN4U9Ol7m?ext=heatmap" alt="LeetCode Heatmap" width="32%" />
+</p>
+
+
 
 ---
 
