@@ -16,7 +16,7 @@
 ## 👨‍💻 **About Me**
 🔹 **Senior Full Stack Developer & Product Manager** with over **19 years of experience** leading software development, agile transformations, and **data-driven strategies**.  
 💡 **Specialized in:** Digital Product Strategy, Agile Frameworks (Scrum, Kanban, Lean Inception), Full Stack Development, Cloud & DevOps.  
-🚀 **Founder of [TDG Labs Think • Develop • Grow](https://oakgenius.com/)** – delivering **freelance tech consulting** for startups and enterprises.  
+🚀 **Founder of [TDG Labs Think • Develop • Grow](https://oakgenius.com/)** – delivering **Tech Consulting** for startups and enterprises.  
 📊 **Data-Driven & AI Enthusiast** – Leveraging AI & analytics for smarter business decisions.  
 📍 **Currently at Suzano** (Product) | Ex-**Hospital Albert Einstein, RB Capital, Brink's, Oi, RNP, BNDES, Nokia**.  
 ⚠️ **Disclaimer:** This is my new GitHub profile, my previous one was deactivated!  
