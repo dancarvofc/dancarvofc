@@ -13,13 +13,13 @@
   <!-- Title -->
   <text x="600" y="89" text-anchor="middle" fill="#ebdbb2" font-size="20" font-weight="700"
         font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace">
-    👻 Ghostty — Terminal
+    👻 Ghostty — [About Me] Terminal
   </text>
 
   <!-- Prompt -->
   <text x="110" y="140" fill="#ebdbb2" font-size="16"
         font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace">
-    <tspan fill="#fe8019">❯</tspan><tspan fill="#8ec07c"> neofetch</tspan><tspan fill="#a89984"> --profile dan</tspan>
+    <tspan fill="#fe8019">❯</tspan><tspan fill="#8ec07c"> fastfetch</tspan><tspan fill="#a89984"> --profile dan</tspan>
   </text>
 
   <!-- Separator -->
