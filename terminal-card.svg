@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+  <defs>
+    <!-- Gruvbox-ish palette -->
+    <style>
+      .bg { fill: #1d2021; }
+      .panel { fill: #282828; }
+      .stroke { stroke: #3c3836; stroke-width: 2; }
+      .text { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+      .muted { fill: #a89984; }
+      .fg { fill: #ebdbb2; }
+      .green { fill: #b8bb26; }
+      .aqua { fill: #8ec07c; }
+      .blue { fill: #83a598; }
+      .orange { fill: #fe8019; }
+      .red { fill: #fb4934; }
+      .shadow { filter: drop-shadow(0px 10px 18px rgba(0,0,0,0.45)); }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="bg" x="0" y="0" width="1200" height="620"/>
+
+  <!-- Terminal window -->
+  <rect class="panel stroke shadow" x="70" y="55" rx="18" ry="18" width="1060" height="510"/>
+
+  <!-- Window top bar -->
+  <rect x="70" y="55" rx="18" ry="18" width="1060" height="70" fill="#32302f"/>
+  <circle cx="110" cy="90" r="10" fill="#fb4934"/>
+  <circle cx="145" cy="90" r="10" fill="#fabd2f"/>
+  <circle cx="180" cy="90" r="10" fill="#b8bb26"/>
+
+  <!-- “Starship segments” -->
+  <g class="text" font-size="18" font-weight="700">
+    <rect x="240" y="74" rx="12" ry="12" width="160" height="34" fill="#458588"/>
+    <text x="260" y="97" fill="#1d2021">dan@arch</text>
+
+    <rect x="410" y="74" rx="12" ry="12" width="210" height="34" fill="#689d6a"/>
+    <text x="430" y="97" fill="#1d2021">~/github/profile</text>
+
+    <rect x="630" y="74" rx="12" ry="12" width="150" height="34" fill="#d79921"/>
+    <text x="650" y="97" fill="#1d2021">main *</text>
+
+    <rect x="790" y="74" rx="12" ry="12" width="110" height="34" fill="#fe8019"/>
+    <text x="810" y="97" fill="#1d2021">node 20</text>
+
+    <rect x="910" y="74" rx="12" ry="12" width="175" height="34" fill="#b16286"/>
+    <text x="930" y="97" fill="#1d2021">gruvbox mode</text>
+  </g>
+
+  <!-- Content -->
+  <g class="text" font-size="18">
+    <!-- Prompt line -->
+    <text x="110" y="165" class="fg">
+      <tspan class="orange">❯</tspan> <tspan class="aqua">neofetch</tspan> <tspan class="muted">--profile dan</tspan>
+    </text>
+
+    <!-- Separator -->
+    <text x="110" y="198" class="muted">────────────────────────────────────────────────────────────────────────────</text>
+
+    <!-- System -->
+    <text x="110" y="230" class="fg">
+      <tspan class="blue">OS</tspan>        : Linux 6.x (Arch vibes)
+    </text>
+    <text x="110" y="258" class="fg">
+      <tspan class="blue">Editor</tspan>    : Neovim 0.11.x
+    </text>
+    <text x="110" y="286" class="fg">
+      <tspan class="blue">Languages</tspan> : Java, TypeScript, Go
+    </text>
+
+    <text x="110" y="318" class="muted">────────────────────────────────────────────────────────────────────────────</text>
+
+    <!-- Stack -->
+    <text x="110" y="350" class="fg">
+      <tspan class="blue">Frontend</tspan>  : React, Next.js, Vue, Angular, Pinia, shadcn/ui
+    </text>
+    <text x="110" y="378" class="fg">
+      <tspan class="blue">Backend</tspan>   : Node.js (Express/Nest), Java (Spring), APIs (REST/GraphQL)
+    </text>
+    <text x="110" y="406" class="fg">
+      <tspan class="blue">Database</tspan>  : PostgreSQL, MongoDB, Redis, Supabase, DynamoDB, S3
+    </text>
+
+    <text x="110" y="438" class="muted">────────────────────────────────────────────────────────────────────────────</text>
+
+    <!-- About -->
+    <text x="110" y="470" class="fg">
+      <tspan class="green">About</tspan>     : Senior Full Stack Dev & Product (19+ yrs)
+    </text>
+    <text x="110" y="498" class="fg">
+      <tspan class="green">Focus</tspan>     : Product strategy, Agile, Cloud/DevOps, Data & AI
+    </text>
+    <text x="110" y="526" class="fg">
+      <tspan class="green">Now</tspan>       : Suzano (Product) | Ex: Einstein, RB Capital, Brink’s, Oi, RNP, BNDES, Nokia
+    </text>
+
+    <!-- Footer prompt -->
+    <text x="110" y="560" class="fg">
+      <tspan class="orange">❯</tspan> <tspan class="aqua">echo</tspan> <tspan class="fg">"This is my new GitHub profile — previous one was deactivated."</tspan>
+    </text>
+  </g>
+</svg>
