@@ -67,7 +67,7 @@
 
     <!-- Now wrapped (still aligned) -->
     <text x="430" y="492"><tspan fill="#b8bb26">Now</tspan>       : Open to work | Ex: Suzano, Einstein, RB Capital, Brink’s,</text>
-    <text x="430" y="492"> Oi,RNP, BNDES, Nokia</text>
+    <text x="430" y="511"> Oi,RNP, BNDES, Nokia</text>
 
     <!-- Footer prompt aligned -->
     <text x="430" y="548" fill="#ebdbb2" font-size="16">
