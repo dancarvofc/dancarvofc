@@ -1,4 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+  <!-- Background -->
+  <rect x="0" y="0" width="1200" height="620" fill="#1d2021"/>
 
-<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
-  <rect x="0" y="0" width="200" height="200" fill="#ffffff"/>
+  <!-- Terminal window (no drop-shadow, no defs/style) -->
+  <rect x="70" y="55" width="1060" height="510" rx="18" ry="18" fill="#282828" stroke="#3c3836" stroke-width="2"/>
+
+  <!-- Top bar -->
+  <rect x="70" y="55" width="1060" height="70" rx="18" ry="18" fill="#32302f"/>
+  <circle cx="110" cy="90" r="10" fill="#fb4934"/>
+  <circle cx="145" cy="90" r="10" fill="#fabd2f"/>
+  <circle cx="180" cy="90" r="10" fill="#b8bb26"/>
+
+  <!-- Starship segments -->
+  <rect x="240" y="74" width="160" height="34" rx="12" ry="12" fill="#458588"/>
+  <text x="260" y="97" fill="#1d2021" font-size="18" font-weight="700"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace">dan@arch</text>
+
+  <rect x="410" y="74" width="210" height="34" rx="12" ry="12" fill="#689d6a"/>
+  <text x="430" y="97" fill="#1d2021" font-size="18" font-weight="700"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace">~/github/profile</text>
+
+  <rect x="630" y="74" width="150" height="34" rx="12" ry="12" fill="#d79921"/>
+  <text x="650" y="97" fill="#1d2021" font-size="18" font-weight="700"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace">main *</text>
+
+  <rect x="790" y="74" width="110" height="34" rx="12" ry="12" fill="#fe8019"/>
+  <text x="810" y="97" fill="#1d2021" font-size="18" font-weight="700"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace">node 20</text>
+
+  <rect x="910" y="74" width="175" height="34" rx="12" ry="12" fill="#b16286"/>
+  <text x="930" y="97" fill="#1d2021" font-size="18" font-weight="700"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace">gruvbox mode</text>
+
+  <!-- Content -->
+  <g font-size="18" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace">
+    <text x="110" y="165" fill="#ebdbb2">
+      <tspan fill="#fe8019">❯</tspan>
+      <tspan fill="#8ec07c"> neofetch</tspan>
+      <tspan fill="#a89984"> --profile dan</tspan>
+    </text>
+
+    <text x="110" y="198" fill="#a89984">────────────────────────────────────────────────────────────────────────────</text>
+
+    <text x="110" y="230" fill="#ebdbb2"><tspan fill="#83a598">OS</tspan>        : Linux 6.x (Arch vibes)</text>
+    <text x="110" y="258" fill="#ebdbb2"><tspan fill="#83a598">Editor</tspan>    : Neovim 0.11.x</text>
+    <text x="110" y="286" fill="#ebdbb2"><tspan fill="#83a598">Languages</tspan> : Java, TypeScript, Go</text>
+
+    <text x="110" y="318" fill="#a89984">────────────────────────────────────────────────────────────────────────────</text>
+
+    <text x="110" y="350" fill="#ebdbb2"><tspan fill="#83a598">Frontend</tspan>  : React, Next.js, Vue, Angular, Pinia, shadcn/ui</text>
+    <text x="110" y="378" fill="#ebdbb2"><tspan fill="#83a598">Backend</tspan>   : Node.js (Express/Nest), Java (Spring), APIs (REST/GraphQL)</text>
+    <text x="110" y="406" fill="#ebdbb2"><tspan fill="#83a598">Database</tspan>  : PostgreSQL, MongoDB, Redis, Supabase, DynamoDB, S3</text>
+
+    <text x="110" y="438" fill="#a89984">────────────────────────────────────────────────────────────────────────────</text>
+
+    <text x="110" y="470" fill="#ebdbb2"><tspan fill="#b8bb26">About</tspan>     : Senior Full Stack Dev &amp; Product (19+ yrs)</text>
+    <text x="110" y="498" fill="#ebdbb2"><tspan fill="#b8bb26">Focus</tspan>     : Product strategy, Agile, Cloud/DevOps, Data &amp; AI</text>
+    <text x="110" y="526" fill="#ebdbb2"><tspan fill="#b8bb26">Now</tspan>       : Suzano (Product) | Ex: Einstein, RB Capital, Brink’s, Oi, RNP, BNDES, Nokia</text>
+
+    <text x="110" y="560" fill="#ebdbb2">
+      <tspan fill="#fe8019">❯</tspan>
+      <tspan fill="#8ec07c"> echo</tspan>
+      <tspan> "This is my new GitHub profile — previous one was deactivated."</tspan>
+    </text>
+  </g>
 </svg>
