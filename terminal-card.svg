@@ -5,7 +5,7 @@
   <rect x="70" y="55" width="1060" height="510" fill="none" stroke="#3c3836" stroke-width="2"/>
 
   <!-- Top bar (smaller) -->
-  <rect x="70" y="55" width="1060" height="52" rx="18" ry="18" fill="#32302f"/>
+  <rect x="70" y="55" width="1060" height="52" rx="0" ry="0" fill="#32302f"/>
   <circle cx="110" cy="81" r="8" fill="#fb4934"/>
   <circle cx="140" cy="81" r="8" fill="#fabd2f"/>
   <circle cx="170" cy="81" r="8" fill="#b8bb26"/>
