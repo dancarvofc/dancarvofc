@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
   <!-- Terminal window (no outer background) -->
-  <rect x="70" y="55" width="1060" height="510" rx="18" ry="18" fill="#282828"/>
+  <rect x="70" y="55" width="1060" height="510" rx="0" ry="0" fill="#282828"/>
   <rect x="70" y="73" width="1060" height="492" fill="#282828"/>
   <rect x="70" y="55" width="1060" height="510" fill="none" stroke="#3c3836" stroke-width="2"/>
 
@@ -66,8 +66,8 @@
     <text x="430" y="470"><tspan fill="#b8bb26">Focus</tspan>     : Product strategy, Agile, Cloud/DevOps, Data &amp; AI</text>
 
     <!-- Now wrapped (still aligned) -->
-    <text x="430" y="492"><tspan fill="#b8bb26">Now</tspan>       : Open to work | Ex: Suzano, Einstein, RB Capital, Brink’s,</text>
-    <text x="430" y="514" fill="#a89984">             Oi, RNP, BNDES, Nokia</text>
+    <text x="430" y="492"><tspan fill="#b8bb26">Now</tspan>       : Open to work | Ex: Suzano, Einstein, RB Capital, Brink’s,Oi,       
+      RNP, BNDES, Nokia</text>
 
     <!-- Footer prompt aligned -->
     <text x="430" y="548" fill="#ebdbb2" font-size="16">
