@@ -1,66 +1,77 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
-  <!-- Background -->
-  <rect x="0" y="0" width="1200" height="620" fill="#1d2021"/>
+  <!-- Terminal window (no outer background) -->
+  <rect x="70" y="55" width="1060" height="510" rx="18" ry="18" fill="#282828"/>
+  <rect x="70" y="73" width="1060" height="492" fill="#282828"/>
+  <rect x="70" y="55" width="1060" height="510" fill="none" stroke="#3c3836" stroke-width="2"/>
 
-  <!-- Terminal window (no drop-shadow, no defs/style) -->
-  <rect x="70" y="55" width="1060" height="510" rx="18" ry="18" fill="#282828" stroke="#3c3836" stroke-width="2"/>
+  <!-- Top bar (smaller) -->
+  <rect x="70" y="55" width="1060" height="52" rx="18" ry="18" fill="#32302f"/>
+  <circle cx="110" cy="81" r="8" fill="#fb4934"/>
+  <circle cx="140" cy="81" r="8" fill="#fabd2f"/>
+  <circle cx="170" cy="81" r="8" fill="#b8bb26"/>
 
-  <!-- Top bar -->
-  <rect x="70" y="55" width="1060" height="70" rx="18" ry="18" fill="#32302f"/>
-  <circle cx="110" cy="90" r="10" fill="#fb4934"/>
-  <circle cx="145" cy="90" r="10" fill="#fabd2f"/>
-  <circle cx="180" cy="90" r="10" fill="#b8bb26"/>
+  <!-- Title -->
+  <text x="600" y="89" text-anchor="middle" fill="#ebdbb2" font-size="20" font-weight="700"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace">
+    👻 Ghostty — Terminal
+  </text>
 
-  <!-- Starship segments -->
-  <rect x="240" y="74" width="160" height="34" rx="12" ry="12" fill="#458588"/>
-  <text x="260" y="97" fill="#1d2021" font-size="18" font-weight="700"
-        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace">dan@arch</text>
+  <!-- Prompt -->
+  <text x="110" y="140" fill="#ebdbb2" font-size="16"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace">
+    <tspan fill="#fe8019">❯</tspan><tspan fill="#8ec07c"> neofetch</tspan><tspan fill="#a89984"> --profile dan</tspan>
+  </text>
 
-  <rect x="410" y="74" width="210" height="34" rx="12" ry="12" fill="#689d6a"/>
-  <text x="430" y="97" fill="#1d2021" font-size="18" font-weight="700"
-        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace">~/github/profile</text>
+  <!-- Separator -->
+  <text x="110" y="168" fill="#a89984" font-size="16"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace">
+    ────────────────────────────────────────────────────────────────────────────
+  </text>
 
-  <rect x="630" y="74" width="150" height="34" rx="12" ry="12" fill="#d79921"/>
-  <text x="650" y="97" fill="#1d2021" font-size="18" font-weight="700"
-        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace">main *</text>
+  <!-- Embedded Ghostty Logo (your SVG paths) -->
+  <g transform="translate(110 195) scale(1.38)">
+    <g transform="translate(-21.981488 -95.450042)">
+      <path d="m 38.963907,162.90986 -16.766622,-16.67814 16.766622,-16.78173 16.76662,-16.78171 0.19032,4.34691 c 0.10469,2.3908 0.20757,6.63245 0.22864,9.42589 l 0.0383,5.07898 -6.47801,6.66654 c -3.56291,3.6666 -6.74502,6.97747 -7.07135,7.3575 l -0.59335,0.69095 6.99515,7.07378 6.99513,7.07377 -0.15242,9.6027 -0.15242,9.6027 z"
+            fill="#ebdbb2"/>
+      <path d="m 83.090597,195.66876 -18.06222,-0.0811 -1.5e-4,-15.01133 c -8e-5,-8.25623 -0.0913,-30.7529 -0.20279,-49.9926 l -0.20264,-34.981264 h 18.79849 18.798503 v 50.147444 c 0,47.58432 -0.0273,50.14366 -0.53348,50.07368 -0.29342,-0.0406 -8.661493,-0.11024 -18.595713,-0.15484 z m 5.41105,-49.614 v -34.6002 h -4.87757 -4.87756 v 34.43839 34.4384 l 3.73439,0.0959 c 2.05391,0.0527 4.24881,0.12555 4.87756,0.16181 l 1.14318,0.0659 z"
+            fill="#ebdbb2"/>
+      <path d="M 111.06037,145.74992 V 95.602476 h 6.85907 6.85908 v 42.569674 42.56967 l 1.8738,-0.19585 c 1.03059,-0.10771 3.22549,-0.19585 4.87756,-0.19585 h 3.00376 v -34.68781 -34.68782 l 5.34317,-5.31164 5.34317,-5.31165 4.94544,4.86995 c 15.02807,14.7987 23.38317,23.16589 23.31414,23.34789 -0.0428,0.11289 -2.26282,2.43541 -4.93335,5.16116 l -4.8555,4.9559 -7.55324,-7.74746 -7.55323,-7.74745 -0.0138,23.01494 -0.0138,23.01494 16.39575,-16.39365 16.39576,-16.39365 4.96574,4.8105 4.96575,4.81049 -23.03691,23.01398 -23.03691,23.01399 -5.26305,-5.25661 c -2.89467,-2.89113 -5.33389,-5.25661 -5.42048,-5.25661 -0.0866,0 -0.10629,2.77792 -0.0438,6.17317 l 0.11366,6.17316 0.94509,0.99076 0.94509,0.99075 h -12.71098 -12.71098 z"
+            fill="#ebdbb2"/>
+    </g>
+  </g>
 
-  <rect x="790" y="74" width="110" height="34" rx="12" ry="12" fill="#fe8019"/>
-  <text x="810" y="97" fill="#1d2021" font-size="18" font-weight="700"
-        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace">node 20</text>
+  <!-- Info block -->
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace"
+     font-size="15" fill="#ebdbb2">
+    <!-- Top info aligned to the right of logo -->
+    <text x="430" y="220"><tspan fill="#83a598">OS</tspan>        : Linux 6.x (Arch vibes)</text>
+    <text x="430" y="242"><tspan fill="#83a598">Editor</tspan>    : Neovim 0.11.x</text>
+    <text x="430" y="264"><tspan fill="#83a598">Languages</tspan> : Java, TypeScript, Go</text>
 
-  <rect x="910" y="74" width="175" height="34" rx="12" ry="12" fill="#b16286"/>
-  <text x="930" y="97" fill="#1d2021" font-size="18" font-weight="700"
-        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace">gruvbox mode</text>
-
-  <!-- Content -->
-  <g font-size="18" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace">
-    <text x="110" y="165" fill="#ebdbb2">
-      <tspan fill="#fe8019">❯</tspan>
-      <tspan fill="#8ec07c"> neofetch</tspan>
-      <tspan fill="#a89984"> --profile dan</tspan>
+    <!-- Section separator starts AFTER logo too -->
+    <text x="430" y="304" fill="#a89984">
+      ─────────────────────────────────────────────────────────────────
     </text>
 
-    <text x="110" y="198" fill="#a89984">────────────────────────────────────────────────────────────────────────────</text>
+    <!-- Frontend/Backend/Database aligned right of logo -->
+    <text x="430" y="334"><tspan fill="#83a598">Frontend</tspan>  : React, Next.js, Vue, Angular, Pinia, shadcn/ui</text>
+    <text x="430" y="356"><tspan fill="#83a598">Backend</tspan>   : Node.js (Express/Nest), Java (Spring), APIs (REST/GraphQL)</text>
+    <text x="430" y="378"><tspan fill="#83a598">Database</tspan>  : PostgreSQL, MongoDB, Redis, Supabase, DynamoDB, S3</text>
 
-    <text x="110" y="230" fill="#ebdbb2"><tspan fill="#83a598">OS</tspan>        : Linux 6.x (Arch vibes)</text>
-    <text x="110" y="258" fill="#ebdbb2"><tspan fill="#83a598">Editor</tspan>    : Neovim 0.11.x</text>
-    <text x="110" y="286" fill="#ebdbb2"><tspan fill="#83a598">Languages</tspan> : Java, TypeScript, Go</text>
+    <text x="430" y="418" fill="#a89984">
+      ─────────────────────────────────────────────────────────────────
+    </text>
 
-    <text x="110" y="318" fill="#a89984">────────────────────────────────────────────────────────────────────────────</text>
+    <text x="430" y="448"><tspan fill="#b8bb26">About</tspan>     : Senior Full Stack Dev &amp; Product (19+ yrs)</text>
+    <text x="430" y="470"><tspan fill="#b8bb26">Focus</tspan>     : Product strategy, Agile, Cloud/DevOps, Data &amp; AI</text>
 
-    <text x="110" y="350" fill="#ebdbb2"><tspan fill="#83a598">Frontend</tspan>  : React, Next.js, Vue, Angular, Pinia, shadcn/ui</text>
-    <text x="110" y="378" fill="#ebdbb2"><tspan fill="#83a598">Backend</tspan>   : Node.js (Express/Nest), Java (Spring), APIs (REST/GraphQL)</text>
-    <text x="110" y="406" fill="#ebdbb2"><tspan fill="#83a598">Database</tspan>  : PostgreSQL, MongoDB, Redis, Supabase, DynamoDB, S3</text>
+    <!-- Now wrapped (still aligned) -->
+    <text x="430" y="492"><tspan fill="#b8bb26">Now</tspan>       : Open to work | Ex: Suzano, Einstein, RB Capital, Brink’s,</text>
+    <text x="430" y="514" fill="#a89984">             Oi, RNP, BNDES, Nokia</text>
 
-    <text x="110" y="438" fill="#a89984">────────────────────────────────────────────────────────────────────────────</text>
-
-    <text x="110" y="470" fill="#ebdbb2"><tspan fill="#b8bb26">About</tspan>     : Senior Full Stack Dev &amp; Product (19+ yrs)</text>
-    <text x="110" y="498" fill="#ebdbb2"><tspan fill="#b8bb26">Focus</tspan>     : Product strategy, Agile, Cloud/DevOps, Data &amp; AI</text>
-    <text x="110" y="526" fill="#ebdbb2"><tspan fill="#b8bb26">Now</tspan>       : Suzano (Product) | Ex: Einstein, RB Capital, Brink’s, Oi, RNP, BNDES, Nokia</text>
-
-    <text x="110" y="560" fill="#ebdbb2">
-      <tspan fill="#fe8019">❯</tspan>
-      <tspan fill="#8ec07c"> echo</tspan>
+    <!-- Footer prompt aligned -->
+    <text x="430" y="548" fill="#ebdbb2" font-size="16">
+      <tspan fill="#fe8019">❯</tspan><tspan fill="#8ec07c"> echo</tspan>
       <tspan> "This is my new GitHub profile — previous one was deactivated."</tspan>
     </text>
   </g>
