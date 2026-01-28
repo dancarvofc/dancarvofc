@@ -15,34 +15,57 @@
 <p align="center">
   <img src="https://github.com/dancarvofc/dancarvofc/blob/main/terminal-card.svg?raw=1" alt="Terminal Card" />
 </p>
+<div align="center">
+<pre>
+<table border="0" align="center" style="margin: 0 auto;">
+  <tr>
 
 
-## 👨‍💻 **About Me**
-🔹 **Senior Full Stack Developer & Product Manager** with over **19 years of experience** leading software development, agile transformations, and **data-driven strategies**.  
-💡 **Specialized in:** Digital Product Strategy, Agile Frameworks (Scrum, Kanban, Lean Inception), Full Stack Development, Cloud & DevOps.  
-🚀 **Founder of [TDG Labs Think • Develop • Grow](https://oakgenius.com/)** – delivering **Tech Consulting** for startups and enterprises.  
-📊 **Data-Driven & AI Enthusiast** – Leveraging AI & analytics for smarter business decisions.  
-📍 **Currently at Suzano** (Product) | Ex-**Hospital Albert Einstein, RB Capital, Brink's, Oi, RNP, BNDES, Nokia**.  
-⚠️ **Disclaimer:** This is my new GitHub profile, my previous one was deactivated!  
+<div align="left">
+  <pre><code># Certifications inventory (Starship-style prompt)
+dan@archlinux 󰣇  ❯  📂 ~/documents/certs  ❯  𖣂 git:main  ❯  ./list_certifications.sh
+✔ Loaded certifications tree (3 tracks)
+</code></pre>
+</div>
 
----
 
-## 🏆 **Certifications & Achievements**
-### 📌 **Cloud, DevOps & Software Development**
-- **Java Certified Programmer - Oracle**
-- **ITIL V3 & ISO 20000 Certification** - EXIN
-- **COBIT Foundation** - ISACA
 
-### 📌 **Product Management & Agile**
-- **Professional Scrum Product Owner (PSPO I)** - Scrum.org
-- **Professional Scrum Master (PSM I)** - Scrum.org
-- **PMP - Project Management Professional** - PMI
-- **Product Roadmapping, Product Strategy, Product-Led Growth** - Product School
-- **Discovery e Estratégia em Gestão de Produto** - PM3
 
-✅ **More than 40 certifications in Product, Tech & Leadership!**  
+     
+  <td valign="top" align="left" width="300">
+<strong>📂Cloud_DevOps_Software/</strong>
+|
+|── 📄 Java_Certified
+│   └── Oracle
+├── 📄 ITIL_V3
+│   └── EXIN
+└── 📄 COBIT
+    └── ISACA
+    </td>
+    <td valign="top" align="left" width="300">
+<strong>📂Product_Agile/</strong>
+|
+|── 📄 PSPO_I
+│   └── Scrum.org
+├── 📄 PSM_I
+│   └── Scrum.org
+└── 📄 Discovery
+    └── PM3
+    </td>
+    <td valign="top" align="left" width="300">
+<strong>📂Strategy_Leadership/</strong>
+|
+|── 📄 PMP
+│   └── PMI
+└── 📄 Product_Strategy
+    └── Product_School
+    </td>
+  </tr>
+</table>
 
----
+<code>Found more 40+ certification entries <a href="https://www.credential.net/profile/danilocarvalho876/wallet">view all entries?</a></code>
+</pre>
+</div>
 
 <!-- ✅ ÍCONES GRANDES + TOOLTIPS (GitHub friendly) -->
 <!-- Fonte: https://go-skill-icons.vercel.app/ -->
