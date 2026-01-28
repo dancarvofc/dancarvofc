@@ -15,58 +15,13 @@
 <p align="center">
   <img src="https://github.com/dancarvofc/dancarvofc/blob/main/terminal-card.svg?raw=1" alt="Terminal Card" />
 </p>
-<div align="center">
-<pre>
-<table border="0" align="center" style="margin: 0 auto;">
-  <tr>
+<p align="center">
+  <img src="https://github.com/dancarvofc/dancarvofc/blob/main/certs.svg?raw=1" alt="Certification Card" />
+</p>
 
-
-<div align="left">
-  <pre><code># My Certifications 
-dan@archlinux 󰣇  ❯  📂 ~/documents/certs  ❯  𖣂 git:main  ❯  ./list_certifications.sh
-✔ Loaded certifications tree (3 tracks)
-</code></pre>
-</div>
-
-
-
-
-     
-  <td valign="top" align="left" width="300">
-<strong>📂Cloud_DevOps_Software/</strong>
-|
-|── 📄 Java_Certified
-│   └── Oracle
-├── 📄 ITIL_V3
-│   └── EXIN
-└── 📄 COBIT
-    └── ISACA
-    </td>
-    <td valign="top" align="left" width="300">
-<strong>📂Product_Agile/</strong>
-|
-|── 📄 PSPO_I
-│   └── Scrum.org
-├── 📄 PSM_I
-│   └── Scrum.org
-└── 📄 Discovery
-    └── PM3
-    </td>
-    <td valign="top" align="left" width="300">
-<strong>📂Strategy_Leadership/</strong>
-|
-|── 📄 PMP
-│   └── PMI
-└── 📄 Product_Strategy
-    └── Product_School
-    </td>
-  </tr>
-</table>
-
-<code>Found more 40+ certification entries <a href="https://www.credential.net/profile/danilocarvalho876/wallet">view all entries?</a></code>
-</pre>
-</div>
-
+<p align="center">
+  <img src="https://github.com/dancarvofc/dancarvofc/blob/main/stack.svg?raw=1" alt="Certification Card" />
+</p>
 
 
 <!-- ✅ ÍCONES GRANDES + TOOLTIPS (GitHub friendly) -->
