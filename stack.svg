@@ -1,0 +1,281 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1820" viewBox="0 0 1200 1820">
+  <defs>
+    <!-- subtle dots grid -->
+    <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#3c3836" opacity="0.22"/>
+    </pattern>
+
+    <!-- accent gradient -->
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fe8019" stop-opacity="1"/>
+      <stop offset="0.55" stop-color="#83a598" stop-opacity="1"/>
+      <stop offset="1" stop-color="#b8bb26" stop-opacity="1"/>
+    </linearGradient>
+
+    <!-- soft shadow -->
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+
+    <!-- chip style via reuse (colors only; geometry duplicated for GitHub stability) -->
+  </defs>
+
+  <!-- Terminal window -->
+  <rect x="70" y="55" width="1060" height="1700" fill="#282828"/>
+  <rect x="70" y="73" width="1060" height="1682" fill="#0d1117"/>
+  <rect x="70" y="55" width="1060" height="1700" fill="none" stroke="#3c3836" stroke-width="2"/>
+
+  <!-- Top bar -->
+  <rect x="70" y="55" width="1060" height="52" fill="#151b23"/>
+  <circle cx="110" cy="81" r="8" fill="#fb4934"/>
+  <circle cx="140" cy="81" r="8" fill="#fabd2f"/>
+  <circle cx="170" cy="81" r="8" fill="#b8bb26"/>
+
+  <!-- Title -->
+  <text x="600" y="89" text-anchor="middle" fill="#ebdbb2" font-size="20" font-weight="700"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace">
+    👻 Ghostty — [Full Stack • Skill Atlas] Terminal
+  </text>
+
+  <!-- Prompt -->
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace"
+     font-size="15" fill="#ebdbb2">
+    <text x="110" y="140">
+      <tspan fill="#ebdbb2" font-weight="700">dan@archlinux</tspan>
+      <tspan fill="#83a598"> 󰣇</tspan>
+      <tspan fill="#fe8019"> ❯</tspan>
+      <tspan fill="#8ec07c"> ~/stack</tspan>
+      <tspan fill="#fe8019"> ❯</tspan>
+      <tspan fill="#83a598"> git:main</tspan>
+      <tspan fill="#fe8019"> ❯</tspan>
+      <tspan> ./render_full_stack</tspan>
+      <tspan fill="#a89984"> --v3.0</tspan>
+    </text>
+
+    <text x="110" y="166">
+      <tspan fill="#b8bb26">✔</tspan>
+      <tspan fill="#a89984"> 84/84 Units Loaded Successfully</tspan>
+    </text>
+
+    <rect x="110" y="184" width="980" height="2" fill="url(#accent)" opacity="0.9"/>
+    <text x="110" y="210" fill="#a89984" font-size="13"># Modern skill matrix — hover the chips to peek the stack</text>
+  </g>
+
+  <!-- Main panel -->
+  <g filter="url(#shadow)">
+    <rect x="110" y="245" width="980" height="1410" rx="14" fill="#0b0f14" stroke="#3c3836" stroke-width="2"/>
+    <rect x="110" y="245" width="980" height="1410" rx="14" fill="url(#dots)" opacity="0.35"/>
+    <rect x="110" y="245" width="980" height="56" rx="14" fill="#0f1623" opacity="0.85"/>
+    <rect x="110" y="300" width="980" height="1" fill="#3c3836" opacity="0.9"/>
+
+    <text x="140" y="280" fill="#ebdbb2" font-size="14" font-weight="700"
+          font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace">
+      Tech Manifest • Full Stack Expertise • System Design Assets
+    </text>
+
+    <!-- Column divider -->
+    <line x1="600" y1="300" x2="600" y2="1655" stroke="#3c3836" stroke-width="2" opacity="0.85"/>
+  </g>
+
+  <!-- ===== Left column (x=130..580) ===== -->
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace">
+
+    <!-- FRONTEND -->
+    <rect x="130" y="318" width="4" height="18" fill="url(#accent)"/>
+    <text x="142" y="332" font-size="14" fill="#fabd2f" font-weight="700">🎨 Frontend</text>
+
+    <!-- chips row coords: x:130,287,444  | y:352,394,436,478,520 -->
+    <!-- Row 1 -->
+    <g transform="translate(130 352)"><title>HTML</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">HTML</text></g>
+    <g transform="translate(287 352)"><title>CSS</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">CSS</text></g>
+    <g transform="translate(444 352)"><title>Sass</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Sass</text></g>
+    <!-- Row 2 -->
+    <g transform="translate(130 394)"><title>TailwindCSS</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12" textLength="125" lengthAdjust="spacingAndGlyphs">TailwindCSS</text></g>
+    <g transform="translate(287 394)"><title>Bootstrap</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Bootstrap</text></g>
+    <g transform="translate(444 394)"><title>JavaScript</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">JavaScript</text></g>
+    <!-- Row 3 -->
+    <g transform="translate(130 436)"><title>TypeScript</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">TypeScript</text></g>
+    <g transform="translate(287 436)"><title>React</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">React</text></g>
+    <g transform="translate(444 436)"><title>Next.js</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Next.js</text></g>
+    <!-- Row 4 -->
+    <g transform="translate(130 478)"><title>Vue.js</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Vue.js</text></g>
+    <g transform="translate(287 478)"><title>Pinia</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Pinia</text></g>
+    <g transform="translate(444 478)"><title>Angular</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Angular</text></g>
+    <!-- Row 5 -->
+    <g transform="translate(130 520)"><title>Vite</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Vite</text></g>
+    <g transform="translate(287 520)"><title>Webpack</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Webpack</text></g>
+
+    <!-- DATABASES -->
+    <rect x="130" y="570" width="4" height="18" fill="url(#accent)"/>
+    <text x="142" y="584" font-size="14" fill="#83a598" font-weight="700">🛢️ Databases &amp; Storage</text>
+
+    <!-- y:604,646,688,730 -->
+    <g transform="translate(130 604)"><title>PostgreSQL</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">PostgreSQL</text></g>
+    <g transform="translate(287 604)"><title>MySQL</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">MySQL</text></g>
+    <g transform="translate(444 604)"><title>MongoDB</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">MongoDB</text></g>
+
+    <g transform="translate(130 646)"><title>MariaDB</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">MariaDB</text></g>
+    <g transform="translate(287 646)"><title>Oracle</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Oracle</text></g>
+    <g transform="translate(444 646)"><title>SQL Server</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12" textLength="125" lengthAdjust="spacingAndGlyphs">SQL Server</text></g>
+
+    <g transform="translate(130 688)"><title>Redis</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Redis</text></g>
+    <g transform="translate(287 688)"><title>Supabase</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Supabase</text></g>
+    <g transform="translate(444 688)"><title>DynamoDB</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">DynamoDB</text></g>
+
+    <g transform="translate(130 730)"><title>S3</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">S3</text></g>
+    <g transform="translate(287 730)"><title>RDS</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">RDS</text></g>
+
+    <!-- CLOUD -->
+    <rect x="130" y="780" width="4" height="18" fill="url(#accent)"/>
+    <text x="142" y="794" font-size="14" fill="#b8bb26" font-weight="700">☁️ Cloud &amp; DevOps</text>
+
+    <!-- y:814,856,898,940 -->
+    <g transform="translate(130 814)"><title>AWS</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">AWS</text></g>
+    <g transform="translate(287 814)"><title>Azure</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Azure</text></g>
+    <g transform="translate(444 814)"><title>GCP</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">GCP</text></g>
+
+    <g transform="translate(130 856)"><title>Docker</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Docker</text></g>
+    <g transform="translate(287 856)"><title>Podman</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Podman</text></g>
+    <g transform="translate(444 856)"><title>Kubernetes</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Kubernetes</text></g>
+
+    <g transform="translate(130 898)"><title>Terraform</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Terraform</text></g>
+    <g transform="translate(287 898)"><title>GitHub Actions</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12" textLength="125" lengthAdjust="spacingAndGlyphs">GitHub Actions</text></g>
+    <g transform="translate(444 898)"><title>GitLab</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">GitLab</text></g>
+
+    <!-- LINUX/CLI -->
+    <rect x="130" y="990" width="4" height="18" fill="url(#accent)"/>
+    <text x="142" y="1004" font-size="14" fill="#fe8019" font-weight="700">🐧 Linux / WM / CLI</text>
+
+    <!-- y:1024,1066,1108,1150 -->
+    <g transform="translate(130 1024)"><title>Linux</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Linux</text></g>
+    <g transform="translate(287 1024)"><title>Arch</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Arch</text></g>
+    <g transform="translate(444 1024)"><title>Ubuntu</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Ubuntu</text></g>
+
+    <g transform="translate(130 1066)"><title>Debian</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Debian</text></g>
+    <g transform="translate(287 1066)"><title>Fedora</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Fedora</text></g>
+    <g transform="translate(444 1066)"><title>Mint</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Mint</text></g>
+
+    <g transform="translate(130 1108)"><title>Hyprland</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Hyprland</text></g>
+    <g transform="translate(287 1108)"><title>i3</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">i3</text></g>
+    <g transform="translate(444 1108)"><title>Tmux</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Tmux</text></g>
+
+    <g transform="translate(130 1150)"><title>systemd</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">systemd</text></g>
+    <g transform="translate(287 1150)"><title>Bash</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Bash</text></g>
+
+  </g>
+
+  <!-- ===== Right column (x=630..1080) ===== -->
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace">
+
+    <!-- BACKEND -->
+    <rect x="630" y="318" width="4" height="18" fill="url(#accent)"/>
+    <text x="642" y="332" font-size="14" fill="#fabd2f" font-weight="700">🔧 Backend</text>
+
+    <!-- x:630,787,944 | y:352,394,436,478 -->
+    <g transform="translate(630 352)"><title>Node.js</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Node.js</text></g>
+    <g transform="translate(787 352)"><title>Express</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Express</text></g>
+    <g transform="translate(944 352)"><title>NestJS</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">NestJS</text></g>
+
+    <g transform="translate(630 394)"><title>Java</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Java</text></g>
+    <g transform="translate(787 394)"><title>Spring</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Spring</text></g>
+    <g transform="translate(944 394)"><title>Hibernate</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Hibernate</text></g>
+
+    <g transform="translate(630 436)"><title>Python</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Python</text></g>
+    <g transform="translate(787 436)"><title>FastAPI</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">FastAPI</text></g>
+    <g transform="translate(944 436)"><title>Django</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Django</text></g>
+
+    <g transform="translate(630 478)"><title>GraphQL</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">GraphQL</text></g>
+    <g transform="translate(787 478)"><title>Kafka</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Kafka</text></g>
+    <g transform="translate(944 478)"><title>RabbitMQ</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">RabbitMQ</text></g>
+
+    <!-- TESTING -->
+    <rect x="630" y="528" width="4" height="18" fill="url(#accent)"/>
+    <text x="642" y="542" font-size="14" fill="#83a598" font-weight="700">✅ Testing</text>
+
+    <!-- y:562,604,646 -->
+    <g transform="translate(630 562)"><title>Jest</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Jest</text></g>
+    <g transform="translate(787 562)"><title>Vitest</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Vitest</text></g>
+    <g transform="translate(944 562)"><title>Mocha</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Mocha</text></g>
+
+    <g transform="translate(630 604)"><title>Testing Library</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12" textLength="125" lengthAdjust="spacingAndGlyphs">Testing Library</text></g>
+    <g transform="translate(787 604)"><title>Playwright</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Playwright</text></g>
+    <g transform="translate(944 604)"><title>Cypress</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Cypress</text></g>
+
+    <g transform="translate(630 646)"><title>JUnit</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">JUnit</text></g>
+    <g transform="translate(787 646)"><title>Selenium</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Selenium</text></g>
+
+    <!-- API / TOOLING -->
+    <rect x="630" y="696" width="4" height="18" fill="url(#accent)"/>
+    <text x="642" y="710" font-size="14" fill="#b8bb26" font-weight="700">📚 API / Tooling</text>
+
+    <!-- y:730,772 -->
+    <g transform="translate(630 730)"><title>Swagger / OpenAPI</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12" textLength="125" lengthAdjust="spacingAndGlyphs">Swagger/OpenAPI</text></g>
+    <g transform="translate(787 730)"><title>Prisma</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Prisma</text></g>
+    <g transform="translate(944 730)"><title>Postman</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Postman</text></g>
+
+    <g transform="translate(630 772)"><title>Insomnia</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Insomnia</text></g>
+
+    <!-- UI / DESIGN SYSTEM -->
+    <rect x="630" y="822" width="4" height="18" fill="url(#accent)"/>
+    <text x="642" y="836" font-size="14" fill="#fe8019" font-weight="700">🧱 UI / Design System</text>
+
+    <g transform="translate(630 856)"><title>shadcn/ui</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">shadcn/ui</text></g>
+    <g transform="translate(787 856)"><title>Material UI</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Material UI</text></g>
+    <g transform="translate(944 856)"><title>Figma</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Figma</text></g>
+
+    <!-- PRODUCT / AGILE -->
+    <rect x="630" y="906" width="4" height="18" fill="url(#accent)"/>
+    <text x="642" y="920" font-size="14" fill="#83a598" font-weight="700">📊 Product / Agile</text>
+
+    <!-- y:940,982,1024 -->
+    <g transform="translate(630 940)"><title>Jira</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Jira</text></g>
+    <g transform="translate(787 940)"><title>Azure DevOps</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12" textLength="125" lengthAdjust="spacingAndGlyphs">Azure DevOps</text></g>
+    <g transform="translate(944 940)"><title>Miro</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Miro</text></g>
+
+    <g transform="translate(630 982)"><title>Notion</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Notion</text></g>
+    <g transform="translate(787 982)"><title>Confluence</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Confluence</text></g>
+    <g transform="translate(944 982)"><title>ClickUp</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">ClickUp</text></g>
+
+    <g transform="translate(630 1024)"><title>Obsidian</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Obsidian</text></g>
+
+    <!-- IDEs / EDITORS -->
+    <rect x="630" y="1074" width="4" height="18" fill="url(#accent)"/>
+    <text x="642" y="1088" font-size="14" fill="#b8bb26" font-weight="700">🧰 IDEs / Editors</text>
+
+    <!-- y:1108,1150,1192 -->
+    <g transform="translate(630 1108)"><title>VS Code</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">VS Code</text></g>
+    <g transform="translate(787 1108)"><title>IntelliJ IDEA</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12" textLength="125" lengthAdjust="spacingAndGlyphs">IntelliJ IDEA</text></g>
+    <g transform="translate(944 1108)"><title>WebStorm</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">WebStorm</text></g>
+
+    <g transform="translate(630 1150)"><title>PyCharm</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">PyCharm</text></g>
+    <g transform="translate(787 1150)"><title>Eclipse</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Eclipse</text></g>
+    <g transform="translate(944 1150)"><title>Neovim</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Neovim</text></g>
+
+    <g transform="translate(630 1192)"><title>Vim</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Vim</text></g>
+
+    <!-- TERMINALS -->
+    <rect x="630" y="1242" width="4" height="18" fill="url(#accent)"/>
+    <text x="642" y="1256" font-size="14" fill="#fe8019" font-weight="700">🖥️ Terminals</text>
+
+    <g transform="translate(630 1276)"><title>Ghostty</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Ghostty</text></g>
+    <g transform="translate(787 1276)"><title>Kitty</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">Kitty</text></g>
+    <g transform="translate(944 1276)"><title>WezTerm</title><rect width="145" height="32" rx="10" fill="#0d1117" stroke="#3c3836"/><text x="72.5" y="21" text-anchor="middle" fill="#ebdbb2" font-size="12">WezTerm</text></g>
+
+  </g>
+
+  <!-- Footer prompt -->
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace"
+     font-size="14" fill="#a89984">
+    <text x="600" y="1690" text-anchor="middle">
+      Tip: keep it readable — “aesthetic” is just “organized chaos” wearing cologne.
+    </text>
+
+    <text x="110" y="1725" fill="#ebdbb2" font-size="16">
+      <tspan fill="#fe8019">❯</tspan><tspan fill="#8ec07c"> cat</tspan><tspan> ./stack/manifest.md</tspan>
+    </text>
+
+    <text x="110" y="1750" fill="#ebdbb2" font-size="16">
+      <tspan fill="#fe8019">❯</tspan><tspan font-weight="700"> █</tspan>
+    </text>
+  </g>
+</svg>
