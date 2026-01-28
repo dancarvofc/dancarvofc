@@ -76,29 +76,13 @@
         </text>
     </g> <!--
     Footer -->
-    <g
-        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace"
-        font-size="14">
-        <text x="600" y="535" text-anchor="middle" fill="#a89984"> Found more 40+ certification
-            entries <tspan fill="#83a598" text-decoration="underline"> view all entries?</tspan>
-        </text>
-        <text x="110" y="565" fill="#ebdbb2" font-size="16">
-            <tspan fill="#fe8019">❯</tspan>
-            <tspan fill="#8ec07c"> cat</tspan>
-            <tspan> ./certifications/README.md</tspan>
-      </text>
+<text x="600" y="530" text-anchor="middle" fill="#a89984"
+      font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace"
+      font-size="14">
+  Found more 40+ certification entries
+  <a href="https://github.com/SEU_USER/SEU_REPO/tree/main/certifications" target="_blank">
+    <tspan fill="#83a598" text-decoration="underline"> view all entries?</tspan>
+  </a>
+</text>
 
-<text x="110" y="565" fill="#ebdbb2" font-size="16">
-            <tspan fill="#fe8019">❯</tspan>
-            <tspan fill="#8ec07c"> cat</tspan>
-            <tspan> ./certifications/README.md</tspan>
-        </text>
-
-        <text x="110" y="595" fill="#ebdbb2" font-size="16">
-            <tspan fill="#fe8019">❯ </tspan>
-            <tspan fill="#ebdbb2" font-weight="bold">█</tspan> 
-        </text>
-
-      
-    </g>
 </svg>
