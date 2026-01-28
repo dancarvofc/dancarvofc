@@ -88,8 +88,16 @@
             <tspan> ./certifications/README.md</tspan>
       </text>
 
+<text x="110" y="565" fill="#ebdbb2" font-size="16">
+            <tspan fill="#fe8019">❯</tspan>
+            <tspan fill="#8ec07c"> cat</tspan>
+            <tspan> ./certifications/README.md</tspan>
+        </text>
 
-
+        <text x="110" y="595" fill="#ebdbb2" font-size="16">
+            <tspan fill="#fe8019">❯ </tspan>
+            <tspan fill="#ebdbb2" font-weight="bold">█</tspan> 
+        </text>
 
       
     </g>
