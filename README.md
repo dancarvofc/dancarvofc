@@ -67,6 +67,171 @@ dan@archlinux 󰣇  ❯  📂 ~/documents/certs  ❯  𖣂 git:main  ❯  ./list
 </pre>
 </div>
 
+
+
+<!-- ✅ ÍCONES GRANDES + TOOLTIPS (GitHub friendly) -->
+<!-- Fonte: https://go-skill-icons.vercel.app/ -->
+
+<!-- 🎨 Frontend -->
+<h3>🎨 Frontend</h3>
+<p align="left">
+  <img title="HTML"        alt="HTML"        src="https://go-skill-icons.vercel.app/api/icons?i=html&theme=dark" height="64" />
+  <img title="CSS"         alt="CSS"         src="https://go-skill-icons.vercel.app/api/icons?i=css&theme=dark" height="64" />
+  <img title="Sass"        alt="Sass"        src="https://go-skill-icons.vercel.app/api/icons?i=sass&theme=dark" height="64" />
+  <img title="TailwindCSS" alt="TailwindCSS" src="https://go-skill-icons.vercel.app/api/icons?i=tailwindcss&theme=dark" height="64" />
+  <img title="Bootstrap"   alt="Bootstrap"   src="https://go-skill-icons.vercel.app/api/icons?i=bootstrap&theme=dark" height="64" />
+
+  <img title="JavaScript"  alt="JavaScript"  src="https://go-skill-icons.vercel.app/api/icons?i=javascript&theme=dark" height="64" />
+  <img title="TypeScript"  alt="TypeScript"  src="https://go-skill-icons.vercel.app/api/icons?i=typescript&theme=dark" height="64" />
+
+  <img title="React"       alt="React"       src="https://go-skill-icons.vercel.app/api/icons?i=react&theme=dark" height="64" />
+  <img title="Next.js"     alt="Next.js"     src="https://go-skill-icons.vercel.app/api/icons?i=nextjs&theme=dark" height="64" />
+  <img title="Vue.js"      alt="Vue.js"      src="https://go-skill-icons.vercel.app/api/icons?i=vuejs&theme=dark" height="64" />
+  <img title="Pinia"       alt="Pinia"       src="https://go-skill-icons.vercel.app/api/icons?i=pinia&theme=dark" height="64" />
+  <img title="Angular"     alt="Angular"     src="https://go-skill-icons.vercel.app/api/icons?i=angular&theme=dark" height="64" />
+
+  <img title="Vite"        alt="Vite"        src="https://go-skill-icons.vercel.app/api/icons?i=vite&theme=dark" height="64" />
+  <img title="Webpack"     alt="Webpack"     src="https://go-skill-icons.vercel.app/api/icons?i=webpack&theme=dark" height="64" />
+</p>
+
+<!-- 🔧 Backend -->
+<h3>🔧 Backend</h3>
+<p align="left">
+  <img title="Node.js"     alt="Node.js"     src="https://go-skill-icons.vercel.app/api/icons?i=nodejs&theme=dark" height="64" />
+  <img title="Express"     alt="Express"     src="https://go-skill-icons.vercel.app/api/icons?i=expressjs&theme=dark" height="64" />
+  <img title="NestJS"      alt="NestJS"      src="https://go-skill-icons.vercel.app/api/icons?i=nestjs&theme=dark" height="64" />
+
+  <img title="Java"        alt="Java"        src="https://go-skill-icons.vercel.app/api/icons?i=java&theme=dark" height="64" />
+  <img title="Spring"      alt="Spring"      src="https://go-skill-icons.vercel.app/api/icons?i=spring&theme=dark" height="64" />
+  <img title="Hibernate"   alt="Hibernate"   src="https://go-skill-icons.vercel.app/api/icons?i=hibernate&theme=dark" height="64" />
+
+  <img title="Python"      alt="Python"      src="https://go-skill-icons.vercel.app/api/icons?i=python&theme=dark" height="64" />
+  <img title="FastAPI"     alt="FastAPI"     src="https://go-skill-icons.vercel.app/api/icons?i=fastapi&theme=dark" height="64" />
+  <img title="Django"      alt="Django"      src="https://go-skill-icons.vercel.app/api/icons?i=django&theme=dark" height="64" />
+
+  <img title="GraphQL"     alt="GraphQL"     src="https://go-skill-icons.vercel.app/api/icons?i=graphql&theme=dark" height="64" />
+  <img title="Kafka"       alt="Kafka"       src="https://go-skill-icons.vercel.app/api/icons?i=kafka&theme=dark" height="64" />
+  <img title="RabbitMQ"    alt="RabbitMQ"    src="https://go-skill-icons.vercel.app/api/icons?i=rabbitmq&theme=dark" height="64" />
+</p>
+
+
+
+<!-- 🛢️ Databases & Storage -->
+<h3>🛢️ Databases & Storage</h3>
+<p align="left">
+  <img title="PostgreSQL"  alt="PostgreSQL"  src="https://go-skill-icons.vercel.app/api/icons?i=postgresql&theme=dark" height="64" />
+  <img title="MySQL"       alt="MySQL"       src="https://go-skill-icons.vercel.app/api/icons?i=mysql&theme=dark" height="64" />
+  <img title="MongoDB"     alt="MongoDB"     src="https://go-skill-icons.vercel.app/api/icons?i=mongodb&theme=dark" height="64" />
+  <img title="MariaDB"     alt="MariaDB"     src="https://go-skill-icons.vercel.app/api/icons?i=mariadb&theme=dark" height="64" />
+  <img title="Oracle"      alt="Oracle"      src="https://go-skill-icons.vercel.app/api/icons?i=oracle&theme=dark" height="64" />
+  <img title="SQL Server"  alt="SQL Server"  src="https://go-skill-icons.vercel.app/api/icons?i=sqlserver&theme=dark" height="64" />
+  <img title="Redis"       alt="Redis"       src="https://go-skill-icons.vercel.app/api/icons?i=redis&theme=dark" height="64" />
+
+  <img title="Supabase"    alt="Supabase"    src="https://go-skill-icons.vercel.app/api/icons?i=supabase&theme=dark" height="64" />
+  <img title="DynamoDB"    alt="DynamoDB"    src="https://go-skill-icons.vercel.app/api/icons?i=dynamodb&theme=dark" height="64" />
+  <img title="S3"          alt="S3"          src="https://go-skill-icons.vercel.app/api/icons?i=s3&theme=dark" height="64" />
+  <img title="RDS"         alt="RDS"         src="https://go-skill-icons.vercel.app/api/icons?i=rds&theme=dark" height="64" />
+</p>
+
+<!-- 🧱 UI / Design System -->
+<h3>🧱 UI / Design System</h3>
+<p align="left">
+  <img title="shadcn/ui"   alt="shadcn/ui"   src="https://go-skill-icons.vercel.app/api/icons?i=shadcn&theme=dark" height="64" />
+  <img title="Material UI" alt="Material UI" src="https://go-skill-icons.vercel.app/api/icons?i=materialui&theme=dark" height="64" />
+  <img title="Figma"       alt="Figma"       src="https://go-skill-icons.vercel.app/api/icons?i=figma&theme=dark" height="64" />
+</p>
+
+
+<!-- ✅ Testing -->
+<h3>✅ Testing</h3>
+<p align="left">
+  <img title="Jest"             alt="Jest"             src="https://go-skill-icons.vercel.app/api/icons?i=jest&theme=dark" height="64" />
+  <img title="Vitest"           alt="Vitest"           src="https://go-skill-icons.vercel.app/api/icons?i=vitest&theme=dark" height="64" />
+  <img title="Mocha"            alt="Mocha"            src="https://go-skill-icons.vercel.app/api/icons?i=mocha&theme=dark" height="64" />
+  <img title="Testing Library"  alt="Testing Library"  src="https://go-skill-icons.vercel.app/api/icons?i=testinglibrary&theme=dark" height="64" />
+  <img title="Playwright"       alt="Playwright"       src="https://go-skill-icons.vercel.app/api/icons?i=playwright&theme=dark" height="64" />
+  <img title="Cypress"          alt="Cypress"          src="https://go-skill-icons.vercel.app/api/icons?i=cypress&theme=dark" height="64" />
+  <img title="JUnit"            alt="JUnit"            src="https://go-skill-icons.vercel.app/api/icons?i=junit&theme=dark" height="64" />
+  <img title="Selenium"         alt="Selenium"         src="https://go-skill-icons.vercel.app/api/icons?i=selenium&theme=dark" height="64" />
+</p>
+
+<!-- 📚 API / Tooling -->
+<h3>📚 API / Tooling</h3>
+<p align="left">
+  <img title="Swagger / OpenAPI" alt="Swagger"  src="https://go-skill-icons.vercel.app/api/icons?i=swagger&theme=dark" height="64" />
+  <img title="Prisma"            alt="Prisma"   src="https://go-skill-icons.vercel.app/api/icons?i=prisma&theme=dark" height="64" />
+  <img title="Postman"           alt="Postman"  src="https://go-skill-icons.vercel.app/api/icons?i=postman&theme=dark" height="64" />
+  <img title="Insomnia"          alt="Insomnia" src="https://go-skill-icons.vercel.app/api/icons?i=insomnia&theme=dark" height="64" />
+</p>
+
+
+<!-- ☁️ Cloud & DevOps -->
+<h3>☁️ Cloud & DevOps</h3>
+<p align="left">
+  <img title="AWS"           alt="AWS"           src="https://go-skill-icons.vercel.app/api/icons?i=aws&theme=dark" height="64" />
+  <img title="Azure"         alt="Azure"         src="https://go-skill-icons.vercel.app/api/icons?i=azure&theme=dark" height="64" />
+  <img title="GCP"           alt="GCP"           src="https://go-skill-icons.vercel.app/api/icons?i=gcp&theme=dark" height="64" />
+
+  <img title="Docker"        alt="Docker"        src="https://go-skill-icons.vercel.app/api/icons?i=docker&theme=dark" height="64" />
+  <img title="Podman"        alt="Podman"        src="https://go-skill-icons.vercel.app/api/icons?i=podman&theme=dark" height="64" />
+  <img title="Kubernetes"    alt="Kubernetes"    src="https://go-skill-icons.vercel.app/api/icons?i=kubernetes&theme=dark" height="64" />
+  <img title="Terraform"     alt="Terraform"     src="https://go-skill-icons.vercel.app/api/icons?i=terraform&theme=dark" height="64" />
+
+  <img title="GitHub Actions" alt="GitHub Actions" src="https://go-skill-icons.vercel.app/api/icons?i=githubactions&theme=dark" height="64" />
+  <img title="GitLab"         alt="GitLab"         src="https://go-skill-icons.vercel.app/api/icons?i=gitlab&theme=dark" height="64" />
+</p>
+
+<!-- 📊 Product / Agile -->
+<h3>📊 Product / Agile</h3>
+<p align="left">
+  <img title="Jira"         alt="Jira"         src="https://go-skill-icons.vercel.app/api/icons?i=jira&theme=dark" height="64" />
+  <img title="Azure DevOps" alt="Azure DevOps" src="https://go-skill-icons.vercel.app/api/icons?i=azuredevops&theme=dark" height="64" />
+  <img title="Miro"         alt="Miro"         src="https://go-skill-icons.vercel.app/api/icons?i=miro&theme=dark" height="64" />
+  <img title="Notion"       alt="Notion"       src="https://go-skill-icons.vercel.app/api/icons?i=notion&theme=dark" height="64" />
+  <img title="Confluence"   alt="Confluence"   src="https://go-skill-icons.vercel.app/api/icons?i=confluence&theme=dark" height="64" />
+  <img title="ClickUp"      alt="ClickUp"      src="https://go-skill-icons.vercel.app/api/icons?i=clickup&theme=dark" height="64" />
+ <img title="Obsidian" alt="Obsidian" src="https://go-skill-icons.vercel.app/api/icons?i=obsidian&theme=dark" height="64" />
+</p>
+
+<!-- 🐧 Linux / WM / CLI -->
+<h3>🐧 Linux / WM / CLI</h3>
+<p align="left">
+  <img title="Linux"   alt="Linux"   src="https://go-skill-icons.vercel.app/api/icons?i=linux&theme=dark" height="64" />
+  <img title="Arch"    alt="Arch"    src="https://go-skill-icons.vercel.app/api/icons?i=arch&theme=dark" height="64" />
+  <img title="Mint"    alt="Mint"    src="https://go-skill-icons.vercel.app/api/icons?i=mint&theme=dark" height="64" />
+  <img title="Ubuntu"  alt="Ubuntu"  src="https://go-skill-icons.vercel.app/api/icons?i=ubuntu&theme=dark" height="64" />
+  <img title="Debian"  alt="Debian"  src="https://go-skill-icons.vercel.app/api/icons?i=debian&theme=dark" height="64" />
+  <img title="Fedora"  alt="Fedora"  src="https://go-skill-icons.vercel.app/api/icons?i=fedora&theme=dark" height="64" />
+
+  <img title="Hyprland" alt="Hyprland" src="https://go-skill-icons.vercel.app/api/icons?i=hyprland&theme=dark" height="64" />
+  <img title="i3"       alt="i3"       src="https://go-skill-icons.vercel.app/api/icons?i=i3&theme=dark" height="64" />
+
+  <img title="Tmux"     alt="Tmux"     src="https://go-skill-icons.vercel.app/api/icons?i=tmux&theme=dark" height="64" />
+  <img title="systemd"  alt="systemd"  src="https://go-skill-icons.vercel.app/api/icons?i=systemd&theme=dark" height="64" />
+  <img title="Bash"     alt="Bash"     src="https://go-skill-icons.vercel.app/api/icons?i=bash&theme=dark" height="64" />
+</p>
+
+<!-- 🧰 IDEs / Editors -->
+<h3>🧰 IDEs / Editors</h3>
+<p align="left">
+  <img title="VS Code"    alt="VS Code"    src="https://go-skill-icons.vercel.app/api/icons?i=vscode&theme=dark" height="64" />
+  <img title="IntelliJ IDEA" alt="IntelliJ IDEA" src="https://go-skill-icons.vercel.app/api/icons?i=idea&theme=dark" height="64" />
+  <img title="WebStorm"   alt="WebStorm"   src="https://go-skill-icons.vercel.app/api/icons?i=webstorm&theme=dark" height="64" />
+  <img title="PyCharm"    alt="PyCharm"    src="https://go-skill-icons.vercel.app/api/icons?i=pycharm&theme=dark" height="64" />
+  <img title="Eclipse"    alt="Eclipse"    src="https://go-skill-icons.vercel.app/api/icons?i=eclipse&theme=dark" height="64" />
+  <img title="Neovim"     alt="Neovim"     src="https://go-skill-icons.vercel.app/api/icons?i=neovim&theme=dark" height="64" />
+  <img title="Vim"        alt="Vim"        src="https://go-skill-icons.vercel.app/api/icons?i=vim&theme=dark" height="64" />
+</p>
+
+<!-- 🖥️ Terminals -->
+<h3>🖥️ Terminals</h3>
+<p align="left">
+  <img title="Ghostty" alt="Ghostty" src="https://go-skill-icons.vercel.app/api/icons?i=ghostty&theme=dark" height="64" />
+  <img title="Kitty"   alt="Kitty"   src="https://go-skill-icons.vercel.app/api/icons?i=kitty&theme=dark" height="64" />
+  <img title="WezTerm" alt="WezTerm" src="https://go-skill-icons.vercel.app/api/icons?i=wezterm&theme=dark" height="64" />
+</p>
+
+
 <div>
 
 <div align="center">
@@ -79,162 +244,6 @@ dan@archlinux 󰣇  ❯  📂 ~/documents/certs  ❯  𖣂 git:main  ❯  ./list
 
 <br/>
 
-<table border="0" cellspacing="0" cellpadding="0"  width="100%">
-  <tr>
-    <td bgcolor="#1e1e2e" valign="top" width="50%" style="border-radius: 10px; padding: 15px;">
-      <p align="center">
-        <kbd>🎨 Frontend Engine</kbd><br/><br/>
-        <img title="HTML5" src="https://go-skill-icons.vercel.app/api/icons?i=html&theme=dark" height="40" />
-        <img title="CSS3" src="https://go-skill-icons.vercel.app/api/icons?i=css&theme=dark" height="40" />
-        <img title="Sass" src="https://go-skill-icons.vercel.app/api/icons?i=sass&theme=dark" height="40" />
-        <img title="TailwindCSS" src="https://go-skill-icons.vercel.app/api/icons?i=tailwindcss&theme=dark" height="40" />
-        <img title="Bootstrap" src="https://go-skill-icons.vercel.app/api/icons?i=bootstrap&theme=dark" height="40" /><br/>
-        <img title="JavaScript" src="https://go-skill-icons.vercel.app/api/icons?i=javascript&theme=dark" height="40" />
-        <img title="TypeScript" src="https://go-skill-icons.vercel.app/api/icons?i=typescript&theme=dark" height="40" />
-        <img title="React" src="https://go-skill-icons.vercel.app/api/icons?i=react&theme=dark" height="40" />
-        <img title="Next.js" src="https://go-skill-icons.vercel.app/api/icons?i=nextjs&theme=dark" height="40" />
-        <img title="Vue.js" src="https://go-skill-icons.vercel.app/api/icons?i=vuejs&theme=dark" height="40" /><br/>
-        <img title="Pinia" src="https://go-skill-icons.vercel.app/api/icons?i=pinia&theme=dark" height="40" />
-        <img title="Angular" src="https://go-skill-icons.vercel.app/api/icons?i=angular&theme=dark" height="40" />
-        <img title="Vite" src="https://go-skill-icons.vercel.app/api/icons?i=vite&theme=dark" height="40" />
-        <img title="Webpack" src="https://go-skill-icons.vercel.app/api/icons?i=webpack&theme=dark" height="40" />
-      </p>
-    </td>
-    <td bgcolor="#1e1e2e" valign="top" width="50%" style="border-radius: 10px; padding: 15px;">
-      <p align="center">
-        <kbd>🧱 UI / Design & Tooling</kbd><br/><br/>
-        <img title="shadcn/ui" src="https://go-skill-icons.vercel.app/api/icons?i=shadcn&theme=dark" height="40" />
-        <img title="Material UI" src="https://go-skill-icons.vercel.app/api/icons?i=materialui&theme=dark" height="40" />
-        <img title="Figma" src="https://go-skill-icons.vercel.app/api/icons?i=figma&theme=dark" height="40" /><br/><br/>
-        <kbd>📚 API Tooling</kbd><br/><br/>
-        <img title="Swagger / OpenAPI" src="https://go-skill-icons.vercel.app/api/icons?i=swagger&theme=dark" height="40" />
-        <img title="Prisma" src="https://go-skill-icons.vercel.app/api/icons?i=prisma&theme=dark" height="40" />
-        <img title="Postman" src="https://go-skill-icons.vercel.app/api/icons?i=postman&theme=dark" height="40" />
-        <img title="Insomnia" src="https://go-skill-icons.vercel.app/api/icons?i=insomnia&theme=dark" height="40" />
-      </p>
-    </td>
-  </tr>
-
-  <tr>
-    <td bgcolor="#1e1e2e" valign="top" style="border-radius: 10px; padding: 15px;">
-      <p align="center">
-        <kbd>🔧 Backend Architecture</kbd><br/><br/>
-        <img title="Node.js" src="https://go-skill-icons.vercel.app/api/icons?i=nodejs&theme=dark" height="40" />
-        <img title="Express" src="https://go-skill-icons.vercel.app/api/icons?i=expressjs&theme=dark" height="40" />
-        <img title="NestJS" src="https://go-skill-icons.vercel.app/api/icons?i=nestjs&theme=dark" height="40" />
-        <img title="Java" src="https://go-skill-icons.vercel.app/api/icons?i=java&theme=dark" height="40" />
-        <img title="Spring Boot" src="https://go-skill-icons.vercel.app/api/icons?i=spring&theme=dark" height="40" /><br/>
-        <img title="Hibernate" src="https://go-skill-icons.vercel.app/api/icons?i=hibernate&theme=dark" height="40" />
-        <img title="Python" src="https://go-skill-icons.vercel.app/api/icons?i=python&theme=dark" height="40" />
-        <img title="FastAPI" src="https://go-skill-icons.vercel.app/api/icons?i=fastapi&theme=dark" height="40" />
-        <img title="Django" src="https://go-skill-icons.vercel.app/api/icons?i=django&theme=dark" height="40" /><br/>
-        <img title="GraphQL" src="https://go-skill-icons.vercel.app/api/icons?i=graphql&theme=dark" height="40" />
-        <img title="Kafka" src="https://go-skill-icons.vercel.app/api/icons?i=kafka&theme=dark" height="40" />
-        <img title="RabbitMQ" src="https://go-skill-icons.vercel.app/api/icons?i=rabbitmq&theme=dark" height="40" />
-      </p>
-    </td>
-    <td bgcolor="#1e1e2e" valign="top" style="border-radius: 10px; padding: 15px;">
-      <p align="center">
-        <kbd>✅ Quality & Testing</kbd><br/><br/>
-        <img title="Jest" src="https://go-skill-icons.vercel.app/api/icons?i=jest&theme=dark" height="40" />
-        <img title="Vitest" src="https://go-skill-icons.vercel.app/api/icons?i=vitest&theme=dark" height="40" />
-        <img title="Mocha" src="https://go-skill-icons.vercel.app/api/icons?i=mocha&theme=dark" height="40" />
-        <img title="Testing Library" src="https://go-skill-icons.vercel.app/api/icons?i=testinglibrary&theme=dark" height="40" /><br/>
-        <img title="Playwright" src="https://go-skill-icons.vercel.app/api/icons?i=playwright&theme=dark" height="40" />
-        <img title="Cypress" src="https://go-skill-icons.vercel.app/api/icons?i=cypress&theme=dark" height="40" />
-        <img title="JUnit" src="https://go-skill-icons.vercel.app/api/icons?i=junit&theme=dark" height="40" />
-        <img title="Selenium" src="https://go-skill-icons.vercel.app/api/icons?i=selenium&theme=dark" height="40" />
-      </p>
-    </td>
-  </tr>
-
-  <tr>
-    <td bgcolor="#1e1e2e" valign="top" style="border-radius: 10px; padding: 15px;">
-      <p align="center">
-        <kbd>🛢️ Databases & Storage</kbd><br/><br/>
-        <img title="PostgreSQL" src="https://go-skill-icons.vercel.app/api/icons?i=postgresql&theme=dark" height="40" />
-        <img title="MySQL" src="https://go-skill-icons.vercel.app/api/icons?i=mysql&theme=dark" height="40" />
-        <img title="MongoDB" src="https://go-skill-icons.vercel.app/api/icons?i=mongodb&theme=dark" height="40" />
-        <img title="MariaDB" src="https://go-skill-icons.vercel.app/api/icons?i=mariadb&theme=dark" height="40" /><br/>
-        <img title="Oracle" src="https://go-skill-icons.vercel.app/api/icons?i=oracle&theme=dark" height="40" />
-        <img title="SQL Server" src="https://go-skill-icons.vercel.app/api/icons?i=sqlserver&theme=dark" height="40" />
-        <img title="Redis" src="https://go-skill-icons.vercel.app/api/icons?i=redis&theme=dark" height="40" /><br/>
-        <img title="Supabase" src="https://go-skill-icons.vercel.app/api/icons?i=supabase&theme=dark" height="40" />
-        <img title="DynamoDB" src="https://go-skill-icons.vercel.app/api/icons?i=dynamodb&theme=dark" height="40" />
-        <img title="AWS S3" src="https://go-skill-icons.vercel.app/api/icons?i=s3&theme=dark" height="40" />
-        <img title="AWS RDS" src="https://go-skill-icons.vercel.app/api/icons?i=rds&theme=dark" height="40" />
-      </p>
-    </td>
-    <td bgcolor="#1e1e2e" valign="top" style="border-radius: 10px; padding: 15px;">
-      <p align="center">
-        <kbd>☁️ Cloud & DevOps</kbd><br/><br/>
-        <img title="AWS" src="https://go-skill-icons.vercel.app/api/icons?i=aws&theme=dark" height="40" />
-        <img title="Azure" src="https://go-skill-icons.vercel.app/api/icons?i=azure&theme=dark" height="40" />
-        <img title="GCP" src="https://go-skill-icons.vercel.app/api/icons?i=gcp&theme=dark" height="40" /><br/>
-        <img title="Docker" src="https://go-skill-icons.vercel.app/api/icons?i=docker&theme=dark" height="40" />
-        <img title="Podman" src="https://go-skill-icons.vercel.app/api/icons?i=podman&theme=dark" height="40" />
-        <img title="Kubernetes" src="https://go-skill-icons.vercel.app/api/icons?i=kubernetes&theme=dark" height="40" />
-        <img title="Terraform" src="https://go-skill-icons.vercel.app/api/icons?i=terraform&theme=dark" height="40" /><br/>
-        <img title="GitHub Actions" src="https://go-skill-icons.vercel.app/api/icons?i=githubactions&theme=dark" height="40" />
-        <img title="GitLab" src="https://go-skill-icons.vercel.app/api/icons?i=gitlab&theme=dark" height="40" />
-      </p>
-    </td>
-  </tr>
-
-  <tr>
-    <td bgcolor="#1e1e2e" valign="top" style="border-radius: 10px; padding: 15px;">
-      <p align="center">
-        <kbd>🐧 Linux / WM / CLI</kbd><br/><br/>
-        <img title="Linux" src="https://go-skill-icons.vercel.app/api/icons?i=linux&theme=dark" height="35" />
-        <img title="Arch" src="https://go-skill-icons.vercel.app/api/icons?i=arch&theme=dark" height="35" />
-        <img title="Mint" src="https://go-skill-icons.vercel.app/api/icons?i=mint&theme=dark" height="35" />
-        <img title="Ubuntu" src="https://go-skill-icons.vercel.app/api/icons?i=ubuntu&theme=dark" height="35" />
-        <img title="Debian" src="https://go-skill-icons.vercel.app/api/icons?i=debian&theme=dark" height="35" />
-        <img title="Fedora" src="https://go-skill-icons.vercel.app/api/icons?i=fedora&theme=dark" height="35" /><br/>
-        <img title="Hyprland" src="https://go-skill-icons.vercel.app/api/icons?i=hyprland&theme=dark" height="35" />
-        <img title="i3wm" src="https://go-skill-icons.vercel.app/api/icons?i=i3&theme=dark" height="35" />
-        <img title="Tmux" src="https://go-skill-icons.vercel.app/api/icons?i=tmux&theme=dark" height="35" />
-        <img title="systemd" src="https://go-skill-icons.vercel.app/api/icons?i=systemd&theme=dark" height="35" />
-        <img title="Bash" src="https://go-skill-icons.vercel.app/api/icons?i=bash&theme=dark" height="35" />
-      </p>
-    </td>
-    <td bgcolor="#1e1e2e" valign="top" style="border-radius: 10px; padding: 15px;">
-      <p align="center">
-        <kbd>📊 Product / Agile</kbd><br/><br/>
-        <img title="Jira" src="https://go-skill-icons.vercel.app/api/icons?i=jira&theme=dark" height="40" />
-        <img title="Azure DevOps" src="https://go-skill-icons.vercel.app/api/icons?i=azuredevops&theme=dark" height="40" />
-        <img title="Miro" src="https://go-skill-icons.vercel.app/api/icons?i=miro&theme=dark" height="40" />
-        <img title="Notion" src="https://go-skill-icons.vercel.app/api/icons?i=notion&theme=dark" height="40" /><br/>
-        <img title="Confluence" src="https://go-skill-icons.vercel.app/api/icons?i=confluence&theme=dark" height="40" />
-        <img title="ClickUp" src="https://go-skill-icons.vercel.app/api/icons?i=clickup&theme=dark" height="40" />
-        <img title="Obsidian" src="https://go-skill-icons.vercel.app/api/icons?i=obsidian&theme=dark" height="40" />
-      </p>
-    </td>
-  </tr>
-
-  <tr>
-    <td bgcolor="#1e1e2e" valign="top" style="border-radius: 10px; padding: 15px;">
-      <p align="center">
-        <kbd>🧰 IDEs & Editors</kbd><br/><br/>
-        <img title="VS Code" src="https://go-skill-icons.vercel.app/api/icons?i=vscode&theme=dark" height="40" />
-        <img title="IntelliJ IDEA" src="https://go-skill-icons.vercel.app/api/icons?i=idea&theme=dark" height="40" />
-        <img title="WebStorm" src="https://go-skill-icons.vercel.app/api/icons?i=webstorm&theme=dark" height="40" />
-        <img title="PyCharm" src="https://go-skill-icons.vercel.app/api/icons?i=pycharm&theme=dark" height="40" /><br/>
-        <img title="Eclipse" src="https://go-skill-icons.vercel.app/api/icons?i=eclipse&theme=dark" height="40" />
-        <img title="Neovim" src="https://go-skill-icons.vercel.app/api/icons?i=neovim&theme=dark" height="40" />
-        <img title="Vim" src="https://go-skill-icons.vercel.app/api/icons?i=vim&theme=dark" height="40" />
-      </p>
-    </td>
-    <td bgcolor="#1e1e2e" valign="top" style="border-radius: 10px; padding: 15px;">
-      <p align="center">
-        <kbd>🖥️ Terminals</kbd><br/><br/>
-        <img title="Ghostty" src="https://go-skill-icons.vercel.app/api/icons?i=ghostty&theme=dark" height="40" />
-        <img title="Kitty" src="https://go-skill-icons.vercel.app/api/icons?i=kitty&theme=dark" height="40" />
-        <img title="WezTerm" src="https://go-skill-icons.vercel.app/api/icons?i=wezterm&theme=dark" height="40" />
-      </p>
-    </td>
-  </tr>
-</table>
 
 </div>
 
