@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
   <!-- Terminal window (no outer background) -->
   <rect x="70" y="55" width="1060" height="510" rx="0" ry="0" fill="#282828"/>
-  <rect x="70" y="73" width="1060" height="492" fill="#282828"/>
+  <rect x="70" y="73" width="1060" height="492" fill="#0d1117"/>
   <rect x="70" y="55" width="1060" height="510" fill="none" stroke="#3c3836" stroke-width="2"/>
 
   <!-- Top bar (smaller) -->
-  <rect x="70" y="55" width="1060" height="52" rx="0" ry="0" fill="#32302f"/>
+  <rect x="70" y="55" width="1060" height="52" rx="0" ry="0" fill="#151b23"/>
   <circle cx="110" cy="81" r="8" fill="#fb4934"/>
   <circle cx="140" cy="81" r="8" fill="#fabd2f"/>
   <circle cx="170" cy="81" r="8" fill="#b8bb26"/>
