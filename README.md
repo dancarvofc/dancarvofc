@@ -1,6 +1,6 @@
 <h1 align="center">root@danilo:~$ [INFO -> Coffee: Active] ./launch_innovation.sh </h1>
 <h3 align="center">
-  ░▒▒▓▓  ☕︎ &nbsp; Java specialist by day &emsp; • &emsp; 𓊍 &nbsp; Product strategist by night &emsp; • &emsp; &lt;/&gt; &nbsp; Full-stack 24/7  ▓▓▒▒░
+  ░▒▒▓▓  ☕︎ &thinsp; Java specialist by day &thinsp; • &thinsp; 𓊍 &thinsp; Product strategist by night &thinsp; • &thinsp; &lt;/&gt; Full-stack 24/7  ▓▓▒▒░
 </h3>
 
   
