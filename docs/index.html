@@ -1,0 +1,1083 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SkillDeck • Dan</title>
+
+  <style>
+    :root {
+      --bg: #0d1117;
+      --panel: #0b0f14;
+      --panel2: #151b23;
+      --stroke: #3c3836;
+      --fg: #ebdbb2;
+      --muted: #a89984;
+      --a: #fe8019;
+      --b: #83a598;
+      --c: #b8bb26;
+      --y: #fabd2f;
+      --r: #fb4934;
+    }
+
+    * {
+      box-sizing: border-box
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 28px 14px;
+      color: var(--fg);
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      background:
+        radial-gradient(1200px 700px at 20% 0%, rgba(254, 128, 25, 0.10), transparent 60%),
+        radial-gradient(1000px 650px at 90% 20%, rgba(131, 165, 152, 0.10), transparent 55%),
+        var(--bg);
+    }
+
+    .terminal {
+      width: min(1160px, 100%);
+      border: 2px solid var(--stroke);
+      background: var(--panel);
+      box-shadow: 0 18px 40px rgba(0, 0, 0, .45);
+    }
+
+    .topbar {
+      height: 52px;
+      background: var(--panel2);
+      border-bottom: 1px solid var(--stroke);
+      display: flex;
+      align-items: center;
+      padding: 0 16px;
+      gap: 10px;
+      position: relative;
+    }
+
+    .dot {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%
+    }
+
+    .dot.red {
+      background: var(--r)
+    }
+
+    .dot.yellow {
+      background: var(--y)
+    }
+
+    .dot.green {
+      background: var(--c)
+    }
+
+    .title {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      font-weight: 800;
+      font-size: 14px;
+      opacity: .95;
+      user-select: none;
+    }
+
+    .content {
+      padding: 18px;
+      background: var(--bg);
+    }
+
+    .prompt {
+      font-size: 14px;
+      line-height: 1.55;
+      margin-bottom: 12px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .prompt .a {
+      color: var(--a)
+    }
+
+    .prompt .b {
+      color: var(--b)
+    }
+
+    .prompt .c {
+      color: var(--c)
+    }
+
+    .prompt .m {
+      color: var(--muted)
+    }
+
+    .divider {
+      height: 2px;
+      background: linear-gradient(90deg, var(--a), var(--b), var(--c));
+      opacity: .9;
+      margin: 10px 0 16px 0;
+    }
+
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 14px;
+    }
+
+    .leftControls,
+    .rightControls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center
+    }
+
+    .btn {
+      border: 1px solid var(--stroke);
+      background: #0d1117;
+      color: var(--fg);
+      border-radius: 12px;
+      padding: 8px 10px;
+      cursor: pointer;
+      font-size: 12px;
+      transition: transform .08s ease, border-color .15s ease, background .15s ease;
+      user-select: none;
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+      border-color: rgba(235, 219, 178, .25);
+      background: rgba(21, 27, 35, .55)
+    }
+
+    .btn.is-active {
+      border-color: rgba(254, 128, 25, .65);
+      box-shadow: 0 0 0 3px rgba(254, 128, 25, .12)
+    }
+
+    .search {
+      border: 1px solid var(--stroke);
+      background: #0d1117;
+      color: var(--fg);
+      border-radius: 12px;
+      padding: 9px 12px;
+      font-size: 12px;
+      outline: none;
+      min-width: 280px;
+    }
+
+    .search::placeholder {
+      color: rgba(168, 153, 132, .75)
+    }
+
+    .hint {
+      color: var(--muted);
+      font-size: 12px;
+      opacity: .9
+    }
+
+    .grid {
+      border: 2px solid var(--stroke);
+      background: rgba(11, 15, 20, .55);
+      padding: 14px;
+      border-radius: 14px;
+      position: relative;
+    }
+
+    .grid:before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image: radial-gradient(rgba(60, 56, 54, .35) 1px, transparent 1px);
+      background-size: 18px 18px;
+      opacity: .32;
+      pointer-events: none;
+      border-radius: 14px;
+    }
+
+    .grid-sizer,
+    .grid-item {
+      width: 12.5%;
+    }
+
+    /* 8 cols */
+    @media(max-width:1020px) {
+
+      .grid-sizer,
+      .grid-item {
+        width: 20%;
+      }
+
+      .search {
+        min-width: 210px
+      }
+    }
+
+    @media(max-width:720px) {
+
+      .grid-sizer,
+      .grid-item {
+        width: 25%;
+      }
+    }
+
+    @media(max-width:520px) {
+
+      .grid-sizer,
+      .grid-item {
+        width: 33.333%;
+      }
+    }
+
+    .grid-item {
+      padding: 10px;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* TILE: sem borda, sem caixa, só ícone */
+    .tile {
+      height: 60px;
+      border-radius: 16px;
+      border: none;
+      background: transparent;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 4px;
+      transition: transform .12s ease, filter .12s ease;
+    }
+
+    .tile:hover {
+      transform: translateY(-2px);
+      filter: drop-shadow(0 12px 20px rgba(0, 0, 0, .35));
+    }
+
+    .iconOnly {
+      width: 44px;
+      height: 44px;
+    }
+
+    .iconOnly img {
+      width: 44px;
+      height: 44px;
+    }
+
+    .label {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      line-height: 1.1;
+      padding: 0 6px;
+      max-width: 120px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .footer {
+      margin-top: 12px;
+      color: var(--muted);
+      font-size: 12px;
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    a {
+      color: var(--b);
+      text-decoration: none
+    }
+
+    a:hover {
+      text-decoration: underline
+    }
+  </style>
+</head>
+
+<body>
+  <div class="terminal" role="application" aria-label="SkillDeck UI">
+    <div class="topbar">
+      <span class="dot red"></span>
+      <span class="dot yellow"></span>
+      <span class="dot green"></span>
+      <div class="title">👻 Ghostty — SkillDeck (Icons Only)</div>
+    </div>
+
+    <div class="content">
+      <div class="prompt">
+        <span style="font-weight:800">dan@archlinux</span> <span class="b">󰣇</span>
+        <span class="a"> ❯</span> <span class="c">skilldeck</span> open
+        <span class="m"> --default fullstack --icons-only --filters all</span>
+        <br />
+        <span class="c">✔</span> <span class="m">Default: Full Stack (Frontend + Backend). All categories filterable.</span>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="controls">
+        <div class="leftControls" id="filters">
+          <button class="btn is-active" data-filter=".fullstack">Full Stack</button>
+          <button class="btn" data-filter="*">All</button>
+
+          <button class="btn" data-filter=".frontend">Frontend</button>
+          <button class="btn" data-filter=".uiux">UI / Design</button>
+
+          <button class="btn" data-filter=".backend">Backend</button>
+          <button class="btn" data-filter=".testing">Testing</button>
+          <button class="btn" data-filter=".api">API / Tooling</button>
+
+          <button class="btn" data-filter=".data">Databases / Storage</button>
+          <button class="btn" data-filter=".devops">Cloud / DevOps</button>
+
+          <button class="btn" data-filter=".product">Product / Agile</button>
+
+          <button class="btn" data-filter=".linux">Linux / WM / CLI</button>
+          <button class="btn" data-filter=".editors">IDEs / Editors</button>
+          <button class="btn" data-filter=".terminals">Terminals</button>
+        </div>
+
+        <div class="rightControls">
+          <input id="quicksearch" class="search" type="search" placeholder="Search… (ex: react, kubernetes, postgres)" />
+          <span class="hint" id="countHint">—</span>
+        </div>
+      </div>
+
+      <div class="grid" id="grid">
+        <div class="grid-sizer"></div>
+
+        <!-- Helper:
+          class="grid-item frontend fullstack" => aparece no Full Stack default
+          data-name ajuda a busca
+          title aparece como tooltip
+        -->
+
+        <!-- FRONTEND (fullstack) -->
+        <div class="grid-item frontend fullstack" data-name="html">
+          <div class="tile" title="HTML">
+            <div class="iconOnly"><img alt="HTML" src="https://go-skill-icons.vercel.app/api/icons?i=html&theme=dark" /></div>
+            <div class="label">HTML</div>
+          </div>
+        </div>
+
+        <div class="grid-item frontend fullstack" data-name="css">
+          <div class="tile" title="CSS">
+            <div class="iconOnly"><img alt="CSS" src="https://go-skill-icons.vercel.app/api/icons?i=css&theme=dark" /></div>
+            <div class="label">CSS</div>
+          </div>
+        </div>
+
+        <div class="grid-item frontend fullstack" data-name="sass">
+          <div class="tile" title="Sass">
+            <div class="iconOnly"><img alt="Sass" src="https://go-skill-icons.vercel.app/api/icons?i=sass&theme=dark" /></div>
+            <div class="label">Sass</div>
+          </div>
+        </div>
+
+        <div class="grid-item frontend fullstack" data-name="tailwindcss tailwind">
+          <div class="tile" title="TailwindCSS">
+            <div class="iconOnly"><img alt="TailwindCSS" src="https://go-skill-icons.vercel.app/api/icons?i=tailwindcss&theme=dark" /></div>
+            <div class="label">TailwindCSS</div>
+          </div>
+        </div>
+
+        <div class="grid-item frontend fullstack" data-name="bootstrap">
+          <div class="tile" title="Bootstrap">
+            <div class="iconOnly"><img alt="Bootstrap" src="https://go-skill-icons.vercel.app/api/icons?i=bootstrap&theme=dark" /></div>
+            <div class="label">Bootstrap</div>
+          </div>
+        </div>
+
+        <div class="grid-item frontend fullstack" data-name="javascript js">
+          <div class="tile" title="JavaScript">
+            <div class="iconOnly"><img alt="JavaScript" src="https://go-skill-icons.vercel.app/api/icons?i=javascript&theme=dark" /></div>
+            <div class="label">JavaScript</div>
+          </div>
+        </div>
+
+        <div class="grid-item frontend fullstack" data-name="typescript ts">
+          <div class="tile" title="TypeScript">
+            <div class="iconOnly"><img alt="TypeScript" src="https://go-skill-icons.vercel.app/api/icons?i=typescript&theme=dark" /></div>
+            <div class="label">TypeScript</div>
+          </div>
+        </div>
+
+        <div class="grid-item frontend fullstack" data-name="react">
+          <div class="tile" title="React">
+            <div class="iconOnly"><img alt="React" src="https://go-skill-icons.vercel.app/api/icons?i=react&theme=dark" /></div>
+            <div class="label">React</div>
+          </div>
+        </div>
+
+        <div class="grid-item frontend fullstack" data-name="nextjs next">
+          <div class="tile" title="Next.js">
+            <div class="iconOnly"><img alt="Next.js" src="https://go-skill-icons.vercel.app/api/icons?i=nextjs&theme=dark" /></div>
+            <div class="label">Next.js</div>
+          </div>
+        </div>
+
+        <div class="grid-item frontend fullstack" data-name="vue vuejs">
+          <div class="tile" title="Vue.js">
+            <div class="iconOnly"><img alt="Vue.js" src="https://go-skill-icons.vercel.app/api/icons?i=vuejs&theme=dark" /></div>
+            <div class="label">Vue.js</div>
+          </div>
+        </div>
+
+        <div class="grid-item frontend fullstack" data-name="pinia">
+          <div class="tile" title="Pinia">
+            <div class="iconOnly"><img alt="Pinia" src="https://go-skill-icons.vercel.app/api/icons?i=pinia&theme=dark" /></div>
+            <div class="label">Pinia</div>
+          </div>
+        </div>
+
+        <div class="grid-item frontend fullstack" data-name="angular">
+          <div class="tile" title="Angular">
+            <div class="iconOnly"><img alt="Angular" src="https://go-skill-icons.vercel.app/api/icons?i=angular&theme=dark" /></div>
+            <div class="label">Angular</div>
+          </div>
+        </div>
+
+        <div class="grid-item frontend fullstack" data-name="vite">
+          <div class="tile" title="Vite">
+            <div class="iconOnly"><img alt="Vite" src="https://go-skill-icons.vercel.app/api/icons?i=vite&theme=dark" /></div>
+            <div class="label">Vite</div>
+          </div>
+        </div>
+
+        <div class="grid-item frontend fullstack" data-name="webpack">
+          <div class="tile" title="Webpack">
+            <div class="iconOnly"><img alt="Webpack" src="https://go-skill-icons.vercel.app/api/icons?i=webpack&theme=dark" /></div>
+            <div class="label">Webpack</div>
+          </div>
+        </div>
+
+        <!-- UI / DESIGN -->
+        <div class="grid-item uiux" data-name="shadcn ui">
+          <div class="tile" title="shadcn/ui">
+            <div class="iconOnly"><img alt="shadcn/ui" src="https://go-skill-icons.vercel.app/api/icons?i=shadcn&theme=dark" /></div>
+            <div class="label">shadcn/ui</div>
+          </div>
+        </div>
+
+        <div class="grid-item uiux" data-name="materialui mui">
+          <div class="tile" title="Material UI">
+            <div class="iconOnly"><img alt="Material UI" src="https://go-skill-icons.vercel.app/api/icons?i=materialui&theme=dark" /></div>
+            <div class="label">Material UI</div>
+          </div>
+        </div>
+
+        <div class="grid-item uiux" data-name="figma">
+          <div class="tile" title="Figma">
+            <div class="iconOnly"><img alt="Figma" src="https://go-skill-icons.vercel.app/api/icons?i=figma&theme=dark" /></div>
+            <div class="label">Figma</div>
+          </div>
+        </div>
+
+        <!-- BACKEND (fullstack) -->
+        <div class="grid-item backend fullstack" data-name="node nodejs">
+          <div class="tile" title="Node.js">
+            <div class="iconOnly"><img alt="Node.js" src="https://go-skill-icons.vercel.app/api/icons?i=nodejs&theme=dark" /></div>
+            <div class="label">Node.js</div>
+          </div>
+        </div>
+
+        <div class="grid-item backend fullstack" data-name="express expressjs">
+          <div class="tile" title="Express">
+            <div class="iconOnly"><img alt="Express" src="https://go-skill-icons.vercel.app/api/icons?i=expressjs&theme=dark" /></div>
+            <div class="label">Express</div>
+          </div>
+        </div>
+
+        <div class="grid-item backend fullstack" data-name="nestjs nest">
+          <div class="tile" title="NestJS">
+            <div class="iconOnly"><img alt="NestJS" src="https://go-skill-icons.vercel.app/api/icons?i=nestjs&theme=dark" /></div>
+            <div class="label">NestJS</div>
+          </div>
+        </div>
+
+        <div class="grid-item backend fullstack" data-name="java">
+          <div class="tile" title="Java">
+            <div class="iconOnly"><img alt="Java" src="https://go-skill-icons.vercel.app/api/icons?i=java&theme=dark" /></div>
+            <div class="label">Java</div>
+          </div>
+        </div>
+
+        <div class="grid-item backend fullstack" data-name="spring">
+          <div class="tile" title="Spring">
+            <div class="iconOnly"><img alt="Spring" src="https://go-skill-icons.vercel.app/api/icons?i=spring&theme=dark" /></div>
+            <div class="label">Spring</div>
+          </div>
+        </div>
+
+        <div class="grid-item backend fullstack" data-name="hibernate">
+          <div class="tile" title="Hibernate">
+            <div class="iconOnly"><img alt="Hibernate" src="https://go-skill-icons.vercel.app/api/icons?i=hibernate&theme=dark" /></div>
+            <div class="label">Hibernate</div>
+          </div>
+        </div>
+
+        <div class="grid-item backend fullstack" data-name="python">
+          <div class="tile" title="Python">
+            <div class="iconOnly"><img alt="Python" src="https://go-skill-icons.vercel.app/api/icons?i=python&theme=dark" /></div>
+            <div class="label">Python</div>
+          </div>
+        </div>
+
+        <div class="grid-item backend fullstack" data-name="fastapi">
+          <div class="tile" title="FastAPI">
+            <div class="iconOnly"><img alt="FastAPI" src="https://go-skill-icons.vercel.app/api/icons?i=fastapi&theme=dark" /></div>
+            <div class="label">FastAPI</div>
+          </div>
+        </div>
+
+        <div class="grid-item backend fullstack" data-name="django">
+          <div class="tile" title="Django">
+            <div class="iconOnly"><img alt="Django" src="https://go-skill-icons.vercel.app/api/icons?i=django&theme=dark" /></div>
+            <div class="label">Django</div>
+          </div>
+        </div>
+
+        <div class="grid-item backend fullstack" data-name="graphql gql">
+          <div class="tile" title="GraphQL">
+            <div class="iconOnly"><img alt="GraphQL" src="https://go-skill-icons.vercel.app/api/icons?i=graphql&theme=dark" /></div>
+            <div class="label">GraphQL</div>
+          </div>
+        </div>
+
+        <div class="grid-item backend fullstack" data-name="kafka">
+          <div class="tile" title="Kafka">
+            <div class="iconOnly"><img alt="Kafka" src="https://go-skill-icons.vercel.app/api/icons?i=kafka&theme=dark" /></div>
+            <div class="label">Kafka</div>
+          </div>
+        </div>
+
+        <div class="grid-item backend fullstack" data-name="rabbitmq">
+          <div class="tile" title="RabbitMQ">
+            <div class="iconOnly"><img alt="RabbitMQ" src="https://go-skill-icons.vercel.app/api/icons?i=rabbitmq&theme=dark" /></div>
+            <div class="label">RabbitMQ</div>
+          </div>
+        </div>
+
+        <!-- TESTING -->
+        <div class="grid-item testing" data-name="jest">
+          <div class="tile" title="Jest">
+            <div class="iconOnly"><img alt="Jest" src="https://go-skill-icons.vercel.app/api/icons?i=jest&theme=dark" /></div>
+            <div class="label">Jest</div>
+          </div>
+        </div>
+
+        <div class="grid-item testing" data-name="vitest">
+          <div class="tile" title="Vitest">
+            <div class="iconOnly"><img alt="Vitest" src="https://go-skill-icons.vercel.app/api/icons?i=vitest&theme=dark" /></div>
+            <div class="label">Vitest</div>
+          </div>
+        </div>
+
+        <div class="grid-item testing" data-name="mocha">
+          <div class="tile" title="Mocha">
+            <div class="iconOnly"><img alt="Mocha" src="https://go-skill-icons.vercel.app/api/icons?i=mocha&theme=dark" /></div>
+            <div class="label">Mocha</div>
+          </div>
+        </div>
+
+        <div class="grid-item testing" data-name="testinglibrary">
+          <div class="tile" title="Testing Library">
+            <div class="iconOnly"><img alt="Testing Library" src="https://go-skill-icons.vercel.app/api/icons?i=testinglibrary&theme=dark" /></div>
+            <div class="label">Testing Lib</div>
+          </div>
+        </div>
+
+        <div class="grid-item testing" data-name="playwright">
+          <div class="tile" title="Playwright">
+            <div class="iconOnly"><img alt="Playwright" src="https://go-skill-icons.vercel.app/api/icons?i=playwright&theme=dark" /></div>
+            <div class="label">Playwright</div>
+          </div>
+        </div>
+
+        <div class="grid-item testing" data-name="cypress">
+          <div class="tile" title="Cypress">
+            <div class="iconOnly"><img alt="Cypress" src="https://go-skill-icons.vercel.app/api/icons?i=cypress&theme=dark" /></div>
+            <div class="label">Cypress</div>
+          </div>
+        </div>
+
+        <div class="grid-item testing" data-name="junit">
+          <div class="tile" title="JUnit">
+            <div class="iconOnly"><img alt="JUnit" src="https://go-skill-icons.vercel.app/api/icons?i=junit&theme=dark" /></div>
+            <div class="label">JUnit</div>
+          </div>
+        </div>
+
+        <div class="grid-item testing" data-name="selenium">
+          <div class="tile" title="Selenium">
+            <div class="iconOnly"><img alt="Selenium" src="https://go-skill-icons.vercel.app/api/icons?i=selenium&theme=dark" /></div>
+            <div class="label">Selenium</div>
+          </div>
+        </div>
+
+        <!-- API / TOOLING -->
+        <div class="grid-item api" data-name="swagger openapi">
+          <div class="tile" title="Swagger / OpenAPI">
+            <div class="iconOnly"><img alt="Swagger" src="https://go-skill-icons.vercel.app/api/icons?i=swagger&theme=dark" /></div>
+            <div class="label">Swagger</div>
+          </div>
+        </div>
+
+        <div class="grid-item api" data-name="prisma">
+          <div class="tile" title="Prisma">
+            <div class="iconOnly"><img alt="Prisma" src="https://go-skill-icons.vercel.app/api/icons?i=prisma&theme=dark" /></div>
+            <div class="label">Prisma</div>
+          </div>
+        </div>
+
+        <div class="grid-item api" data-name="postman">
+          <div class="tile" title="Postman">
+            <div class="iconOnly"><img alt="Postman" src="https://go-skill-icons.vercel.app/api/icons?i=postman&theme=dark" /></div>
+            <div class="label">Postman</div>
+          </div>
+        </div>
+
+        <div class="grid-item api" data-name="insomnia">
+          <div class="tile" title="Insomnia">
+            <div class="iconOnly"><img alt="Insomnia" src="https://go-skill-icons.vercel.app/api/icons?i=insomnia&theme=dark" /></div>
+            <div class="label">Insomnia</div>
+          </div>
+        </div>
+
+        <!-- DATABASES / STORAGE -->
+        <div class="grid-item data" data-name="postgresql postgres">
+          <div class="tile" title="PostgreSQL">
+            <div class="iconOnly"><img alt="PostgreSQL" src="https://go-skill-icons.vercel.app/api/icons?i=postgresql&theme=dark" /></div>
+            <div class="label">PostgreSQL</div>
+          </div>
+        </div>
+
+        <div class="grid-item data" data-name="mysql">
+          <div class="tile" title="MySQL">
+            <div class="iconOnly"><img alt="MySQL" src="https://go-skill-icons.vercel.app/api/icons?i=mysql&theme=dark" /></div>
+            <div class="label">MySQL</div>
+          </div>
+        </div>
+
+        <div class="grid-item data" data-name="mongodb mongo">
+          <div class="tile" title="MongoDB">
+            <div class="iconOnly"><img alt="MongoDB" src="https://go-skill-icons.vercel.app/api/icons?i=mongodb&theme=dark" /></div>
+            <div class="label">MongoDB</div>
+          </div>
+        </div>
+
+        <div class="grid-item data" data-name="mariadb">
+          <div class="tile" title="MariaDB">
+            <div class="iconOnly"><img alt="MariaDB" src="https://go-skill-icons.vercel.app/api/icons?i=mariadb&theme=dark" /></div>
+            <div class="label">MariaDB</div>
+          </div>
+        </div>
+
+        <div class="grid-item data" data-name="oracle">
+          <div class="tile" title="Oracle">
+            <div class="iconOnly"><img alt="Oracle" src="https://go-skill-icons.vercel.app/api/icons?i=oracle&theme=dark" /></div>
+            <div class="label">Oracle</div>
+          </div>
+        </div>
+
+        <div class="grid-item data" data-name="sqlserver">
+          <div class="tile" title="SQL Server">
+            <div class="iconOnly"><img alt="SQL Server" src="https://go-skill-icons.vercel.app/api/icons?i=sqlserver&theme=dark" /></div>
+            <div class="label">SQL Server</div>
+          </div>
+        </div>
+
+        <div class="grid-item data" data-name="redis">
+          <div class="tile" title="Redis">
+            <div class="iconOnly"><img alt="Redis" src="https://go-skill-icons.vercel.app/api/icons?i=redis&theme=dark" /></div>
+            <div class="label">Redis</div>
+          </div>
+        </div>
+
+        <div class="grid-item data" data-name="supabase">
+          <div class="tile" title="Supabase">
+            <div class="iconOnly"><img alt="Supabase" src="https://go-skill-icons.vercel.app/api/icons?i=supabase&theme=dark" /></div>
+            <div class="label">Supabase</div>
+          </div>
+        </div>
+
+        <div class="grid-item data" data-name="dynamodb">
+          <div class="tile" title="DynamoDB">
+            <div class="iconOnly"><img alt="DynamoDB" src="https://go-skill-icons.vercel.app/api/icons?i=dynamodb&theme=dark" /></div>
+            <div class="label">DynamoDB</div>
+          </div>
+        </div>
+
+        <div class="grid-item data" data-name="s3">
+          <div class="tile" title="S3">
+            <div class="iconOnly"><img alt="S3" src="https://go-skill-icons.vercel.app/api/icons?i=s3&theme=dark" /></div>
+            <div class="label">S3</div>
+          </div>
+        </div>
+
+        <div class="grid-item data" data-name="rds">
+          <div class="tile" title="RDS">
+            <div class="iconOnly"><img alt="RDS" src="https://go-skill-icons.vercel.app/api/icons?i=rds&theme=dark" /></div>
+            <div class="label">RDS</div>
+          </div>
+        </div>
+
+        <!-- CLOUD / DEVOPS -->
+        <div class="grid-item devops" data-name="aws">
+          <div class="tile" title="AWS">
+            <div class="iconOnly"><img alt="AWS" src="https://go-skill-icons.vercel.app/api/icons?i=aws&theme=dark" /></div>
+            <div class="label">AWS</div>
+          </div>
+        </div>
+
+        <div class="grid-item devops" data-name="azure">
+          <div class="tile" title="Azure">
+            <div class="iconOnly"><img alt="Azure" src="https://go-skill-icons.vercel.app/api/icons?i=azure&theme=dark" /></div>
+            <div class="label">Azure</div>
+          </div>
+        </div>
+
+        <div class="grid-item devops" data-name="gcp">
+          <div class="tile" title="GCP">
+            <div class="iconOnly"><img alt="GCP" src="https://go-skill-icons.vercel.app/api/icons?i=gcp&theme=dark" /></div>
+            <div class="label">GCP</div>
+          </div>
+        </div>
+
+        <div class="grid-item devops" data-name="docker">
+          <div class="tile" title="Docker">
+            <div class="iconOnly"><img alt="Docker" src="https://go-skill-icons.vercel.app/api/icons?i=docker&theme=dark" /></div>
+            <div class="label">Docker</div>
+          </div>
+        </div>
+
+        <div class="grid-item devops" data-name="podman">
+          <div class="tile" title="Podman">
+            <div class="iconOnly"><img alt="Podman" src="https://go-skill-icons.vercel.app/api/icons?i=podman&theme=dark" /></div>
+            <div class="label">Podman</div>
+          </div>
+        </div>
+
+        <div class="grid-item devops" data-name="kubernetes k8s">
+          <div class="tile" title="Kubernetes">
+            <div class="iconOnly"><img alt="Kubernetes" src="https://go-skill-icons.vercel.app/api/icons?i=kubernetes&theme=dark" /></div>
+            <div class="label">Kubernetes</div>
+          </div>
+        </div>
+
+        <div class="grid-item devops" data-name="terraform">
+          <div class="tile" title="Terraform">
+            <div class="iconOnly"><img alt="Terraform" src="https://go-skill-icons.vercel.app/api/icons?i=terraform&theme=dark" /></div>
+            <div class="label">Terraform</div>
+          </div>
+        </div>
+
+        <div class="grid-item devops" data-name="githubactions">
+          <div class="tile" title="GitHub Actions">
+            <div class="iconOnly"><img alt="GitHub Actions" src="https://go-skill-icons.vercel.app/api/icons?i=githubactions&theme=dark" /></div>
+            <div class="label">GitHub Actions</div>
+          </div>
+        </div>
+
+        <div class="grid-item devops" data-name="gitlab">
+          <div class="tile" title="GitLab">
+            <div class="iconOnly"><img alt="GitLab" src="https://go-skill-icons.vercel.app/api/icons?i=gitlab&theme=dark" /></div>
+            <div class="label">GitLab</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT / AGILE -->
+        <div class="grid-item product" data-name="jira">
+          <div class="tile" title="Jira">
+            <div class="iconOnly"><img alt="Jira" src="https://go-skill-icons.vercel.app/api/icons?i=jira&theme=dark" /></div>
+            <div class="label">Jira</div>
+          </div>
+        </div>
+
+        <div class="grid-item product" data-name="azuredevops">
+          <div class="tile" title="Azure DevOps">
+            <div class="iconOnly"><img alt="Azure DevOps" src="https://go-skill-icons.vercel.app/api/icons?i=azuredevops&theme=dark" /></div>
+            <div class="label">Azure DevOps</div>
+          </div>
+        </div>
+
+        <div class="grid-item product" data-name="miro">
+          <div class="tile" title="Miro">
+            <div class="iconOnly"><img alt="Miro" src="https://go-skill-icons.vercel.app/api/icons?i=miro&theme=dark" /></div>
+            <div class="label">Miro</div>
+          </div>
+        </div>
+
+        <div class="grid-item product" data-name="notion">
+          <div class="tile" title="Notion">
+            <div class="iconOnly"><img alt="Notion" src="https://go-skill-icons.vercel.app/api/icons?i=notion&theme=dark" /></div>
+            <div class="label">Notion</div>
+          </div>
+        </div>
+
+        <div class="grid-item product" data-name="confluence">
+          <div class="tile" title="Confluence">
+            <div class="iconOnly"><img alt="Confluence" src="https://go-skill-icons.vercel.app/api/icons?i=confluence&theme=dark" /></div>
+            <div class="label">Confluence</div>
+          </div>
+        </div>
+
+        <div class="grid-item product" data-name="clickup">
+          <div class="tile" title="ClickUp">
+            <div class="iconOnly"><img alt="ClickUp" src="https://go-skill-icons.vercel.app/api/icons?i=clickup&theme=dark" /></div>
+            <div class="label">ClickUp</div>
+          </div>
+        </div>
+
+        <div class="grid-item product" data-name="obsidian">
+          <div class="tile" title="Obsidian">
+            <div class="iconOnly"><img alt="Obsidian" src="https://go-skill-icons.vercel.app/api/icons?i=obsidian&theme=dark" /></div>
+            <div class="label">Obsidian</div>
+          </div>
+        </div>
+
+        <!-- LINUX / WM / CLI -->
+        <div class="grid-item linux" data-name="linux">
+          <div class="tile" title="Linux">
+            <div class="iconOnly"><img alt="Linux" src="https://go-skill-icons.vercel.app/api/icons?i=linux&theme=dark" /></div>
+            <div class="label">Linux</div>
+          </div>
+        </div>
+
+        <div class="grid-item linux" data-name="arch">
+          <div class="tile" title="Arch Linux">
+            <div class="iconOnly"><img alt="Arch" src="https://go-skill-icons.vercel.app/api/icons?i=arch&theme=dark" /></div>
+            <div class="label">Arch</div>
+          </div>
+        </div>
+
+        <div class="grid-item linux" data-name="mint">
+          <div class="tile" title="Mint">
+            <div class="iconOnly"><img alt="Mint" src="https://go-skill-icons.vercel.app/api/icons?i=mint&theme=dark" /></div>
+            <div class="label">Mint</div>
+          </div>
+        </div>
+
+        <div class="grid-item linux" data-name="ubuntu">
+          <div class="tile" title="Ubuntu">
+            <div class="iconOnly"><img alt="Ubuntu" src="https://go-skill-icons.vercel.app/api/icons?i=ubuntu&theme=dark" /></div>
+            <div class="label">Ubuntu</div>
+          </div>
+        </div>
+
+        <div class="grid-item linux" data-name="debian">
+          <div class="tile" title="Debian">
+            <div class="iconOnly"><img alt="Debian" src="https://go-skill-icons.vercel.app/api/icons?i=debian&theme=dark" /></div>
+            <div class="label">Debian</div>
+          </div>
+        </div>
+
+        <div class="grid-item linux" data-name="fedora">
+          <div class="tile" title="Fedora">
+            <div class="iconOnly"><img alt="Fedora" src="https://go-skill-icons.vercel.app/api/icons?i=fedora&theme=dark" /></div>
+            <div class="label">Fedora</div>
+          </div>
+        </div>
+
+        <div class="grid-item linux" data-name="hyprland">
+          <div class="tile" title="Hyprland">
+            <div class="iconOnly"><img alt="Hyprland" src="https://go-skill-icons.vercel.app/api/icons?i=hyprland&theme=dark" /></div>
+            <div class="label">Hyprland</div>
+          </div>
+        </div>
+
+        <div class="grid-item linux" data-name="i3">
+          <div class="tile" title="i3">
+            <div class="iconOnly"><img alt="i3" src="https://go-skill-icons.vercel.app/api/icons?i=i3&theme=dark" /></div>
+            <div class="label">i3</div>
+          </div>
+        </div>
+
+        <div class="grid-item linux" data-name="tmux">
+          <div class="tile" title="Tmux">
+            <div class="iconOnly"><img alt="Tmux" src="https://go-skill-icons.vercel.app/api/icons?i=tmux&theme=dark" /></div>
+            <div class="label">Tmux</div>
+          </div>
+        </div>
+
+        <div class="grid-item linux" data-name="systemd">
+          <div class="tile" title="systemd">
+            <div class="iconOnly"><img alt="systemd" src="https://go-skill-icons.vercel.app/api/icons?i=systemd&theme=dark" /></div>
+            <div class="label">systemd</div>
+          </div>
+        </div>
+
+        <div class="grid-item linux" data-name="bash">
+          <div class="tile" title="Bash">
+            <div class="iconOnly"><img alt="Bash" src="https://go-skill-icons.vercel.app/api/icons?i=bash&theme=dark" /></div>
+            <div class="label">Bash</div>
+          </div>
+        </div>
+
+        <!-- EDITORS -->
+        <div class="grid-item editors" data-name="vscode">
+          <div class="tile" title="VS Code">
+            <div class="iconOnly"><img alt="VS Code" src="https://go-skill-icons.vercel.app/api/icons?i=vscode&theme=dark" /></div>
+            <div class="label">VS Code</div>
+          </div>
+        </div>
+
+        <div class="grid-item editors" data-name="idea intellij">
+          <div class="tile" title="IntelliJ IDEA">
+            <div class="iconOnly"><img alt="IntelliJ IDEA" src="https://go-skill-icons.vercel.app/api/icons?i=idea&theme=dark" /></div>
+            <div class="label">IntelliJ</div>
+          </div>
+        </div>
+
+        <div class="grid-item editors" data-name="webstorm">
+          <div class="tile" title="WebStorm">
+            <div class="iconOnly"><img alt="WebStorm" src="https://go-skill-icons.vercel.app/api/icons?i=webstorm&theme=dark" /></div>
+            <div class="label">WebStorm</div>
+          </div>
+        </div>
+
+        <div class="grid-item editors" data-name="pycharm">
+          <div class="tile" title="PyCharm">
+            <div class="iconOnly"><img alt="PyCharm" src="https://go-skill-icons.vercel.app/api/icons?i=pycharm&theme=dark" /></div>
+            <div class="label">PyCharm</div>
+          </div>
+        </div>
+
+        <div class="grid-item editors" data-name="eclipse">
+          <div class="tile" title="Eclipse">
+            <div class="iconOnly"><img alt="Eclipse" src="https://go-skill-icons.vercel.app/api/icons?i=eclipse&theme=dark" /></div>
+            <div class="label">Eclipse</div>
+          </div>
+        </div>
+
+        <div class="grid-item editors" data-name="neovim">
+          <div class="tile" title="Neovim">
+            <div class="iconOnly"><img alt="Neovim" src="https://go-skill-icons.vercel.app/api/icons?i=neovim&theme=dark" /></div>
+            <div class="label">Neovim</div>
+          </div>
+        </div>
+
+        <div class="grid-item editors" data-name="vim">
+          <div class="tile" title="Vim">
+            <div class="iconOnly"><img alt="Vim" src="https://go-skill-icons.vercel.app/api/icons?i=vim&theme=dark" /></div>
+            <div class="label">Vim</div>
+          </div>
+        </div>
+
+        <!-- TERMINALS -->
+        <div class="grid-item terminals" data-name="ghostty">
+          <div class="tile" title="Ghostty">
+            <div class="iconOnly"><img alt="Ghostty" src="https://go-skill-icons.vercel.app/api/icons?i=ghostty&theme=dark" /></div>
+            <div class="label">Ghostty</div>
+          </div>
+        </div>
+
+        <div class="grid-item terminals" data-name="kitty">
+          <div class="tile" title="Kitty">
+            <div class="iconOnly"><img alt="Kitty" src="https://go-skill-icons.vercel.app/api/icons?i=kitty&theme=dark" /></div>
+            <div class="label">Kitty</div>
+          </div>
+        </div>
+
+        <div class="grid-item terminals" data-name="wezterm">
+          <div class="tile" title="WezTerm">
+            <div class="iconOnly"><img alt="WezTerm" src="https://go-skill-icons.vercel.app/api/icons?i=wezterm&theme=dark" /></div>
+            <div class="label">WezTerm</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div><span style="color:var(--muted)">Default:</span> Full Stack • <span style="color:var(--muted)">Tip:</span> filtros + search.</div>
+        <div><a href="#" id="reset">reset</a></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+  <script>
+    const grid = document.querySelector("#grid");
+    const qs = document.querySelector("#quicksearch");
+    const filters = document.querySelector("#filters");
+    const countHint = document.querySelector("#countHint");
+    const reset = document.querySelector("#reset");
+
+    let filterValue = ".fullstack"; // DEFAULT
+    let searchValue = "";
+
+    const iso = new Isotope(grid, {
+      itemSelector: ".grid-item",
+      percentPosition: true,
+      masonry: { columnWidth: ".grid-sizer", gutter: 0 },
+      transitionDuration: "0.18s"
+    });
+
+    function applyFilters() {
+      iso.arrange({
+        filter: function (itemElem) {
+          const matchesFilter = (filterValue === "*") ? true : itemElem.matches(filterValue);
+          if (!matchesFilter) return false;
+
+          if (!searchValue) return true;
+
+          const name = (itemElem.getAttribute("data-name") || "").toLowerCase();
+          const label = (itemElem.querySelector(".label")?.textContent || "").toLowerCase();
+          return (name + " " + label).includes(searchValue);
+        }
+      });
+
+      setTimeout(() => {
+        const shown = grid.querySelectorAll(".grid-item:not(.isotope-hidden)").length;
+        const total = grid.querySelectorAll(".grid-item").length;
+        countHint.textContent = `${shown}/${total} shown`;
+      }, 220);
+    }
+
+    filters.addEventListener("click", (e) => {
+      const btn = e.target.closest("button[data-filter]");
+      if (!btn) return;
+
+      filters.querySelectorAll(".btn").forEach(b => b.classList.remove("is-active"));
+      btn.classList.add("is-active");
+
+      filterValue = btn.getAttribute("data-filter");
+      applyFilters();
+    });
+
+    let t = null;
+    qs.addEventListener("input", () => {
+      clearTimeout(t);
+      t = setTimeout(() => {
+        searchValue = (qs.value || "").trim().toLowerCase();
+        applyFilters();
+      }, 90);
+    });
+
+    reset.addEventListener("click", (e) => {
+      e.preventDefault();
+      qs.value = "";
+      searchValue = "";
+      filterValue = ".fullstack";
+
+      filters.querySelectorAll(".btn").forEach(b => b.classList.remove("is-active"));
+      filters.querySelector('[data-filter=".fullstack"]').classList.add("is-active");
+
+      applyFilters();
+    });
+
+    applyFilters();
+  </script>
+</body>
+
+</html>
