@@ -1,16 +1,24 @@
- 
-<h1 align="center">Hey, I'm Danilo Carvalho! 👋</h1>
-<h3 align="center">🚀 Senior Full Stack Developer | Product Manager | Tech Leader</h3>
+
+
+<h1 align="center">Danilo Carvalho - Load terminal 👾</h1>
+<h3 align="center">☕ Javeiro • ⚡ Full Stack • 🧠 Product/Tech Lead</h3>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Senior%20Developer-%F0%9F%92%BB-darkgreen" />
-  <img src="https://img.shields.io/badge/Java%20Guru-%E2%98%95-orange" />
-  <img src="https://img.shields.io/badge/Software%20Architect-%F0%9F%92%BB-red" />
-  <img src="https://img.shields.io/badge/AI%20Enthusiast-%F0%9F%A7%96-lightblue" />
-  <img src="https://img.shields.io/badge/Product%20Management-%F0%9F%92%A1-blue" />
-  <img src="https://img.shields.io/badge/Agile%20Leader-%F0%9F%9A%80-yellow" />
-  <img src="https://img.shields.io/badge/Data%20Driven-%F0%9F%93%88-green" />
+  <img src="https://img.shields.io/badge/JAVA-JVM%20Warlock-orange" />
+  <img src="https://img.shields.io/badge/NODE-Async%20Alchemist-339933" />
+  <img src="https://img.shields.io/badge/LINUX-CLI%20Addict-black" />
+  <img src="https://img.shields.io/badge/ARCH-System%20Architect-red" />
+  <img src="https://img.shields.io/badge/PM-Value%20Shipper-blue" />
+  <img src="https://img.shields.io/badge/DATA-Obsessed%20(healthy)-0ea5e9" />
 </p>
+
+
+![Legenda do GIF](https://github.com/dancarvofc/dancarvofc/blob/main/assets/dan_github_load_terminal_01.gif)
+
+
+
+
+
 
 <p align="center">
   <img src="https://github.com/dancarvofc/dancarvofc/blob/main/terminal-card.svg?raw=1" alt="Terminal Card" />
@@ -19,8 +27,24 @@
   <img src="https://github.com/dancarvofc/dancarvofc/blob/main/certs.svg?raw=1" alt="Certification Card" />
 </p>
 
+<div align="center">
+  <pre style="text-align:left; display:inline-block; padding:12px 16px; border:1px solid #3c3836; border-radius:12px; background:#0d1117; color:#ebdbb2; line-height:1.45; margin:0; max-width:920px; overflow:auto;">
+<span style="color:#a89984;">┌──────────────────────────────────────────────────────────────────────────┐</span>
+<span style="color:#fe8019;">❯</span> <span style="color:#83a598;">Loading Stack Skills</span> <span style="color:#a89984;">[FlatpackStore]</span>
+<span style="color:#b8bb26;">✔</span> <span style="color:#a89984;">Modules detected:</span> <span style="color:#ebdbb2;">Frontend, Backend, Data, DevOps</span>
+<span style="color:#fabd2f;">⠼</span> <span style="color:#a89984;">Indexing toolchain…</span> <span style="color:#a89984;">(cache: warm • lockfile: clean)</span>
+
+<span style="color:#a89984;">────────────────────────────────────────────────────────────────────────────</span>
+<span style="color:#83a598;">Progress</span> <span style="color:#a89984;">[</span><span style="color:#b8bb26;">███████████████████████████</span><span style="color:#3c3836;">░░░░░░░░░</span><span style="color:#a89984;">]</span> <span style="color:#b8bb26;">84/84</span> <span style="color:#a89984;">units</span>
+<span style="color:#83a598;">Mode</span> <span style="color:#a89984;">:</span> <span style="color:#ebdbb2;">interactive</span>   <span style="color:#83a598;">Theme</span> <span style="color:#a89984;">:</span> <span style="color:#ebdbb2;">gruvbox-dark</span>   <span style="color:#83a598;">Latency</span> <span style="color:#a89984;">:</span> <span style="color:#b8bb26;">low</span>
+<span style="color:#fe8019;">Tip</span> <span style="color:#a89984;">:</span> <span style="color:#a89984;">Use filters below • Search by keyword •</span> <span style="color:#83a598;">Press</span> <span style="color:#ebdbb2;">?</span> <span style="color:#83a598;">for help</span>
+<span style="color:#a89984;">└──────────────────────────────────────────────────────────────────────────┘</span>
+  </pre>
+</div>
 
 <!-- ✅ FULL STACK (ABERTO POR PADRÃO) -->
+<br/>
+
 <details open>
   <summary><b>🧩 Full Stack</b> <sub>(Frontend + Backend)</sub></summary>
   <br/>
@@ -189,19 +213,42 @@
   </p>
 </details>
 
-<div>
 
 <div align="center">
-<pre>
-<code><b>dan@archlinux</b> <font color="#89b4fa">󰣇</font> ❯ <font color="#a6e3a1">~/stack</font> ❯ <font color="#fab387">git:main</font> ❯ ./render_full_stack --v3.0
-<font color="#a6e3a1">✔ 84/84 Units Loaded Successfully</font></code>
- ### 🧩 SkillDeck (interactive)
-👉 https://dancarvofc.github.io/dancarvofc/
 
-</pre>
-<small><i>Technical Manifest • Full Stack Expertise • System Design Assets</i></small>
+  <!-- Terminal vibe -->
+  <pre style="text-align:left; display:inline-block; padding:14px 16px; border:1px solid #3c3836; border-radius:12px; background:#0d1117; color:#ebdbb2; line-height:1.55; max-width:860px; overflow:auto;">
+
+<span style="color:#a6e3a1;">✔ 84/84 Units Loaded Successfully</span>
+<span style="color:#a89984;">────────────────────────────────────────────────────────────────</span>
+<span style="color:#fe8019;">❯</span> <span style="color:#83a598;">open</span> <span style="color:#a89984;">--ui skilldeck --mode interactive</span>
+<span style="color:#b8bb26;">✓</span> <span style="color:#a89984;">SkillDeck ready.</span>
+  </pre>
+
+  <br/><br/>
+
+<span style="color:#a89984;">----------------------------------------------------------------------------------------------------------------------------------------------------------</span>
+  <!-- “API Loaded” header -->
+  <div style="display:inline-block; padding:10px 14px; border:1px solid #3c3836; border-radius:12px; background:#151b23; color:#ebdbb2;">
+    <b>░▒▓TUI Loaded 🧩 SkillDeck (interactive)▓▒░</b>
+  </div>
+
+  <br/>
+
+  <!-- Big epic button -->
+  <a href="https://dancarvofc.github.io/dancarvofc/" target="_blank"
+     style="display:inline-block; padding:12px 18px; border-radius:14px;
+            border:1px solid rgba(235,219,178,.25);
+            background:linear-gradient(90deg, rgba(254,128,25,.18), rgba(131,165,152,.18), rgba(184,187,38,.18));
+            color:#ebdbb2; text-decoration:none; font-weight:800;">
+    🚀 Acess SkillDeck 2.0
+  </a>
+
+  <sub><i>Technical Manifest • Full Stack Expertise • System Design Assets</i></sub>
+
+<span style="color:#a89984;">----------------------------------------------------------------------------------------------------------------------------------------------------------</span>
+
 </div>
-
 <br/>
 
 
