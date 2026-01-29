@@ -11,6 +11,8 @@
   <img src="https://github.com/dancarvofc/dancarvofc/blob/main/assets/certs.svg?raw=1" alt="Certification Card" />
 </p>
 
+## 👨🏻‍💻 | Skills Package manager
+
 <div align="center">
   <pre style="text-align:left; display:inline-block; padding:12px 16px; border:1px solid #3c3836; border-radius:12px; background:#0d1117; color:#ebdbb2; line-height:1.45; margin:0; max-width:920px; overflow:auto;">
 <span style="color:#a89984;">┌──────────────────────────────────────────────────────────────────────────┐</span>
@@ -26,7 +28,7 @@
   </pre>
 </div>
 
-<!-- ✅ FULL STACK (ABERTO POR PADRÃO) -->
+
 <br/>
 
 <details open>
@@ -278,34 +280,35 @@
   </tr>
 </table>
 
+<h2>⛓️ | Blockchain Tip Jar</h2>
 
-##  **Let's Connect**
-🎯 **What I Do** : 💻 Full Stack Development & 📊 Product Management
-<p>
-  <a href="https://www.linkedin.com/in/contato.danilolc" target="_blank" > <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://discord.gg/seu-discord" target="_blank"> <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
-  <a href="mailto:dancarvofc@gmail.com" > <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail"></a>
-</p>
+<pre>
+╔════════════════════════════════════════════════════════════╗
+║ node://dancarvofc  |  chain: mainnet                       ║
+║ Topic: blocks, builds, and beautiful side-projects         ║
+╟────────────────────────────────────────────────────────────╢
+║ <you>      /tip --msg "keep shipping"                           ║
+║ <miner>    block found  |  rewards: vibes + caffeine              ║
+║ <ledger>   immutability: enabled  |  humor: enabled                ║ 
+╚════════════════════════════════════════════════════════════╝
+</pre>
 
-
-## ❤️ **Support My Work**
-If you like what I do, consider supporting me! ☕🚀
-
-<a href="https://ko-fi.com/seu_usuario" target="_blank">
-    <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Ko--fi-F16061?style=for-the-badge&logo=kofi&logoColor=white" alt="Ko-fi" />
+<a href="https://link-qualquer-para-seu-qr-ou-page" target="_blank">
+  <img alt="Tip Jar" src="https://img.shields.io/badge/My%20%20Tip%20Jar-%3E_OPEN-f59e0b?style=for-the-badge&logo=bitcoin&logoColor=0b0f14&labelColor=1f2937">
 </a>
 
-## 📈 **GitHub Analytics**
+
+## 📊 **GitHub Telemetry**
+
+
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=dancarvofc&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&token=SEU_NOVO_TOKEN_AQUI" alt="GitHub Stats" width="32%" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dancarvofc&layout=compact&theme=tokyonight&hide_border=true&token=SEU_NOVO_TOKEN_AQUI" alt="Most Used Languages" width="32%" />
 </p>
 
-
-## 📈 Pacman
 ![Pacman](https://raw.githubusercontent.com/dancarvofc/dancarvofc/output/my-pacman.svg)
 
-## 🏆 **LeetCode Statistics**
+## 🏆 **LeetCode KPIs**
 <p align="center">
   <img src="https://leetcard.jacoblin.cool/8NN4U9Ol7m?theme=dark&font=Baloo%20Bhaina%202" alt="LeetCode Stats" width="32%" />
   <img src="https://leetcard.jacoblin.cool/8NN4U9Ol7m?ext=heatmap" alt="LeetCode Heatmap" width="32%" />
