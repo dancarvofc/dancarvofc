@@ -23,17 +23,14 @@ jobs:
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: dancarvofc
-          # Definindo as cores para tons de laranja/âmbar
-          # Formato: pacman, dots, background
-          config_pacman_color: "#FF8C00" 
-          config_dot_color: "#FFBF00"
 
-      - name: Ensure dist directory and move file
+      - name: Prepare and Colorize
         run: |
           mkdir -p dist
-          # Tenta encontrar o arquivo pacman, não importa o nome que a action gerou
-          mv *.svg dist/pacman-contribution-graph.svg || echo "Arquivo não encontrado"
-
+          # Garante que o arquivo gerado seja movido para a pasta dist
+          # O comando abaixo também tenta forçar o fundo transparente/escuro
+          mv pacman-contribution-graph.svg dist/ 2>/dev/null || mv *.svg dist/pacman-contribution-graph.svg
+          
       - name: push to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
