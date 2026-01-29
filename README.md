@@ -1,5 +1,6 @@
 <div>
-<img style="width: 100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&color=FF8C00" />
+<img style="width: 100%" image-rendering: pixelated; src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&color=FF8C00" />
+
 </div>
 
 <h1 align="center">root@danilo:~$ [INFO -> Coffee: Active] ./launch_innovation.sh </h1>
@@ -11,10 +12,10 @@
 ![Legenda do GIF](https://github.com/dancarvofc/dancarvofc/blob/main/assets/dan_github_load_terminal_01.gif)
 
 <p align="center">
-  <img src="https://github.com/dancarvofc/dancarvofc/blob/main/terminal-card.svg?raw=1" alt="Terminal Card" />
+  <img src="https://github.com/dancarvofc/dancarvofc/assets/blob/main/terminal-card.svg?raw=1" alt="Terminal Card" />
 </p>
 <p align="center">
-  <img src="https://github.com/dancarvofc/dancarvofc/blob/main/certs.svg?raw=1" alt="Certification Card" />
+  <img src="https://github.com/dancarvofc/dancarvofc/assets/blob/main/certs.svg?raw=1" alt="Certification Card" />
 </p>
 
 <div align="center">
@@ -275,9 +276,6 @@ If you like what I do, consider supporting me! ☕🚀
 
 ## 📈 Pacman
 ![Pacman](https://raw.githubusercontent.com/dancarvofc/dancarvofc/output/my-pacman.svg)
-## 📈 Pacman
-![Pacman](https://raw.githubusercontent.com/dancarvofc/dancarvofc/output/my-pacman.svg)
-
 
 ## 🏆 **LeetCode Statistics**
 <p align="center">
