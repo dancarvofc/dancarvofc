@@ -1,24 +1,8 @@
+<h1 align="center">root@danilo:~$ [INFO -> Coffee: Active] ./launch_innovation.sh </h1>
+<h3 align="center"> ░▒▒▓▓  ☕︎  Java specialist by day • 𓊍  Product strategist by night •  < / >  Full-stack 24/7  ▓▓▒▒░</h3>
 
-
-<h1 align="center">Danilo Carvalho - Load terminal 👾</h1>
-<h3 align="center">☕ Javeiro • ⚡ Full Stack • 🧠 Product/Tech Lead</h3>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/JAVA-JVM%20Warlock-orange" />
-  <img src="https://img.shields.io/badge/NODE-Async%20Alchemist-339933" />
-  <img src="https://img.shields.io/badge/LINUX-CLI%20Addict-black" />
-  <img src="https://img.shields.io/badge/ARCH-System%20Architect-red" />
-  <img src="https://img.shields.io/badge/PM-Value%20Shipper-blue" />
-  <img src="https://img.shields.io/badge/DATA-Obsessed%20(healthy)-0ea5e9" />
-</p>
-
-
+  
 ![Legenda do GIF](https://github.com/dancarvofc/dancarvofc/blob/main/assets/dan_github_load_terminal_01.gif)
-
-
-
-
-
 
 <p align="center">
   <img src="https://github.com/dancarvofc/dancarvofc/blob/main/terminal-card.svg?raw=1" alt="Terminal Card" />
@@ -253,6 +237,12 @@
 
 
 </div>
+
+
+
+///USAR DEPOIS
+
+╰┈➤
 
 ## 📫 **Let's Connect**
 🎯 **What I Do** : 💻 Full Stack Development & 📊 Product Management
