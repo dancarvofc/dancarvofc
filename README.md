@@ -12,10 +12,10 @@
 ![Legenda do GIF](https://github.com/dancarvofc/dancarvofc/blob/main/assets/dan_github_load_terminal_01.gif)
 
 <p align="center">
-  <img src="https://github.com/dancarvofc/dancarvofc/assets/blob/main/terminal-card.svg?raw=1" alt="Terminal Card" />
+  <img src="https://github.com/dancarvofc/dancarvofc/blob/main/assets/terminal-card.svg?raw=1" alt="Terminal Card" />
 </p>
 <p align="center">
-  <img src="https://github.com/dancarvofc/dancarvofc/assets/blob/main/certs.svg?raw=1" alt="Certification Card" />
+  <img src="https://github.com/dancarvofc/dancarvofc/blob/main/assets/certs.svg?raw=1" alt="Certification Card" />
 </p>
 
 <div align="center">
