@@ -16,14 +16,20 @@ jobs:
     timeout-minutes: 5
     
     steps:
+      # Checkout é essencial para o deploy funcionar
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      # Gera a animação da cobrinha (Snake) com as cores laranja
       - name: generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: dancarvofc
           outputs: |
             dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#FF8C00&color_dots=#ebedf0,#ffbd8e,#ff9a4d,#ff7a1a,#e65c00
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#FF8C00
 
+      # Envia para a branch 'output'
       - name: push github-contribution-grid-snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
