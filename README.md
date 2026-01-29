@@ -273,16 +273,10 @@ If you like what I do, consider supporting me! ☕🚀
 </p>
 
 
-## 📈 **PACMAN**
-![Pacman](https://raw.githubusercontent.com/dancarvofc/dancarvofc/output/pacman-contribution-graph.svg)
+## 📈 Pacman
 
 
-![Snake Animation](https://raw.githubusercontent.com/dancarvofc/dancarvofc/output/github-contribution-grid-snake.svg)
-
-
-
-
-![Pacman](https://raw.githubusercontent.com/dancarvofc/dancarvofc/output/pacman-contribution-graph.svg)
+![Pacman](https://raw.githubusercontent.com/dancarvofc/dancarvofc/output/pacman-contribution-graph.svg#gh-dark-mode-only)
 
 
 ## 🏆 **LeetCode Statistics**
