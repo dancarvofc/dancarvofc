@@ -274,9 +274,9 @@ If you like what I do, consider supporting me! ☕🚀
 
 
 ## 📈 Pacman
-
-
-![Pacman](https://raw.githubusercontent.com/dancarvofc/dancarvofc/output/pacman-contribution-graph.svg#gh-dark-mode-only)
+![Pacman](https://raw.githubusercontent.com/dancarvofc/dancarvofc/output/my-pacman.svg)
+## 📈 Pacman
+![Pacman](https://raw.githubusercontent.com/dancarvofc/dancarvofc/output/my-pacman.svg)
 
 
 ## 🏆 **LeetCode Statistics**
