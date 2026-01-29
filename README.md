@@ -243,25 +243,43 @@
 ///USAR DEPOIS
 
 ╰┈➤
-## 📫 Let's Connect (mIRC mode)
-<div>
-╔════════════════════════════════════════════════════════════╗
-║ mIRC://dancarvofc  |  #lets-connect                        ║
-║ Topic: shipping stuff, coffee, and questionable ideas       ║
-╟────────────────────────────────────────────────────────────╢
-║ <dancarvofc> /whois dan                                     ║
-║ <server>   Dan — Full Stack + Product                       ║
-╚════════════════════════════════════════════════════════════╝
-	</div>
+## 💬 | Let's Connect (Mirc Mode)
 
-	
-├─ My LinkedIn	<a href="https://www.linkedin.com/in/contato.danilolc" target="_blank"><img height="64" alt="My LinkedIn" src="https://img.shields.io/static/v1.svg?label=%3E_%20&message=My%20LinkedIn&color=161b22&labelColor=0D1117&style=for-the-badge&logo=linkedin&logoColor=FF8C00" /></a>
-├─ My Discord	<a href="https://discord.gg/seu-discord" target="_blank"><img height="64" alt="My Discord" src="https://img.shields.io/static/v1.svg?label=%3E_%20&message=My%20Discord&color=161b22&labelColor=0D1117&style=for-the-badge&logo=discord&logoColor=FF8C00" /></a>
-└─ My Email	<a href="mailto:dancarvofc@gmail.com"><img height="64" alt="My Email" src="https://img.shields.io/static/v1.svg?label=%3E_%20&message=My%20Email&color=161b22&labelColor=0D1117&style=for-the-badge&logo=gmail&logoColor=FF8C00" /></a>
+<table>
+  <tr>
+    <td valign="center">
+<pre>
+╔────────────────────────────────────────╗
+│  mIRC://dancarvofc  |  #lets-connect   │
+|----------------------------------------|
+│  Hot Topics: shipping stuff, coffee    |
+|	and questionable ideas               │
+│                                        │
+│  <dancarvofc> /whois dan                           |             
+│  <server>    Dan — Full Stack + Product        |
+│                                        │
+╚────────────────────────────────────────╝
+</pre>
+   </td>
+    <td valign="top" style="padding-left:14px;">
+		   </br></br></br> 
+      <a href="https://www.linkedin.com/in/contato.danilolc" target="_blank">
+        <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-%3E%20RUN-f59e0b?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1f2937">
+      </a>
+      <br/>
+      <a href="https://discord.gg/seu-discord" target="_blank">
+        <img alt="Discord" src="https://img.shields.io/badge/Discord-%3E%20JOIN-f59e0b?style=for-the-badge&logo=discord&logoColor=white&labelColor=1f2937">
+      </a>
+      <br/>
+      <a href="mailto:dancarvofc@gmail.com">
+        <img alt="Email" src="https://img.shields.io/badge/Email-%3E%20SEND-f59e0b?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1f2937">
+      </a>
+    </td>
+  </tr>
+</table>
 
 
-
-## 📫 **Let's Connect**
+##  **Let's Connect**
 🎯 **What I Do** : 💻 Full Stack Development & 📊 Product Management
 <p>
   <a href="https://www.linkedin.com/in/contato.danilolc" target="_blank" > <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
