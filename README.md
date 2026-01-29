@@ -1,12 +1,6 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/dancarvofc/dancarvofc/main/assets/launch_innovation_amber_transparent.gif" alt="Launch Innovation" />
 </p>
-
-
-<p align="center">
-  <img src="https://github.com/dancarvofc/dancarvofc/blob/main/assets/launch_innovation_amber_transparent.gif?raw=true" alt="Launch Innovation" />
-</p>
-
   
 ![Legenda do GIF](https://github.com/dancarvofc/dancarvofc/blob/main/assets/dan_github_load_terminal_01.gif)
 
