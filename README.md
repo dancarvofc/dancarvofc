@@ -243,6 +243,23 @@
 ///USAR DEPOIS
 
 ╰┈➤
+## 📫 Let's Connect (mIRC mode)
+<div>
+╔════════════════════════════════════════════════════════════╗
+║ mIRC://dancarvofc  |  #lets-connect                        ║
+║ Topic: shipping stuff, coffee, and questionable ideas       ║
+╟────────────────────────────────────────────────────────────╢
+║ <dancarvofc> /whois dan                                     ║
+║ <server>   Dan — Full Stack + Product                       ║
+╚════════════════════════════════════════════════════════════╝
+	</div>
+
+	
+├─ My LinkedIn	<a href="https://www.linkedin.com/in/contato.danilolc" target="_blank"><img height="64" alt="My LinkedIn" src="https://img.shields.io/static/v1.svg?label=%3E_%20&message=My%20LinkedIn&color=161b22&labelColor=0D1117&style=for-the-badge&logo=linkedin&logoColor=FF8C00" /></a>
+├─ My Discord	<a href="https://discord.gg/seu-discord" target="_blank"><img height="64" alt="My Discord" src="https://img.shields.io/static/v1.svg?label=%3E_%20&message=My%20Discord&color=161b22&labelColor=0D1117&style=for-the-badge&logo=discord&logoColor=FF8C00" /></a>
+└─ My Email	<a href="mailto:dancarvofc@gmail.com"><img height="64" alt="My Email" src="https://img.shields.io/static/v1.svg?label=%3E_%20&message=My%20Email&color=161b22&labelColor=0D1117&style=for-the-badge&logo=gmail&logoColor=FF8C00" /></a>
+
+
 
 ## 📫 **Let's Connect**
 🎯 **What I Do** : 💻 Full Stack Development & 📊 Product Management
