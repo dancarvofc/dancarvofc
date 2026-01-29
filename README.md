@@ -1,5 +1,7 @@
 <h1 align="center">root@danilo:~$ [INFO -> Coffee: Active] ./launch_innovation.sh </h1>
-<h3 align="center"> ░▒▒▓▓  ☕︎  Java specialist by day • 𓊍  Product strategist by night •  < / >  Full-stack 24/7  ▓▓▒▒░</h3>
+<h3 align="center">
+  ░▒▒▓▓  ☕︎ &nbsp; Java specialist by day &emsp; • &emsp; 𓊍 &nbsp; Product strategist by night &emsp; • &emsp; &lt;/&gt; &nbsp; Full-stack 24/7  ▓▓▒▒░
+</h3>
 
   
 ![Legenda do GIF](https://github.com/dancarvofc/dancarvofc/blob/main/assets/dan_github_load_terminal_01.gif)
