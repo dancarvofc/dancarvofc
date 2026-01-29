@@ -276,6 +276,10 @@ If you like what I do, consider supporting me! ☕🚀
 ## 📈 **PACMAN**
 ![Pacman](https://raw.githubusercontent.com/dancarvofc/dancarvofc/output/pacman-contribution-graph.svg)
 
+
+![Snake Animation](https://raw.githubusercontent.com/dancarvofc/dancarvofc/output/github-contribution-grid-snake.svg)
+
+
 ## 🏆 **LeetCode Statistics**
 <p align="center">
   <img src="https://leetcard.jacoblin.cool/8NN4U9Ol7m?theme=dark&font=Baloo%20Bhaina%202" alt="LeetCode Stats" width="32%" />
