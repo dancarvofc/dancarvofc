@@ -27,9 +27,10 @@ jobs:
       - name: Prepare dist
         run: |
           mkdir -p dist
-          # Limpa o que tiver na dist antes para evitar erros
-          rm -rf dist/* # Move apenas o arquivo específico gerado pela action
-          cp pacman-contribution-graph.svg dist/ || cp *.svg dist/pacman-contribution-graph.svg
+          # Este comando procura qualquer SVG gerado e o renomeia corretamente na pasta dist
+          find . -maxdepth 1 -name "*.svg" -exec cp {} dist/pacman-contribution-graph.svg \;
+          # Lista para conferirmos no log se o arquivo apareceu
+          ls -R dist/
 
       - name: push to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
