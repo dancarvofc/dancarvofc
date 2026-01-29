@@ -1,7 +1,11 @@
 <div>
 <img style="width: 100%" image-rendering: pixelated; src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&color=FF8C00" />
-
 </div>
+
+
+
+
+
 
 <h1 align="center">root@danilo:~$ [INFO -> Coffee: Active] ./launch_innovation.sh </h1>
 <h3 align="center">
