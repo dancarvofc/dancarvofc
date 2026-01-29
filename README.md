@@ -1,3 +1,7 @@
+<div>
+<img style="width: 100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&color=FF8C00" />
+</div>
+
 <h1 align="center">root@danilo:~$ [INFO -> Coffee: Active] ./launch_innovation.sh </h1>
 <h3 align="center">
   ░▒▒▓▓  ☕︎ &thinsp; Java specialist by day &thinsp; • &thinsp; 𓊍 &thinsp; Product strategist by night &thinsp; • &thinsp; &lt;/&gt; Full-stack 24/7  ▓▓▒▒░
@@ -267,6 +271,15 @@ If you like what I do, consider supporting me! ☕🚀
   <img src="https://github-readme-stats.vercel.app/api?username=dancarvofc&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&token=SEU_NOVO_TOKEN_AQUI" alt="GitHub Stats" width="32%" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dancarvofc&layout=compact&theme=tokyonight&hide_border=true&token=SEU_NOVO_TOKEN_AQUI" alt="Most Used Languages" width="32%" />
 </p>
+
+
+## 📈 **PACMAN**
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dancarvofc/dancarvofc/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dancarvofc/dancarvofc/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/dancarvofc/dancarvofc/output/pacman-contribution-graph.svg">
+</picture>
+
 
 ## 🏆 **LeetCode Statistics**
 <p align="center">
