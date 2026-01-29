@@ -1,4 +1,4 @@
-name: Generate animation
+name: Generate pacman animation
 
 on:
   schedule:
@@ -16,14 +16,35 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      - name: generate-snake-svg
-        uses: Platane/snk/svg-only@v3
+      - name: Generate pacman-contribution-graph.svg
+        uses: abozanona/pacman-contribution-graph@main
         with:
-          github_user_name: dancarvofc
-          outputs: |
-            dist/my-pacman.svg?palette=github-dark&color_snake=#FF8C00&color_dots=#161b22,#ffbd8e,#ff9a4d,#ff7a1a,#e65c00
+          github_user_name: ${{ github.repository_owner }}
 
-      - name: push to the output branch
+      # Recolor: troca os "verdes do GitHub" por laranjas (mantém o fundo dark)
+      - name: Recolor to orange palette (dark + light)
+        run: |
+          # Dark SVG (paleta padrão do GitHub dark -> laranja)
+          sed -i \
+            -e 's/#0e4429/#ffbd8e/g' \
+            -e 's/#006d32/#ff9a4d/g' \
+            -e 's/#26a641/#ff7a1a/g' \
+            -e 's/#39d353/#e65c00/g' \
+            dist/pacman-contribution-graph-dark.svg
+
+          # Light SVG (paleta padrão do GitHub light -> laranja)
+          sed -i \
+            -e 's/#9be9a8/#ffbd8e/g' \
+            -e 's/#30c463/#ff9a4d/g' \
+            -e 's/#30a14e/#ff7a1a/g' \
+            -e 's/#216e39/#e65c00/g' \
+            dist/pacman-contribution-graph.svg
+
+          # (Opcional) renomeia pros nomes que você já tava usando
+          cp dist/pacman-contribution-graph-dark.svg dist/my-pacman.svg
+          cp dist/pacman-contribution-graph.svg dist/my-pacman-light.svg
+
+      - name: Push SVGs to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
