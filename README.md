@@ -1,16 +1,11 @@
-<div>
-<img style="width: 100%" image-rendering: pixelated; src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&color=FF8C00" />
-</div>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/dancarvofc/dancarvofc/main/assets/launch_innovation_amber_transparent.gif" alt="Launch Innovation" />
+</p>
 
 
-
-
-
-
-<h1 align="center">root@danilo:~$ [INFO -> Coffee: Active] ./launch_innovation.sh </h1>
-<h3 align="center">
-  ░▒▒▓▓  ☕︎ &thinsp; Java specialist by day &thinsp; • &thinsp; 𓊍 &thinsp; Product strategist by night &thinsp; • &thinsp; &lt;/&gt; Full-stack 24/7  ▓▓▒▒░
-</h3>
+<p align="center">
+  <img src="https://github.com/dancarvofc/dancarvofc/blob/main/assets/launch_innovation_amber_transparent.gif?raw=true" alt="Launch Innovation" />
+</p>
 
   
 ![Legenda do GIF](https://github.com/dancarvofc/dancarvofc/blob/main/assets/dan_github_load_terminal_01.gif)
