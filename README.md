@@ -21,7 +21,7 @@
 <span style="color:#fabd2f;">⠼</span> <span style="color:#a89984;">Indexing toolchain…</span> <span style="color:#a89984;">(cache: warm • lockfile: clean)</span>
 
 <span style="color:#a89984;">────────────────────────────────────────────────────────────────────────────</span>
-<span style="color:#83a598;">Progress</span> <span style="color:#a89984;">[</span><span style="color:#b8bb26;">███████████████████████████</span><span style="color:#3c3836;">░░░░░░░░░</span><span style="color:#a89984;">]</span> <span style="color:#b8bb26;">84/84</span> <span style="color:#a89984;">units</span>
+<span style="color:#83a598;">Progress</span> <span style="color:#a89984;">[</span><span style="color:#b8bb26;">███████████████████████████</span><span style="color:#3c3836;">░░░░░░░░░</span><span style="color:#a89984;">]</span> <span style="color:#b8bb26;">84/100+</span> <span style="color:#a89984;">units</span>
 <span style="color:#83a598;">Mode</span> <span style="color:#a89984;">:</span> <span style="color:#ebdbb2;">interactive</span>   <span style="color:#83a598;">Theme</span> <span style="color:#a89984;">:</span> <span style="color:#ebdbb2;">gruvbox-dark</span>   <span style="color:#83a598;">Latency</span> <span style="color:#a89984;">:</span> <span style="color:#b8bb26;">low</span>
 <span style="color:#fe8019;">Tip</span> <span style="color:#a89984;">:</span> <span style="color:#a89984;">Use filters below • Search by keyword •</span> <span style="color:#83a598;">Press</span> <span style="color:#ebdbb2;">?</span> <span style="color:#83a598;">for help</span>
 <span style="color:#a89984;">└──────────────────────────────────────────────────────────────────────────┘</span>
