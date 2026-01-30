@@ -46,7 +46,7 @@
     <!-- Top info aligned to the right of logo -->
     <text x="430" y="220"><tspan fill="#83a598">OS</tspan>        : Linux 6.x (Arch vibes)</text>
     <text x="430" y="242"><tspan fill="#83a598">Editor</tspan>    : Neovim 0.11.x</text>
-    <text x="430" y="264"><tspan fill="#83a598">Languages</tspan> : Java, TypeScript, Go</text>
+    <text x="430" y="264"><tspan fill="#83a598">Languages</tspan> : Java, JavaScript</text>
 
     <!-- Section separator starts AFTER logo too -->
     <text x="430" y="304" fill="#a89984">
@@ -55,7 +55,7 @@
 
     <!-- Frontend/Backend/Database aligned right of logo -->
     <text x="430" y="334"><tspan fill="#83a598">Frontend</tspan>  : React, Next.js, Vue, Angular, Pinia, shadcn/ui</text>
-    <text x="430" y="356"><tspan fill="#83a598">Backend</tspan>   : Node.js (Express/Nest), Java (Spring), APIs (REST/GraphQL)</text>
+    <text x="430" y="356"><tspan fill="#83a598">Backend</tspan>   : Node.js (Express/Nest), Java (Spring Boot), APIs (REST/GraphQL)</text>
     <text x="430" y="378"><tspan fill="#83a598">Database</tspan>  : PostgreSQL, MongoDB, Redis, Supabase, DynamoDB, S3</text>
 
     <text x="430" y="418" fill="#a89984">
