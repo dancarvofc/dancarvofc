@@ -296,24 +296,25 @@
 <a href="https://link-qualquer-para-seu-qr-ou-page" target="_blank">
   <img alt="Tip Jar" src="https://img.shields.io/badge/My%20%20Tip%20Jar-%3E_OPEN-f59e0b?style=for-the-badge&logo=bitcoin&logoColor=0b0f14&labelColor=1f2937">
 </a>
+<img src="https://streak-stats.demolab.com?user=dancarvofc&theme=tokyonight&hide_border=true" width="49%" />
 
 
-## 📊 **GitHub Telemetry**
+## 📊 **GitHub Telemetry** [Prometeus Style]
 
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dancarvofc&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&token=SEU_NOVO_TOKEN_AQUI" alt="GitHub Stats" width="32%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dancarvofc&layout=compact&theme=tokyonight&hide_border=true&token=SEU_NOVO_TOKEN_AQUI" alt="Most Used Languages" width="32%" />
+  <img src="./github-metrics.svg" alt="GitHub Metrics" width="90%" />
 </p>
 
 ![Pacman](https://raw.githubusercontent.com/dancarvofc/dancarvofc/output/my-pacman.svg)
 
-## 🏆 **LeetCode KPIs**
-<p align="center">
-  <img src="https://leetcard.jacoblin.cool/8NN4U9Ol7m?theme=dark&font=Baloo%20Bhaina%202" alt="LeetCode Stats" width="32%" />
-  <img src="https://leetcard.jacoblin.cool/8NN4U9Ol7m?ext=heatmap" alt="LeetCode Heatmap" width="32%" />
-</p>
 
+## 🏆 LeetCode KPIs
+
+<p align="center">
+  <img src="https://leetcard.jacoblin.cool/8NN4U9Ol7m?theme=dark&font=Baloo%20Bhaina%202" width="46%" />
+  <img src="https://leetcard.jacoblin.cool/8NN4U9Ol7m?ext=heatmap" width="46%" />
+</p>
 
 
 ---
