@@ -1,8 +1,11 @@
 name: Metrics
 on:
   schedule:
-    - cron: "0 6 * * *"  # todo dia
+    - cron: "0 6 * * *" # todo dia
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   metrics:
@@ -14,6 +17,8 @@ jobs:
           user: dancarvofc
           token: ${{ secrets.METRICS_TOKEN }}
           filename: github-metrics.svg
+
+          # Conteúdo principal
           base: header, activity, repositories
           plugin_languages: yes
           plugin_languages_details: bytes-size, percentage
@@ -21,3 +26,17 @@ jobs:
           plugin_habits: yes
           plugin_habits_facts: yes
           plugin_habits_charts: yes
+
+          # Terminal / Amber vibe
+          theme: dark
+          config_display: large
+          config_timezone: America/Sao_Paulo
+          config_padding: 12%
+
+          # Cores (hex sem #)
+          config_background: "0D1117"
+          config_color: "C9D1D9"
+          config_border: "1F2937"
+          config_icon: "F59E0B"
+          config_title: "F59E0B"
+          config_subtitle: "9CA3AF"
