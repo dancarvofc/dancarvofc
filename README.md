@@ -266,17 +266,21 @@
 </pre>
    </td>
     <td valign="top" style="padding-left:14px;">
-		   </br></br></br> 
+		   </br></br>
       <a href="https://www.linkedin.com/in/contato.danilolc" target="_blank">
-        <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-%3E%20RUN-f59e0b?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1f2937">
+        <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-%3E%20RUN-f59e0b?style=for-the-badge&logo=&logoColor=white&labelColor=1f2937">
       </a>
       <br/>
       <a href="https://discord.gg/seu-discord" target="_blank">
-        <img alt="Discord" src="https://img.shields.io/badge/Discord-%3E%20JOIN-f59e0b?style=for-the-badge&logo=discord&logoColor=white&labelColor=1f2937">
+        <img alt="Discord" src="https://img.shields.io/badge/Discord-%3E%20JOIN-f59e0b?style=for-the-badge&logo=&logoColor=white&labelColor=1f2937">
       </a>
       <br/>
       <a href="mailto:dancarvofc@gmail.com">
-        <img alt="Email" src="https://img.shields.io/badge/Email-%3E%20SEND-f59e0b?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1f2937">
+        <img alt="Email" src="https://img.shields.io/badge/Email-%3E%20SEND-f59e0b?style=for-the-badge&logo=l&logoColor=white&labelColor=1f2937">
+      </a>
+     <br/>
+	 <a href="mailto:dancarvofc@gmail.com">
+        <img alt="Email" src="https://img.shields.io/badge/Portfolio-%3E%20VIEW-f59e0b?style=for-the-badge&logo=&logoColor=white&labelColor=1f2937">
       </a>
     </td>
   </tr>
@@ -291,14 +295,14 @@
 ╟────────────────────────────────────────────────────────────╢
 ║ <you>      /tip --msg "keep shipping"                           ║
 ║ <miner>    block found  |  rewards: vibes + caffeine              ║
-║ <ledger>   immutability: enabled  |  humor: enabled                ║ 
+ ║ <ledger>   immutability: enabled  |  humor: enabled                ║ 
 ╚════════════════════════════════════════════════════════════╝
 </pre>
 
 <a href="https://link-qualquer-para-seu-qr-ou-page" target="_blank">
   <img alt="Tip Jar" src="https://img.shields.io/badge/My%20%20Tip%20Jar-%3E_OPEN-f59e0b?style=for-the-badge&logo=bitcoin&logoColor=0b0f14&labelColor=1f2937">
 </a>
-<img src="https://streak-stats.demolab.com?user=dancarvofc&theme=tokyonight&hide_border=true" width="49%" />
+
 
 
 ## 📊 **GitHub Telemetry** [Prometeus Style]
