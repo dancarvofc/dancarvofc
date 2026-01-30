@@ -11,6 +11,12 @@
   <img src="https://github.com/dancarvofc/dancarvofc/blob/main/assets/certs.svg?raw=1" alt="Certification Card" />
 </p>
 
+<pre style="text-align:left; display:inline-block; padding:12px 16px; border:1px solid #3c3836; border-radius:12px; background:#0d1117; color:#ebdbb2; line-height:1.45; margin:0; max-width:920px; overflow:auto;">
+  <span style="color:#fe8019;"> Found 100+ certification entries — <a href="https://www.credential.net/profile/danilocarvalho876/wallet" style="color:#8ec07c; text-decoration:underline;"
+     target="_blank" rel="noopener noreferrer">view all entries</span>
+</pre>
+
+
 ## 👨🏻‍💻 | Skills Package manager
 
 <div align="center">
