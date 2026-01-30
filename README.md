@@ -199,21 +199,10 @@
   </p>
 </details>
 
-
+ <br/><br/>
 <div align="center">
-
-  <!-- Terminal vibe -->
-  <pre style="text-align:left; display:inline-block; padding:14px 16px; border:1px solid #3c3836; border-radius:12px; background:#0d1117; color:#ebdbb2; line-height:1.55; max-width:860px; overflow:auto;">
-
-<span style="color:#a6e3a1;">✔ 84/100+ Units Loaded Successfully</span>
-<span style="color:#a89984;">────────────────────────────────────────────────────────────────</span>
-<span style="color:#fe8019;">❯</span> <span style="color:#83a598;">open</span> <span style="color:#a89984;">--ui skilldeck --mode interactive</span>
-<span style="color:#b8bb26;">✓</span> <span style="color:#a89984;">SkillDeck ready.</span>
-  </pre>
-
-  <br/><br/>
-
 <span style="color:#a89984;">----------------------------------------------------------------------------------------------------------------------------------------------------------</span>
+  
   <!-- “API Loaded” header -->
   <div style="display:inline-block; padding:10px 14px; border:1px solid #3c3836; border-radius:12px; background:#151b23; color:#ebdbb2;">
     <b>░▒▓TUI Loaded 🧩 SkillDeck (interactive)▓▒░</b>
@@ -233,12 +222,25 @@
   <sub><i>Technical Manifest • Full Stack Expertise • System Design Assets</i></sub>
 
 <span style="color:#a89984;">----------------------------------------------------------------------------------------------------------------------------------------------------------</span>
-
+</div>
 </div>
 <br/>
 
 
 </div>
+
+<div align="center">
+
+  <!-- Terminal vibe -->
+  <pre style="text-align:left; display:inline-block; padding:14px 16px; border:1px solid #3c3836; border-radius:12px; background:#0d1117; color:#ebdbb2; line-height:1.55; max-width:860px; overflow:auto;">
+
+<span style="color:#a6e3a1;">✔ 84/100+ Units Loaded Successfully</span>
+<span style="color:#a89984;">────────────────────────────────────────────────────────────────</span>
+<span style="color:#fe8019;">❯</span> <span style="color:#83a598;">open</span> <span style="color:#a89984;">--ui skilldeck --mode interactive</span>
+<span style="color:#b8bb26;">✓</span> <span style="color:#a89984;">SkillDeck ready.</span>
+  </pre>
+
+ 
 
 
 
