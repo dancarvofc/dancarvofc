@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620"> <!--
+    Terminal window -->
+    <rect x="70" y="55" width="1060" height="510" fill="#282828" />
+    <rect x="70" y="73" width="1060" height="492" fill="#0d1117" />
+    <rect x="70" y="55" width="1060" height="510" fill="none" stroke="#3c3836" stroke-width="2" /> <!--
+    Top bar -->
+    <rect x="70" y="55" width="1060" height="52" fill="#151b23" />
+    <circle cx="110" cy="81" r="8" fill="#fb4934" />
+    <circle cx="140" cy="81" r="8" fill="#fabd2f" />
+    <circle cx="170" cy="81" r="8" fill="#b8bb26" /> <!-- Title -->
+    <text x="600" y="89" text-anchor="middle" fill="#ebdbb2" font-size="20" font-weight="700"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace">
+        👻 Ghostty — [My Certifications] Terminal </text> <!-- Header lines -->
+    <g
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace"
+        font-size="15" fill="#ebdbb2">
+        <text x="110" y="140" fill="#a89984"># My Certifications</text>
+        <text x="110" y="166">
+            <tspan fill="#ebdbb2">dan@archlinux</tspan>
+            <tspan fill="#fe8019"> ❯</tspan>
+            <tspan fill="#8ec07c"> 📁 ~/documents/certs</tspan>
+            <tspan fill="#fe8019"> ❯</tspan>
+            <tspan fill="#83a598"> 𖣂 git:main</tspan>
+            <tspan fill="#fe8019"> ❯</tspan>
+            <tspan fill="#ebdbb2"> ./list_certifications.sh</tspan>
+        </text>
+        <text x="110" y="190">
+            <tspan fill="#b8bb26">✓</tspan>
+            <tspan fill="#a89984"> Loaded certifications tree (3 tracks)</tspan>
+        </text>
+        <text x="110" y="218" fill="#a89984">
+            ──────────────────────────────────────────────────────────────────────────────────────────────── </text>
+    </g> <!--
+    Tree panel -->
+    <g
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace"> <!--
+        Panel background -->
+        <rect x="110" y="245" width="980" height="250" fill="#0b0f14" stroke="#3c3836"
+            stroke-width="2" /> <!-- Column separators -->
+        <line x1="436.6667" y1="245" x2="436.6667" y2="495" stroke="#3c3836" stroke-width="2" />
+        <line x1="763.3334" y1="245" x2="763.3334" y2="495" stroke="#3c3836" stroke-width="2" /> <!--
+        Column headings -->
+        <text x="130" y="275" font-size="14" fill="#fabd2f">📂 Cloud_DevOps_Software/</text>
+        <text x="456.6667" y="275" font-size="14" fill="#fabd2f">📂 Product_Agile/</text>
+        <text x="783.3334" y="275" font-size="14" fill="#fabd2f">📂 Strategy_Leadership/</text> <!--
+        Column 1 tree -->
+        <text x="130" y="302" font-size="13" fill="#ebdbb2">
+            <tspan x="130" dy="0">│</tspan>
+            <tspan x="130" dy="18">├── 📄 Java_Certified</tspan>
+            <tspan x="130" dy="18">│ └── Oracle</tspan>
+            <tspan x="130" dy="18">│</tspan>
+            <tspan x="130" dy="18">├── 📄 ITIL_V3</tspan>
+            <tspan x="130" dy="18">│ └── EXIN</tspan>
+            <tspan x="130" dy="18">│</tspan>
+            <tspan x="130" dy="18">└── 📄 COBIT</tspan>
+            <tspan x="130" dy="18"> └── ISACA</tspan>
+        </text> <!-- Column 2 tree -->
+        <text x="456.6667" y="302" font-size="13" fill="#ebdbb2">
+            <tspan x="456.6667" dy="0">│</tspan>
+            <tspan x="456.6667" dy="18">├── 📄 PSPO_I</tspan>
+            <tspan x="456.6667" dy="18">│ └── Scrum.org</tspan>
+            <tspan x="456.6667" dy="18">│</tspan>
+            <tspan x="456.6667" dy="18">├── 📄 PSM_I</tspan>
+            <tspan x="456.6667" dy="18">│ └── Scrum.org</tspan>
+            <tspan x="456.6667" dy="18">│</tspan>
+            <tspan x="456.6667" dy="18">└── 📄 Discovery</tspan>
+            <tspan x="456.6667" dy="18"> └── PM3</tspan>
+        </text> <!-- Column 3 tree -->
+        <text x="783.3334" y="302" font-size="13" fill="#ebdbb2">
+            <tspan x="783.3334" dy="0">│</tspan>
+            <tspan x="783.3334" dy="18">├── 📄 PMP</tspan>
+            <tspan x="783.3334" dy="18">│ └── PMI</tspan>
+            <tspan x="783.3334" dy="18">│</tspan>
+            <tspan x="783.3334" dy="18">└── 📄 Product_Strategy</tspan>
+            <tspan x="783.3334" dy="18"> └── Product_School</tspan>
+        </text>
+    </g> <!--
+    Footer -->
+<text x="600" y="530" text-anchor="middle" fill="#a89984"
+      font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace"
+      font-size="14">
+  Found more 40+ certification entries
+  <a href="https://github.com/SEU_USER/SEU_REPO/tree/main/certifications" target="_blank">
+    <tspan fill="#83a598" text-decoration="underline"> view all entries?</tspan>
+  </a>
+</text>
+
+</svg>
