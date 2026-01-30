@@ -275,19 +275,19 @@
    </td>
     <td valign="top" style="padding-left:14px;">
 		   </br></br>
-      <a href="https://www.linkedin.com/in/contato.danilolc" target="_blank">
+      <a href="https://www.linkedin.com/in/contatodanilolc/" target="_blank">
         <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-%3E%20RUN-f59e0b?style=for-the-badge&logo=&logoColor=white&labelColor=1f2937">
       </a>
       <br/>
-      <a href="https://discord.gg/seu-discord" target="_blank">
+      <a href="https://discord.com/users/danilolc." target="_blank">
         <img alt="Discord" src="https://img.shields.io/badge/Discord-%3E%20JOIN-f59e0b?style=for-the-badge&logo=&logoColor=white&labelColor=1f2937">
       </a>
       <br/>
-      <a href="mailto:dancarvofc@gmail.com">
+      <a href="mailto:contato.danilolc@gmail.com">
         <img alt="Email" src="https://img.shields.io/badge/Email-%3E%20SEND-f59e0b?style=for-the-badge&logo=l&logoColor=white&labelColor=1f2937">
       </a>
      <br/>
-	 <a href="mailto:dancarvofc@gmail.com">
+	 <a href="https://portfoliodlc.netlify.app/">
         <img alt="Email" src="https://img.shields.io/badge/Portfolio-%3E%20VIEW-f59e0b?style=for-the-badge&logo=&logoColor=white&labelColor=1f2937">
       </a>
     </td>
