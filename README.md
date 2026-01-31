@@ -249,12 +249,6 @@
   </pre>
 
  
-
-
-
-///USAR DEPOIS
-
-╰┈➤
 ## 💬 | Let's Connect (Mirc Mode)
 
 <table>
@@ -307,10 +301,10 @@
 ╚════════════════════════════════════════════════════════════╝
 </pre>
 
-<a href="https://link-qualquer-para-seu-qr-ou-page" target="_blank">
-  <img alt="Tip Jar" src="https://img.shields.io/badge/My%20%20Tip%20Jar-%3E_OPEN-f59e0b?style=for-the-badge&logo=bitcoin&logoColor=0b0f14&labelColor=1f2937">
-</a>
 
+<a href="https://ko-fi.com/danilocarvalho" target="_blank">
+  <img alt="Ko-fi" src="https://img.shields.io/badge/Ko--fi-%3E%20SUPPORT-f59e0b?style=for-the-badge&logo=ko-fi&logoColor=white&labelColor=1f2937">
+</a>
 
 
 ## 📊 **GitHub Telemetry** [Prometeus Style]
