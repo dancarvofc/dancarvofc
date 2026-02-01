@@ -308,13 +308,13 @@
 
 
 ## 📊 **GitHub Telemetry** [Prometeus Style]
-
+![Pacman](https://raw.githubusercontent.com/dancarvofc/dancarvofc/output/my-pacman.svg)
 
 <p align="center">
   <img src="./github-metrics.svg" alt="GitHub Metrics" width="90%" />
 </p>
 
-![Pacman](https://raw.githubusercontent.com/dancarvofc/dancarvofc/output/my-pacman.svg)
+
 
 
 ## 🏆 LeetCode KPIs
